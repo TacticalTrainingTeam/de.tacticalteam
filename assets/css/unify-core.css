@@ -1,0 +1,86 @@
+/*------------------------------------
+  Default Styles
+------------------------------------*/
+html {
+  font-size: 14px;
+}
+
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #d2ccc5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
+  background-color: #fff;
+}
+
+a {
+  color: #A10F2B;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: #8a0d25;
+}
+
+.nav-link {
+  color: #d2ccc5;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #d2ccc5;
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+.h7 {
+  font-size: .75rem;
+}
+
+/*------------------------------------
+  Displays
+------------------------------------*/
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+::-moz-selection {
+  color: rgba(250, 250, 245, 0.86);
+  background-color: #A10F2B;
+}
+
+::selection {
+  color: rgba(250, 250, 245, 0.86);
+  background-color: #A10F2B;
+}
+
+.g-bg-primary ::-moz-selection {
+  color: #A10F2B;
+  background-color: rgba(250, 250, 245, 0.86);
+}
+
+.g-bg-primary ::selection {
+  color: #A10F2B;
+  background-color: rgba(250, 250, 245, 0.86);
+}
