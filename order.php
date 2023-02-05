@@ -233,7 +233,7 @@
                         if (empty($error)) {
                             date_default_timezone_set('Europe/Berlin');
                             $createdAt = new DateTime();
-                            $pdo = new PDO('mysql:host=188.68.47.215;dbname=k94950_ttt-form', 'k94950_ttt-formuser', '5ahwI?136');
+                            $pdo = new PDO('mysql:host=188.68.47.215;dbname=dbname', 'dbuser', 'dbuserpw');
 
                             $statement = $pdo->prepare("INSERT INTO bestellungen (firstname, lastname, mail, nickname, street, housenumber, citycode, city, country, countlogo, countlogotvt, countlogocoin, created_at) 
                                         VALUES 
