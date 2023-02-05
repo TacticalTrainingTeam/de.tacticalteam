@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="de">
 
 <head>
     <!-- Title -->
-    <title>TTT - Newsletter</title>
+    <title>TTT - Bestellformular</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8" />
@@ -125,75 +124,75 @@
     <section class="container g-pt-100 g-pb-70">
         <div class="row align-items-center">
             <div><h1><strong>TTT-Bestellung</strong></span></h1>
-                An dieser Stelle kannst du deine Bestellung aufgeben. Achtung: Sollte eine Eingabe fehlerhaft sein, so wird das ganze Formular zurückgesetzt!<br><br>
+                An dieser Stelle kannst du deine Bestellung aufgeben (solange der Vorrat reicht). Achtung: Sollte eine Eingabe fehlerhaft sein, so wird das ganze Formular zurückgesetzt!<br><br>
                 <form method="post" action="">
                     <div>
-                        <label for="firstname">Vorname: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" id="firstname" name="firstname" required maxlength="25">
+						<input type="text" id="firstname" name="firstname" required maxlength="25">
+                        <label for="firstname">Vorname</label>
                     </div>
                     <div>
-                        <label for="lastname">Nachname: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" id="lastname" name="lastname" required maxlength="25">
+						<input type="text" id="lastname" name="lastname" required maxlength="25">
+                        <label for="lastname">Nachname</label>
                     </div>
                     <div>
-                        <label for="mail">E-Mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="email" id="mail" name="mail" required maxlength="50">
+						<input type="email" id="mail" name="mail" required maxlength="50">
+                        <label for="mail">E-Mail</label>
                     </div>
                     <div>
-                        <label for="nickname">Discord/TTT-Nick: </label>
-                        <input type="text" id="nickname" name="nickname" required maxlength="25">
+						<input type="text" id="nickname" name="nickname" required maxlength="25">
+                        <label for="nickname">TTT-Nickname</label>
                     </div>
 
                     <br>
 
                     <div>
-                        <label for="street">Straße: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" id="street" name="street" required maxlength="35">
+						<input type="text" id="street" name="street" required maxlength="35">
+                        <label for="street">Straße</label>
                     </div>
                     <div>
-                        <label for="housenumber">Hausnummer: </label>
-                        <input type="text" id="housenumber" name="housenumber" required maxlength="5">
+						<input type="text" id="housenumber" name="housenumber" required maxlength="5">
+                        <label for="housenumber">Hausnummer</label>
                     </div>
                     <div>
-                        <label for="citycode">Postleitzahl: &nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" id="citycode" name="citycode" required maxlength="8">
+						<input type="text" id="citycode" name="citycode" required maxlength="8">
+                        <label for="citycode">Postleitzahl</label>
                     </div>
                     <div>
-                        <label for="city">Stadt: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" id="city" name="city" required maxlength="25">
+						<input type="text" id="city" name="city" required maxlength="25">
+                        <label for="city">Stadt</label>
                     </div>
                     <div>
-                        <label for="country">Land: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <select name="country" id="country">
                             <option value="DE" selected>Deutschland</option>
                             <option value="AT">Österreich</option>
                             <option value="CH">Schweiz</option>
                         </select>
+						<label for="country">Land</label>
                     </div>
 
                     <br>
 
                     <div>
-                        <label for="countlogo">Anzahl TTT-Logo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="number" id="countlogo" name="countlogo" required>
+						<input type="number" id="countlogo" name="countlogo" required>
+						<label for="countlogo">Anzahl TTT-Logo <b>(~4,50€/Stk)</b></label>  
                     </div>
                     <div>
-                        <label for="countlogotvt">Anzahl TTT-Logo-Subdued (TvT): </label>
-                        <input type="number" id="countlogotvt" name="countlogotvt" required>
+						<input type="number" id="countlogotvt" name="countlogotvt" required>
+                        <label for="countlogotvt">Anzahl TTT-Logo-Subdued/TvT <b>(~4,50€/Stk)</b></label>
                     </div>
                     <div>
-                        <label for="countlogocoin">Anzahl Coin TTT-Logo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="number" id="countlogocoin" name="countlogocoin" required>
+						<input type="number" id="countlogocoin" name="countlogocoin" required>
+                        <label for="countlogocoin">Anzahl Coin TTT-Logo <b>(~19,50€/Stk)</b></label>
                     </div>
 
                     <br>
 
                     <div>
-                        <label for="orderpassword">Bestellpassword: </label>
-                        <input type="password" id="orderpassword" name="orderpassword" required>
+						<input type="password" id="orderpassword" name="orderpassword" required>
+                        <label for="orderpassword">Bestellpassword</label>
                     </div>
                     <div>
-                        <input type="submit" name="letsgo" id="letsgo" value="Kostenpflichtig Bestellen">
+                        <input type="submit" name="letsgo" id="letsgo" value="Kostenpflichtig bestellen">
                     </div>
                 </form>
                 <?php
@@ -234,7 +233,7 @@
                         if (empty($error)) {
                             date_default_timezone_set('Europe/Berlin');
                             $createdAt = new DateTime();
-                            $pdo = new PDO('mysql:host=localhost;dbname=ttt', 'ttt-order', 'mac7tafAzix5');
+                            $pdo = new PDO('mysql:host=188.68.47.215;dbname=k94950_ttt-form', 'k94950_ttt-formuser', '5ahwI?136');
 
                             $statement = $pdo->prepare("INSERT INTO bestellungen (firstname, lastname, mail, nickname, street, housenumber, citycode, city, country, countlogo, countlogotvt, countlogocoin, created_at) 
                                         VALUES 
