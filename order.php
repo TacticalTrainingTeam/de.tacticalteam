@@ -128,23 +128,26 @@
                 An dieser Stelle kannst du deine Bestellung aufgeben. Achtung: Sollte eine Eingabe fehlerhaft sein, so wird das ganze Formular zurückgesetzt!<br><br>
                 <form method="post" action="">
                     <div>
-                        <label for="firstname">Vorname: </label>
+                        <label for="firstname">Vorname: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="text" id="firstname" name="firstname" required maxlength="25">
                     </div>
                     <div>
-                        <label for="lastname">Nachname: </label>
+                        <label for="lastname">Nachname: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="text" id="lastname" name="lastname" required maxlength="25">
                     </div>
                     <div>
-                        <label for="mail">E-Mail: </label>
+                        <label for="mail">E-Mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="email" id="mail" name="mail" required maxlength="50">
                     </div>
                     <div>
                         <label for="nickname">Discord/TTT-Nick: </label>
                         <input type="text" id="nickname" name="nickname" required maxlength="25">
                     </div>
+
+                    <br>
+
                     <div>
-                        <label for="street">Straße: </label>
+                        <label for="street">Straße: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="text" id="street" name="street" required maxlength="35">
                     </div>
                     <div>
@@ -152,23 +155,26 @@
                         <input type="text" id="housenumber" name="housenumber" required maxlength="5">
                     </div>
                     <div>
-                        <label for="citycode">Postleitzahl: </label>
+                        <label for="citycode">Postleitzahl: &nbsp;&nbsp;&nbsp;</label>
                         <input type="text" id="citycode" name="citycode" required maxlength="8">
                     </div>
                     <div>
-                        <label for="city">Stadt: </label>
+                        <label for="city">Stadt: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="text" id="city" name="city" required maxlength="25">
                     </div>
                     <div>
-                        <label for="country">Land: </label>
+                        <label for="country">Land: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <select name="country" id="country">
-                            <option value="DE">Deutschland</option>
+                            <option value="DE" selected>Deutschland</option>
                             <option value="AT">Österreich</option>
                             <option value="CH">Schweiz</option>
                         </select>
                     </div>
+
+                    <br>
+
                     <div>
-                        <label for="countlogo">Anzahl TTT-Logo: </label>
+                        <label for="countlogo">Anzahl TTT-Logo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="number" id="countlogo" name="countlogo" required>
                     </div>
                     <div>
@@ -176,9 +182,12 @@
                         <input type="number" id="countlogotvt" name="countlogotvt" required>
                     </div>
                     <div>
-                        <label for="countlogocoin">Anzahl Coin TTT-Logo: </label>
+                        <label for="countlogocoin">Anzahl Coin TTT-Logo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="number" id="countlogocoin" name="countlogocoin" required>
                     </div>
+
+                    <br>
+
                     <div>
                         <label for="orderpassword">Bestellpassword: </label>
                         <input type="password" id="orderpassword" name="orderpassword" required>
@@ -200,6 +209,11 @@
                     $hash = '$2y$10$kJXUB99m87219PsK1m/efenpSX1pWujMGbGOLgPbzf/TxVEhRqI3m';
                     if (password_verify($orderpassword, $hash)) {
                         $error = [];
+                        $possibleCountrys = [
+                            'DE',
+                            'AT',
+                            'CH',
+                        ];
 
                         $firstname     = test_input($_POST['firstname']);
                         $lastname      = test_input($_POST['lastname']);
@@ -210,7 +224,7 @@
                         $citycode      = test_input($_POST['citycode']);
                         $city          = test_input($_POST['city']);
                         $country       = test_input($_POST['country']);
-                        if ($country != "DE" or $country != "AT" or $country != "CH") {
+                        if (!in_array($country, $possibleCountrys)) {
                             $error['message'] = 'Bestellungen sind nur aus Deutschland, Österreich und der Schweiz möglich!';
                         }
                         $countlogo     = test_input($_POST['countlogo']);
