@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 
@@ -14,12 +15,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#b91d47" />
     <meta name="theme-color" content="#ffffff" />
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="assets/font.css">
+    <link rel="stylesheet" href="font.css">
     <!-- <link rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik" /> -->
     <!-- CSS Global Compulsory -->
@@ -184,6 +185,14 @@
 						<input type="number" id="countlogocoin" name="countlogocoin" required>
                         <label for="countlogocoin">Anzahl Coin TTT-Logo <b>(~19,50€/Stk)</b></label>
                     </div>
+                    <div>
+						<input type="number" id="countlogoflag" name="countlogoflag" required>
+                        <label for="countlogoflag">Anzahl Flagge TTT-Logo <b>(~16,50€/Stk)</b></label>
+                    </div>
+                    <div>
+						<input type="number" id="countlogotvtflag" name="countlogotvtflag" required>
+                        <label for="countlogotvtflag">Anzahl Flagge TTT-Log-Subdued/TvT <b>(~16,50€/Stk)</b></label>
+                    </div>
 
                     <br>
 
@@ -229,15 +238,17 @@
                         $countlogo     = test_input($_POST['countlogo']);
                         $countlogotvt  = test_input($_POST['countlogotvt']);
                         $countlogocoin = test_input($_POST['countlogocoin']);
+                        $countlogoflag = test_input($_POST['countlogoflag']);
+                        $countlogotvtflag = test_input($_POST['countlogotvtflag']);
 
                         if (empty($error)) {
                             date_default_timezone_set('Europe/Berlin');
                             $createdAt = new DateTime();
-                            $pdo = new PDO('mysql:host=188.68.47.215;dbname=dbname', 'dbuser', 'dbuserpw');
+                            $pdo = new PDO('mysql:host=host;dbname=db', 'user', 'passwd');
 
-                            $statement = $pdo->prepare("INSERT INTO bestellungen (firstname, lastname, mail, nickname, street, housenumber, citycode, city, country, countlogo, countlogotvt, countlogocoin, created_at) 
+                            $statement = $pdo->prepare("INSERT INTO bestellungenneu (firstname, lastname, mail, nickname, street, housenumber, citycode, city, country, countlogo, countlogotvt, countlogocoin, countlogoflag, countlogotvtflag, created_at) 
                                         VALUES 
-                                            (:firstname, :lastname, :mail, :nickname, :street, :housenumber, :citycode, :city, :country, :countlogo, :countlogotvt, :countlogocoin, :created_at)");
+                                            (:firstname, :lastname, :mail, :nickname, :street, :housenumber, :citycode, :city, :country, :countlogo, :countlogotvt, :countlogocoin, :countlogoflag, :countlogotvtflag, :created_at)");
                             $statement->execute(
                                 [
                                     'firstname' => $firstname,
@@ -252,6 +263,8 @@
                                     'countlogo' => $countlogo,
                                     'countlogotvt' => $countlogotvt,
                                     'countlogocoin' => $countlogocoin,
+									'countlogoflag' => $countlogoflag,
+									'countlogotvtflag' => $countlogotvtflag,
                                     'created_at' => $createdAt->format('Y-m-d H:m:s'),
                                 ]
                             );
@@ -279,8 +292,13 @@
                         <img class="img-fluid" src="assets/img/logo/logo-2.png" alt="Logo" />
                     </a>
                     <p>
-                        Gegründet 2013, zählt unser TTT heute zu den führenden Arma 3 Communities im deutschsprachigen Raum.
-						Wir bieten wöchentliche Missionen mit mehr als 50 Teilnehmern sowie regelmäßige Ausbildungen, Trainings und TvT-Events an.
+                        2013 gegründet, gehört das TTT heute zu den größten Arma 3
+                        Communities im deutschsprachigen Raum.
+                    </p>
+                    <p class="mb-0">
+                        Neben wöchentlich stattfindenden Missionen mit mehr als 50
+                        Spielern veranstaltet das TTT auch regelmäßig Ausbildungen,
+                        Trainings sowie TvT-Events.
                     </p>
                 </div>
                 <!-- End Footer Content -->
@@ -378,8 +396,8 @@
                         <br /><a href="http://discord.tacticalteam.de"> Discord </a>
                         <br /><a href="ts3server://ts3.tacticalteam.de">
                             TeamSpeak 3</a>
-                        <br /><a href="https://twitter.com/ttt_arma">
-                Twitter</a>>
+                        <br /><a href="https://www.facebook.com/tacticaltrainingteam/">
+                            Facebook</a>
                         <br />
                     </address>
                 </div>
