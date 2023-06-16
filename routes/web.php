@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('start');
+})->name('home');
+Route::get('/mitmachen', function () {
+    return view('mitmachen');
+})->name('mitmachen');
+Route::get('/impressum', function () {
+    return view('impressum');
+})->name('impressum');
+Route::get('/newsletter', function () {
+    return view('newsletter');
+})->name('newsletter');
+Route::get('/datenschutz', function () {
+    return view('datenschutz');
+})->name('datenschutz');
+Route::get('/reforger', function () {
+    return view('reforger');
+})->name('reforger');
