@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('start');
+    $offiziere = \App\Models\Offiziere::where('active', 1)->get();
+    return view('start', compact('offiziere'));
 })->name('home');
 Route::get('/mitmachen', function () {
     return view('mitmachen');

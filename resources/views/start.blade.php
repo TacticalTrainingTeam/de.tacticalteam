@@ -1,7 +1,4 @@
 <x-app-layout>
-    <x-slot name="title">
-        Startseite
-    </x-slot>
 
     <!-- Revolution Slider -->
     <div class="g-overflow-hidden">
@@ -260,7 +257,7 @@
                         </p>
                     </div>
                     <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-                       href="mitmachen.html">Jetzt Einschreiben</a>
+                       href="{{route('mitmachen')}}">Jetzt Einschreiben</a>
                 </div>
             </div>
             <!-- End Mitmachen -->
@@ -717,325 +714,14 @@
     <!-- End Cube Portfolio Blocks - Content -->
 
     <!-- Team Blocks -->
-    <section class="container g-pt-100 g-pb-70">
-        <!-- Heading -->
-        <div class="row justify-content-center text-center g-mb-50">
-            <div class="col-lg-9">
-                <h2 class="h2 g-color-white g-font-weight-600 mb-2">
-                    Die Offiziere
-                </h2>
-                <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
-                <p class="lead mb-0">
-                    Unsere schlauen Köpfe arbeiten an vielen Projekten gleichzeitig
-                    und bringen frischen Wind in die Arma-Welt. Wenn du Ideen
-                    mitbringst, kannst du dich in den zahlreichen Projektgruppen
-                    beteiligen. Gemeinsam setzen wir neue Vorhaben schneller um als
-                    andere Communities!
-                </p>
-            </div>
-        </div>
-        <!-- End Heading -->
-
-        <div class="row">
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img1.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">
-                                GSG9_abzocker
-                            </h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für Finanzen und Verwaltung</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Ich verwalte das Geld des TTT und organisiere bei Bedarf den
-                            Spendenmarathon. Des Weiteren verwalte ich alle Accounts und
-                            vergebe Badges bzw. Awards. Außerdem schreibe ich neue Posten
-                            aus und organisiere die Bewerbungen. Der Modausschuss ist auch ein Bestandteil meiner Aufgaben.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img2.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Phlegtarn</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Interner
-                                Verbindungsoffizier</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Als interner Verbindungsoffizier bin ich Vertrauensperson und
-                            Ansprechpartner innerhalb unserer Community bei Problemen,
-                            Kritik und Anregungen. Ich bin das Sprachrohr der Community im Offiziersmeeting (OM)
-                            und vertrete dort die Interessen der Mitglieder und Mitspieler.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img3.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Pio</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Externer
-                                Verbindungsoffizier</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Als externer Verbindungsoffizier bin ich Ansprechpartner für unsere
-                            Partner und andere Communities, Clans und jegliche andere
-                            Plattformen. Ich plane und führe externe Events durch und
-                            entwickele zusammen mit der PR Pläne, um das TTT in allen
-                            Bereichen bekannter zu machen.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img2.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Phlegtarn</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für Trainings</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Ich koordiniere die Trainings im TTT. Zusammen mit meinem
-                            Trainerstab bin ich dafür verantwortlich, dass
-                            Trainingsunterlagen, Briefings und Wiki-Einträge erstellt und
-                            aktuell gehalten werden. Außerdem sorge ich für ausreichend
-                            Trainingstermine in Absprache mit dem Event-Offizier.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img5.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                        <!-- End Figure Image-->
-                    </figure>
-                    <!-- End Figure -->
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">V1irus</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für Event- und  Qualitätsmanagement</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Zur erforderlichen Planungssicherheit wird von
-                            mir das Qualitätsmanagement – kurz QM geleitet, das neben den Logik-, Briefing-, Skript- und Loadoutprüfungen von Missionen deren
-                            statistische Daten erfasst. Der aktive Spielbetrieb wird von mir in Zusammenarbeit mit den Offizieren organisiert.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img8.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-
-                        <!-- End Figure Caption -->
-                    </figure>
-                    <!-- End Figure -->
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">
-                                Addi
-                            </h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für
-                                Personal</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Als Personaloffizier betreue ich alle Mitglieder vom Gast bis
-                            zum Unteroffizier. Ich verschaffe uns einen Überblick über die
-                            Aktivität unserer Mitglieder und kümmere mich um die
-                            Eingliederung. Zu meinen Aufgaben zählt außerdem die Betreuung
-                            unseres Einsteiger-Events und vor allem unserer Neuzugänge.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img7.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-                    <!-- End Figure -->
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Menom</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für Technik und Öffentlichkeitsarbeit</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Ich bin verantwortlich für die Administration unserer
-                            Systeme. Außerdem kümmere ich mich um
-                            unsere Mod-Repositories und koordiniere unser
-                            Technikcheck-Team. Des Weiteren darf mich mit Medien aller Art für das TTT austoben.
-                            Social Media, Grafiken, Streams, Videos, Musik, u.s.w. - PR ist extrem
-                            vielseitig und spannend.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img5.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-                    <!-- End Figure -->
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">V1irus</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizier
-                                für Missionsbau</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Ich bin Ansprechpartner für die Missionsbauer des TTT. Zu meinen Aufgaben
-                            gehören die Wissensvermittlung- und multiplikation im Bereich Missionsbau und "Gamemaster".
-                            Auch die Aus- und Weiterbildungen der Missionsbauer werden durch mich durchgeführt.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-
-            <div class="col-lg-4 col-sm-6 g-mb-30">
-                <!-- Team Block -->
-                <div class="u-info-v6-1">
-                    <!-- Figure -->
-                    <figure class="u-block-hover">
-                        <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/img9.jpg')}}" alt="Image Description" />
-                        <!-- End Figure Image-->
-                    </figure>
-                    <!-- End Figure -->
-
-                    <!-- Figure Info -->
-                    <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
-                        <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Da Chesas</h2>
-                            <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Offizierin
-                                für E-Sport</em>
-                        </div>
-
-                        <p style="padding: 10px">
-                            Ich verwalte die E-Sport-Teams unserer Community. Das Organisieren und Veranstalten von Trainings und die Teilnahme an
-                            Cups, Ligen und anderen kompetitiven Events gehört zu meinen Aufgaben. Mit unsern Teams sind wir aktuell bei unserem Partner Electronic Sports Masters (ESM) vertreten.
-                        </p>
-                    </div>
-                    <!-- End Figure Info-->
-                </div>
-                <!-- End Team Block -->
-            </div>
-        </div>
-    </section>
+    @include('include/offiziere')
     <!-- End Team Blocks -->
 
     <!-- Medien -->
     <section class="dzsparallaxer auto-init height-is-based-on-content">
         <!-- Parallax Image -->
         <div class="divimage dzsparallaxer--target w-100"
-             style="height: 160%; background: url(assets/img/bg/pattern/footer-lodyas.png)"></div>
+             style="height: 160%; background: url({{asset('assets/img/bg/pattern/footer-lodyas.png')}})"></div>
         <!-- End Parallax Image -->
 
         <div class="container g-pt-100 g-pb-50">
@@ -1056,7 +742,7 @@
                     <div class="g-bg-black-opacity-0_3 g-px-20 g-py-30">
                         <h4 class="h6 g-color-white-opacity-0_8 text-uppercase">
                             <a class="gh6 g-color-white-opacity-0_8 text-uppercase"
-                               href="http://discord.tacticalteam.de">Discord</a>
+                               href="https://discord.tacticalteam.de">Discord</a>
                         </h4>
                     </div>
                 </div>
