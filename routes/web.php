@@ -32,3 +32,18 @@ Route::get('/datenschutz', function () {
 Route::get('/reforger', function () {
     return view('reforger');
 })->name('reforger');
+
+// Dieser Redirct muss sein, da der login automatisch nach home geht
+Route::get('/home', function () {
+    return redirect('/intern/start');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [\App\Http\Controllers\ProfileController::class, 'edit'])->name('profile.edit');
+});
+
+require_once 'auth.php';
