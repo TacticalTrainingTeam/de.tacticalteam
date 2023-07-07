@@ -83,7 +83,7 @@ class User extends Authenticatable
             $userId = Auth::id();
         }
 
-        //Todo: Admin Override einbauen
+        //Todo: Admin Override einbauen und Offiziers Override
 
         $roles = User::select('roles')->where('id', $userId)->firstOrFail();
         foreach ($roles->roles as $server) {

@@ -51,6 +51,9 @@
     <!-- CSS Customization -->
     <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}" />
 
+    @auth()
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    @endauth
 </head>
 
 <body>
@@ -327,6 +330,7 @@
 <script src="{{asset('assets/vendor/jquery-migrate/jquery-migrate.min.js')}}"></script>
 <script src="{{asset('assets/vendor/popper.js/popper.min.js')}}"></script>
 <script src="{{asset('assets/vendor/bootstrap/bootstrap.min.js')}}"></script>
+<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 
 <!-- JS Implementing Plugins -->
 <script src="{{asset('assets/vendor/appear.js')}}"></script>
@@ -373,6 +377,8 @@
         revapi24;
 
     tpj(document).ready(function () {
+        $('#example').DataTable();
+
         if (tpj("#rev_slider_24_1").revolution == undefined) {
             revslider_showDoubleJqueryError("#rev_slider_24_1");
         } else {
