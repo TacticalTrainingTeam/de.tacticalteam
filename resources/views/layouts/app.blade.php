@@ -263,6 +263,19 @@
                             <li class="list-inline-item">
                                 <a href="{{route('impressum')}}">Impressum</a>
                             </li>
+                            <li class="list-inline-item">
+                                <span>|</span>
+                            </li>
+                            @guest()
+                                <li class="list-inline-item">
+                                    <a href="{{route('login')}}">TTT-Login</a>
+                                </li>
+                            @endguest
+                            @auth()
+                                <li class="list-inline-item">
+                                    <a href="{{route('logout')}}">Logout</a>
+                                </li>
+                            @endauth
                         </ul>
                     </div>
                 </div>
