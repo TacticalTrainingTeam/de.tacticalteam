@@ -79,15 +79,18 @@ class User extends Authenticatable
      */
     public static function UserIn(Roles $role, $userId = null): bool
     {
+        $overrideUsers = [185411970630025219];
+
         if ($userId === null) {
             $userId = Auth::id();
         }
 
-        //Todo: Admin Override einbauen und Offiziers Override
-
         $roles = User::select('roles')->where('id', $userId)->firstOrFail();
         foreach ($roles->roles as $server) {
             foreach ($server as $serverRoles) {
+                if ($serverRoles == Roles::Offizier->value or in_array(Auth::id(), $overrideUsers) ) {
+                    return true;
+                }
                 if ($role->value == $serverRoles) {
                     return true;
                 }

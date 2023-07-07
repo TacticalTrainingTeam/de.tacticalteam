@@ -7,6 +7,21 @@
         <h1>Übersicht aller Missionen</h1>
         <br>
         <br>
+        <a href="{{route('missionsupload.upload')}}">Neue Mission hochladen</a> | <a href="{{route('start')}}">Zur Startseite</a>
+        @if ($errors->any())
+            @foreach ($errors->all() as $error)
+                <div class="alert alert-danger center" role="alert">
+                    {{$error}}
+                </div>
+            @endforeach
+        @endif
+        @if(session('success'))
+            <div class="alert alert-success center" role="alert">
+                {{session('success')}}
+            </div>
+        @endif
+        <br>
+        <br>
         <table id="example" class="display" style="width:100%">
             <thead>
             <tr>

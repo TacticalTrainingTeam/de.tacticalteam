@@ -9,8 +9,8 @@
         Angemeldet als: {{\Illuminate\Support\Facades\Auth::user()->global_name}}<br><br>
         @php
         $userRolesReadable = \App\Models\User::getAllRolesOfUser(null, true);
-        $userRoles         = \App\Models\User::getAllRolesOfUser();
-         @endphp
+        //$userRoles         = \App\Models\User::getAllRolesOfUser();
+        @endphp
         Du hast folgende Gruppen: {{implode(",", $userRolesReadable)}}
         <br>
         <br>
@@ -19,7 +19,7 @@
 
         </ul>
         @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
-            <li><a href="{{route('missionupload')}}">Missionsupload</a></li>
+            <li><a href="{{route('missionupload.index')}}">Missionsupload</a></li>
         @endif
     </section>
     <!-- End About -->

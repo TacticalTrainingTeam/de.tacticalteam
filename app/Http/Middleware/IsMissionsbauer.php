@@ -18,7 +18,7 @@ class IsMissionsbauer
     public function handle(Request $request, Closure $next): Response
     {
         if (User::UserIn(Roles::Missionsbauer) === false) {
-            return redirect('/intern/start')->withErrors(['Du bist kein Missionsbauer, deswegen ist dir der Zugriff verweigert.']);
+            return redirect()->route('start')->withErrors('Du bist kein Missionsbauer, deswegen ist dir der Zugriff verweigert.');
         }
         return $next($request);
     }

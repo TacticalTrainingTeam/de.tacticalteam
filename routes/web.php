@@ -38,12 +38,6 @@ Route::get('/home', function () {
     return redirect('/intern/start');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [\App\Http\Controllers\ProfileController::class, 'edit'])->name('profile.edit');
-});
+Route::post('/logout', [\App\Http\Controllers\Controller::class, 'destory'])->name('logout')->middleware(['auth']);
 
 require_once 'auth.php';

@@ -276,7 +276,21 @@
                             @endguest
                             @auth()
                                 <li class="list-inline-item">
-                                    <a href="{{route('logout')}}">Logout</a>
+                                    <a href="{{route('start')}}">Start</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <span>|</span>
+                                </li>
+                                <li class="list-inline-item">
+                                    <form method="POST" action="{{ route('logout') }}">
+                                        @csrf
+                                        <x-dropdown-link :href="route('logout')"
+                                                         onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                            Logout
+                                        </x-dropdown-link>
+                                    </form>
+
                                 </li>
                             @endauth
                         </ul>
@@ -330,7 +344,7 @@
 <script src="{{asset('assets/vendor/jquery-migrate/jquery-migrate.min.js')}}"></script>
 <script src="{{asset('assets/vendor/popper.js/popper.min.js')}}"></script>
 <script src="{{asset('assets/vendor/bootstrap/bootstrap.min.js')}}"></script>
-<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script src="{{asset('assets/js/jquery.dataTables.min.js')}}"></script>
 
 <!-- JS Implementing Plugins -->
 <script src="{{asset('assets/vendor/appear.js')}}"></script>
@@ -378,6 +392,16 @@
 
     tpj(document).ready(function () {
         $('#example').DataTable();
+        $('#missionfinal').on('change', function() {
+            value = this.value;
+            if (value == 1) {
+                $("#missiontester").show();
+                $("#tests").prop('required',true);
+            } else {
+                $("#missiontester").hide();
+                $("#tests").prop('required',false);
+            }
+        });
 
         if (tpj("#rev_slider_24_1").revolution == undefined) {
             revslider_showDoubleJqueryError("#rev_slider_24_1");
