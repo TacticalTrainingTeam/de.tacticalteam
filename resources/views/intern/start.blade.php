@@ -16,11 +16,13 @@
         <br>
         Dir stehen folgende Möglichkeiten zur Verfügung:
         <ul>
-
+            @if(\App\Models\User::UserIn(\App\Enums\Roles::Offizier))
+                <li><a href="{{route('offizier.missionsteilnahme')}}">Missionsteilnahme</a></li>
+            @endif
+            @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
+                <li><a href="{{route('missionupload.index')}}">Missionsupload</a></li>
+            @endif
         </ul>
-        @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
-            <li><a href="{{route('missionupload.index')}}">Missionsupload</a></li>
-        @endif
     </section>
     <!-- End About -->
 </x-app-layout>

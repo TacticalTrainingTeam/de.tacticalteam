@@ -11,4 +11,5 @@ Route::prefix('intern')->group(function () {
         return view('intern.missionupload.upload');
     })->name('missionsupload.upload')->middleware(['auth', \App\Http\Middleware\IsMissionsbauer::class]);
     Route::post('/missionsupload/store', [\App\Http\Controllers\MissionsuploadController::class, 'store'])->name('missionsupload.store')->middleware(['auth', \App\Http\Middleware\IsMissionsbauer::class]);
+    Route::get('/offizier/missionsteilnahme', [\App\Http\Controllers\Controller::class, 'missionsteilnahme'])->name('offizier.missionsteilnahme')->middleware(['auth', \App\Http\Middleware\IsOffizier::class]);
 });
