@@ -6,10 +6,8 @@
     <section class="container g-pt-100 g-pb-70">
         <h1>Übersicht aller Missionen</h1>
         <br>
-        <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-           href="{{route('missionsupload.upload')}}">Neue Mission hochladen</a>
-        <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-           href="{{route('start')}}">Zur Startseite</a>
+        <x-button-link link="{{route('missionsupload.upload')}}" title="Neue Mission hochladen"/>
+        <x-button-link link="{{route('start')}}" title="Intern"/>
         @if ($errors->any())
             @foreach ($errors->all() as $error)
                 <div class="alert alert-danger center" role="alert">

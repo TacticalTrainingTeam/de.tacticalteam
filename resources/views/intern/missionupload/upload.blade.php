@@ -5,10 +5,8 @@
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
         <h1>Mission hochladen</h1>
-        <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-           href="{{route('missionupload.index')}}">Missionsübersicht</a>
-        <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-           href="{{route('start')}}">Zur Startseite</a>
+        <x-button-link link="{{route('missionupload.index')}}" title="Missionsübersicht"/>
+        <x-button-link link="{{route('start')}}" title="Intern"/>
         <h4><a href="https://wiki.tacticalteam.de/de/Missionsbau" target="_blank">>>>Missionsbau-Hinweise<<<</a></h4>
         <br>
         <form action="{{route("missionsupload.store")}}" method="post" enctype="multipart/form-data">

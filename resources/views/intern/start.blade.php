@@ -14,12 +14,10 @@
         <p class="lead">Du hast folgende Gruppen: {{implode(", ", $userRolesReadable)}}</p>
         <div class="mt-3">
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Offizier))
-                <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-                   href="{{route('offizier.missionsteilnahme')}}">Missionsteilnahme</a>
+                <x-button-link link="{{route('offizier.missionsteilnahme')}}" title="Missionsteilnahme"/>
             @endif
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
-                    <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-                       href="{{route('missionupload.index')}}">Missionsupload</a>
+                    <x-button-link link="{{route('missionupload.index')}}" title="Missionsupload"/>
             @endif
         </div>
 
