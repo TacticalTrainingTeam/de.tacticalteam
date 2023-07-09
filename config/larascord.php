@@ -112,7 +112,6 @@ return [
 
     'guilds' => [
         121399943393968128, // TTT
-        782951443946143774, // Isaac Test
     ],
 
     /*
@@ -144,10 +143,6 @@ return [
     // I'm working on a better way to do this, but for now, this will work.
 
     'guild_roles' => [
-        // Isaac Testserver
-         '782951443946143774' => [
-             '785031705584730113', // Administrator
-         ],
         // TTT-Server:
         '121399943393968128' => [
             '121534211822714880', // Offizier

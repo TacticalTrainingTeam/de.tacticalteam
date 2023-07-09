@@ -109,6 +109,19 @@
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="{{route('newsletter')}}"
                                    class="nav-link g-py-7 g-px-0">Newsletter</a>
+                            </li>
+                            @guest()
+                                <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                    <a href="{{route('login')}}"
+                                       class="nav-link g-py-7 g-px-0">Intern</a>
+                                </li>
+                            @endguest
+                            @auth()
+                                <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                    <a href="{{route('start')}}"
+                                       class="nav-link g-py-7 g-px-0">Intern</a>
+                                </li>
+                            @endauth
                         </ul>
                     </div>
                     <!-- End Navigation -->
@@ -193,13 +206,6 @@
                             <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                 <h4 class="h6 g-pr-20 mb-0">
                                     <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                       href="http://www.kampfverband-13.de/index.php">KV13</a>
-                                    <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                                </h4>
-                            </li>
-                            <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                                <h4 class="h6 g-pr-20 mb-0">
-                                    <a class="g-color-white-opacity-0_8 g-color-white--hover"
                                        href="http://www.gruppe-w.de">Gruppe W</a>
                                     <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                 </h4>
@@ -276,7 +282,7 @@
                             @endguest
                             @auth()
                                 <li class="list-inline-item">
-                                    <a href="{{route('start')}}">Start</a>
+                                    <a href="{{route('start')}}">Intern</a>
                                 </li>
                                 <li class="list-inline-item">
                                     <span>|</span>
