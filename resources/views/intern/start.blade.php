@@ -19,6 +19,7 @@
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
                     <x-button-link link="{{route('missionupload.index')}}" title="Missionsupload"/>
             @endif
+                <x-button-link link="{{route('squadxml.index')}}" title="SquadXML"/>
         </div>
 
     </section>

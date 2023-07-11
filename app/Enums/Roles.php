@@ -4,10 +4,18 @@ namespace App\Enums;
 
 enum Roles: int
 {
+    case Admin = 406205798956531712;
+
     case Offizier = 121534211822714880;
     case Unteroffizier = 121534156713885696;
     case Veteran = 557350563277438976;
     case Soldat = 276470302207115264;
     case Rekrut = 557375369934667776;
     case Missionsbauer = 519834677259927562;
+    case PR = 258208752509911040;
+    case QM = 346003079482834956;
+    case Technik = 406217855860867072;
+    case TechnikTeam = 934822542013763594;
+    case Trainer = 451690027131338752;
+    case Modausschuss = 720333015624188004;
 }

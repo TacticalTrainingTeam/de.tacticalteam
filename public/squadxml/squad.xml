@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<squad nick="TTT">
+  <name>Tactical Training Team</name>
+  <email>N/A</email>
+  <web>N/A</web>
+  <picture>bacd1b16a0e4b7b29881c601bf5510fe.paa</picture>
+  <title>Tactical Training Team</title>
+  <member id="1" nick="Test">
+    <name>N/A</name>
+    <email>N/A</email>
+    <icq>N/A</icq>
+    <remark>Offizier</remark>
+  </member>
+</squad>

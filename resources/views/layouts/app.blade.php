@@ -397,7 +397,11 @@
         revapi24;
 
     tpj(document).ready(function () {
-        $('#example').DataTable();
+        $('#example').DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.12.1/i18n/de-DE.json"
+            }
+        });
         $('#missionfinal').on('change', function() {
             value = this.value;
             if (value == 1) {

@@ -6,6 +6,7 @@
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
         <h1>Teilnahme der TTT-Mitspieler</h1>
+        <x-button-link link="{{route('start')}}" title="Intern"/>
         <div class="alert alert-info" role="alert">
             Auf dieser Seite wird angezeigt, wann ein registrierter Spieler, das letzte mal an einem Event teilgenommen hat. <br> Dabei wird jeder Spieler nur einmal angezeigt, jeweils mit seiner letzten Anmeldung an einem Event.<br>Es werden nur Spieler beachtet, die in mindestens einer der folgenden Gruppen sind: Rekrut, Soldat, Veteran, Unteroffizier, Offizier oder Gastspieler.<br><br> Mehr Informationen zur Handhabung der Tabelle, sind unter der Tabelle zu finden.
         </div>
