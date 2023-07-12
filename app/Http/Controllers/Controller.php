@@ -26,7 +26,7 @@ class Controller extends BaseController
     public function missionsteilnahme()
     {
         try {
-            $pdo    = new \PDO('mysql:host=' . config('ttt.stasi_host') . ';' . config('ttt.stasi_db') . ';charset=utf8', config('ttt.stasi_user'), config('ttt.stasi_password'));
+            $pdo    = new \PDO('mysql:host=' . config('ttt.stasi_host') . ';dbname=' . config('ttt.stasi_db') . ';charset=utf8', config('ttt.stasi_user'), config('ttt.stasi_password'));
             $select = "SELECT s1.UserId, s2.CalendarSlotId, u.name, n.title, s2.TimeOfSelectingSlot FROM specslot_selectedslots AS s2 INNER JOIN
                 (SELECT s1.UserId, MAX(s1.CalendarUserSlotId) AS cusi FROM specslot_selectedslots AS s1 WHERE s1.SlotIndex NOT IN (-1) AND EXISTS (SELECT * FROM users_roles AS ur WHERE ur.uid = s1.UserId AND ur.rid IN (38, 29, 31, 12, 36, 14, 6, 34, 51, 44, 5, 53)) GROUP BY s1.UserId ORDER BY cusi DESC) AS s1 ON s1.cusi = s2.CalendarUserSlotId
                 LEFT JOIN users AS u ON u.uid = s1.UserId
