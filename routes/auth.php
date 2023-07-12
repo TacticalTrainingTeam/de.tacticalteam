@@ -15,4 +15,5 @@ Route::prefix('intern')->group(function () {
     Route::get('/squadxml', [\App\Http\Controllers\SquadXmlController::class, 'index'])->name('squadxml.index')->middleware(['auth']);
     Route::post('/squadxml/store', [\App\Http\Controllers\SquadXmlController::class, 'store'])->name('squadxml.store')->middleware(['auth']);
     Route::get('/squadxml/test', [\App\Http\Controllers\SquadXmlController::class, 'test'])->name('squadxml.test')->middleware(['auth']);
+    Route::get('/squadxml/steam', [\App\Http\Controllers\SquadXmlController::class, 'steam'])->name('squadxml.steam')->middleware(['auth']);
 });

@@ -23,6 +23,15 @@
         <p class="lead">
             Auf dieser Seite kannst du deinen SquadXML Eintrag erstellen und ansehen. Willst du einen Eintrag bearbeiten/löschen, wende dich bitte im TTT-Discord an Isaac, Menom oder Addi.
         </p>
+        <p class="lead">
+            @if(\Illuminate\Support\Facades\Auth::user()->steam_id != null)
+                Deine Steam ID ist: {{\Illuminate\Support\Facades\Auth::user()->steam_id}} <a href="https://steamcommunity.com/profiles/{{\Illuminate\Support\Facades\Auth::user()->steam_id}}/" target="_blank">Dein Steam-Profil</a><br>
+                Möchtest du diese Verknüpfung aufheben, wende dich bitte an Isaac.
+            @else
+                Es wurde noch keine Steam ID für dein Profil hinterlegt. Entweder legst du diese unten manuell fest, oder wir machen das für dich über Steam:<br>
+                <a href="{{$steamUrl}}"><img src="{{asset('assets/img/steam.png')}}"></a>
+            @endif
+        </p>
         <br>
         <div class="row">
             <div class="col-6">
@@ -36,7 +45,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="steam">Steam64 ID</label>
-                            <input type="text" class="form-control" id="steam" name="steam" required value="{{ old('steam') }}">
+                            <input type="text" class="form-control" id="steam" name="steam" required value="{{ old('steam', \Illuminate\Support\Facades\Auth::user()->steam_id) }}">
                         </div>
                         <div class="form-group">
                             <label for="username">Dein Name</label>
@@ -66,6 +75,7 @@
                 </table>
             </div>
         </div>
+        <br><br>
 
     </section>
     <!-- End About -->
