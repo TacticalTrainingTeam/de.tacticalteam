@@ -107,7 +107,7 @@ class SquadXmlController extends Controller
             $xml->type = "NORMAL";
             $xml->steam_id = $validatedData['steam'];
             $xml->name = $validatedData['username'];
-            $xml->remark = Auth::user()->rank;
+            $xml->remark = User::getTTTRank();
             $xml->saveOrFail();
             return redirect()->route('squadxml.index')->with('success', 'Dein SquadXML-Eintrag wurde erfolgreich erstellt.');
         } catch (\Throwable $exception) {

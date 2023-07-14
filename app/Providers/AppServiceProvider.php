@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        User::observe([UserObserver::class]);
-        DiscordAccessToken::observe([DiscordTokenObserver::class]);
+        //User::observe([UserObserver::class]);
+        //DiscordAccessToken::observe([DiscordTokenObserver::class]);
     }
 }

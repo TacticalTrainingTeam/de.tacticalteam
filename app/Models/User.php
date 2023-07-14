@@ -133,4 +133,32 @@ class User extends Authenticatable
         }
         return $tmpRoles;
     }
+
+    /**
+     * @param User|null $user
+     * @return string|void
+     * @author Andre/Isaac
+     */
+    public static function getTTTRank(User $user = null)
+    {
+        if ($user === null) {
+            $user = Auth::user();
+        }
+
+        if (in_array(Roles::Offizier->value, $user->roles[121399943393968128])) {
+            return "Offizier";
+        }
+        if (in_array(Roles::Unteroffizier->value, $user->roles[121399943393968128])) {
+            return "Unteroffizier";
+        }
+        if (in_array(Roles::Veteran->value, $user->roles[121399943393968128])) {
+            return "Veteran";
+        }
+        if (in_array(Roles::Soldat->value, $user->roles[121399943393968128])) {
+            return "Soldat";
+        }
+        if (in_array(Roles::Rekrut->value, $user->roles[121399943393968128])) {
+            return "Rekrut";
+        }
+    }
 }
