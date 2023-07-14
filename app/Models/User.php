@@ -87,10 +87,15 @@ class User extends Authenticatable
 
         if ($userId === null) {
             $userId = Auth::id();
+            $roles = Auth::user()['roles'];
+        } else {
+            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
         }
 
-        $roles = User::select('roles')->where('id', $userId)->firstOrFail();
-        foreach ($roles->roles as $server) {
+        if (is_object($roles)) {
+            $roles = $roles->roles;
+        }
+        foreach ($roles as $server) {
             foreach ($server as $serverRoles) {
                 if ($serverRoles == Roles::Offizier->value or in_array(Auth::id(), $overrideUsers) ) {
                     return true;
@@ -114,12 +119,17 @@ class User extends Authenticatable
     {
         if ($userId === null) {
             $userId = Auth::id();
+            $roles = Auth::user()['roles'];
+        } else {
+            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
         }
-        $roles = User::select('roles')->where('id', $userId)->firstOrFail();
 
         $tmpRoles = [];
         $roleCases = Roles::cases();
-        foreach ($roles->roles as $server) {
+        if (is_object($roles)) {
+            $roles = $roles->roles;
+        }
+        foreach ($roles as $server) {
             foreach ($server as $serverRoles) {
                 $index = array_search($serverRoles, array_column($roleCases, "value"));
                 if ($index != false) {

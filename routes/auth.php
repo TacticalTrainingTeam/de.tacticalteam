@@ -3,9 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('intern')->group(function () {
-    Route::get('/start', function () {
-        return view('intern.start');
-    })->name('start')->middleware('auth');
+    Route::get('/start', [\App\Http\Controllers\InternController::class, 'index'])->name('start')->middleware('auth');
     Route::get('/missionsupload', [\App\Http\Controllers\MissionsuploadController::class, 'index'])->name('missionupload.index')->middleware(['auth', \App\Http\Middleware\IsMissionsbauer::class]);
     Route::get('/missionsupload/upload', function () {
         return view('intern.missionupload.upload');
