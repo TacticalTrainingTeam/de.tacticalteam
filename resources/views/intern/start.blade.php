@@ -15,6 +15,7 @@
         <div class="mt-3">
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Offizier))
                 <x-button-link link="{{route('offizier.missionsteilnahme')}}" title="Missionsteilnahme"/>
+                <x-button-link link="{{route('offizier.user')}}" title="User"/>
             @endif
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
                     <x-button-link link="{{route('missionupload.index')}}" title="Missionsupload"/>

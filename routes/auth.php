@@ -10,6 +10,7 @@ Route::prefix('intern')->group(function () {
     })->name('missionsupload.upload')->middleware(['auth', \App\Http\Middleware\IsMissionsbauer::class]);
     Route::post('/missionsupload/store', [\App\Http\Controllers\MissionsuploadController::class, 'store'])->name('missionsupload.store')->middleware(['auth', \App\Http\Middleware\IsMissionsbauer::class]);
     Route::get('/offizier/missionsteilnahme', [\App\Http\Controllers\Controller::class, 'missionsteilnahme'])->name('offizier.missionsteilnahme')->middleware(['auth', \App\Http\Middleware\IsOffizier::class]);
+    Route::get('/offizier/user', [\App\Http\Controllers\Controller::class, 'uebersicht'])->name('offizier.user')->middleware(['auth', \App\Http\Middleware\IsOffizier::class]);
     Route::get('/squadxml', [\App\Http\Controllers\SquadXmlController::class, 'index'])->name('squadxml.index')->middleware(['auth']);
     Route::post('/squadxml/store', [\App\Http\Controllers\SquadXmlController::class, 'store'])->name('squadxml.store')->middleware(['auth']);
     Route::get('/squadxml/test', [\App\Http\Controllers\SquadXmlController::class, 'test'])->name('squadxml.test')->middleware(['auth']);

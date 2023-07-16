@@ -108,6 +108,25 @@ class User extends Authenticatable
         return false;
     }
 
+    public static function getRawRoles($roles, $readable = false)
+    {
+        $tmpRoles = [];
+        $roleCases = Roles::cases();
+        foreach ($roles as $server) {
+            foreach ($server as $serverRoles) {
+                $index = array_search($serverRoles, array_column($roleCases, "value"));
+                if ($index != false) {
+                    if ($readable) {
+                        $tmpRoles[] = $roleCases[$index]->name;
+                    } else {
+                        $tmpRoles[] = $roleCases[$index]->value;
+                    }
+                }
+            }
+        }
+        return $tmpRoles;
+    }
+
     /**
      * Gibt alle Rollen eines Users zurück
      * @param $userId

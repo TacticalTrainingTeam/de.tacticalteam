@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Middleware\IsOffizier;
+use App\Models\User;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
@@ -36,5 +38,24 @@ class Controller extends BaseController
             $result = [];
         }
         return view('intern.offizier.missionteilnahme', compact('result'));
+    }
+
+    public function uebersicht()
+    {
+        $this->middleware = [IsOffizier::class];
+
+        $allUsers = User::all();
+        $usersArray = [];
+        foreach ($allUsers as $user) {
+            $tmpArray = [];
+            $tmpArray['id'] = $user->id;
+            $tmpArray['username'] = $user->username;
+            $tmpArray['globalName'] = $user->global_name;
+            $tmpArray['steam'] = $user->steam_id;
+            $tmpArray['erstellt'] = $user->created_at->format('d.m.Y');
+            $tmpArray['roles'] = implode(', ', User::getRawRoles($user->roles, true));
+            $usersArray[] = $tmpArray;
+        }
+        return view('intern.offizier.users', compact('usersArray'));
     }
 }

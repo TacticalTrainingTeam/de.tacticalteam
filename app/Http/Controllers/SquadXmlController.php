@@ -28,7 +28,7 @@ class SquadXmlController extends Controller
         $login_url_params = [
             'openid.ns'         => 'http://specs.openid.net/auth/2.0',
             'openid.mode'       => 'checkid_setup',
-            'openid.return_to'  => 'http://ttt-ng.test/intern/squadxml/steam',
+            'openid.return_to'  =>  url()->route('squadxml.steam'),
             'openid.realm'      => (!empty($_SERVER['HTTPS']) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'],
             'openid.identity'   => 'http://specs.openid.net/auth/2.0/identifier_select',
             'openid.claimed_id' => 'http://specs.openid.net/auth/2.0/identifier_select',
