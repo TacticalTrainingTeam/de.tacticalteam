@@ -2,9 +2,9 @@
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <squad nick="TTT">
   <name>Tactical Training Team</name>
-  <email>N/A</email>
-  <web>N/A</web>
-  <picture>bacd1b16a0e4b7b29881c601bf5510fe.paa</picture>
+  <email>kontakt@tacticalteam.de</email>
+  <web>tacticalteam.de</web>
+  <picture>tttsquadxml.paa</picture>
   <title>Tactical Training Team</title>
   <member id="1" nick="Test">
     <name>N/A</name>
