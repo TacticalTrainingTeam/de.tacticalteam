@@ -42,7 +42,7 @@ class SquadXmlController extends Controller
     public function steam(Request $request)
     {
         if (Auth::user()->steam_id != null) {
-            return redirect()->route('squadxml.index')->withErrors('Du hast keine Berechtigung für diese Steam Aktion!');
+            return redirect()->route('squadxml.index')->withErrors('Du hast keine Berechtigung für diese Steam-Aktion!');
         }
         $parameters = $request->query->all();
 

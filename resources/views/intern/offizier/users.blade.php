@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="title">
-        User-Übersicht
+        Mitgliederübersicht
     </x-slot>
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
-        <h1>Übersicht aller User</h1>
+        <h1>Mitgliederübersicht</h1>
         <x-button-link link="{{route('start')}}" title="Intern"/>
         <table id="example" class="display" style="width:100%">
             <thead>
@@ -13,7 +13,7 @@
                 <th>Discord-Anzeigename</th>
                 <th>Discord-Globalname</th>
                 <th>Steam-ID</th>
-                <th>Dabei-Seit</th>
+                <th>Dabei-seit</th>
                 <th>Rollen</th>
             </tr>
             </thead>

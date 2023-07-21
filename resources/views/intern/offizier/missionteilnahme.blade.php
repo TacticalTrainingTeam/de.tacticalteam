@@ -1,22 +1,22 @@
 <x-app-layout>
     <x-slot name="title">
-        Internes
+        Mitgliederteilnahme
     </x-slot>
 
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
-        <h1>Teilnahme der TTT-Mitspieler</h1>
+        <h1>Mitgliederteilnahme</h1>
         <x-button-link link="{{route('start')}}" title="Intern"/>
         <div class="alert alert-info" role="alert">
-            Auf dieser Seite wird angezeigt, wann ein registrierter Spieler, das letzte mal an einem Event teilgenommen hat. <br> Dabei wird jeder Spieler nur einmal angezeigt, jeweils mit seiner letzten Anmeldung an einem Event.<br>Es werden nur Spieler beachtet, die in mindestens einer der folgenden Gruppen sind: Rekrut, Soldat, Veteran, Unteroffizier, Offizier oder Gastspieler.<br><br> Mehr Informationen zur Handhabung der Tabelle, sind unter der Tabelle zu finden.
+            Diese Seite zeigt an, wann ein registrierter Spieler zuletzt an einem Event teilgenommen hat. <br> Jeder Spieler wird dabei nur einmal angezeigt, jeweils mit seiner letzten Anmeldung zu einem Event.<br>Berücksichtigt werden nur Spieler, die mindestens einer der folgenden Gruppen angehören: Rekrut, Soldat, Veteran, Unteroffizier, Offizier oder Gastspieler.<br><br> Weitere Informationen zur Handhabung der Tabelle befinden sich unterhalb der Tabelle.
         </div>
         <table id="example" class="display" style="width:100%">
             <thead>
             <tr>
                 <th>Name</th>
                 <th>Event</th>
-                <th>Slotting-Time</th>
-                <th>Differenz in Tagen zu Heute</th>
+                <th>Slottungszeit</th>
+                <th>Differenz in Tagen zu heute</th>
             </tr>
             </thead>
             <tbody>
@@ -46,15 +46,16 @@
             <tr>
                 <th>Name</th>
                 <th>Event</th>
-                <th>Slotting-Time</th>
-                <th>Differenz in Tagen zu Heute</th>
+                <th>Slottungszeit</th>
+                <th>Differenz in Tagen zu heute</th>
             </tr>
             </tfoot>
         </table>
         <br><br>
         <div class="alert alert-secondary" role="alert">
-            Die Tabelle ist dynamisch aufgebaut, durch einen Klick auf die Spalten wird die Sortierung geändert. Man kann aufsteigen oder absteigend sortieren lassen. Des Weiteren kann man in der rechten oberen Ecke
-            nach jedem Begriff suchen, der in der Tabelle vorkommt.<br> Über die Pagination unten rechts, kann man sich weitere Daten anzeigen. So wird verhindert, dass die Tabelle nicht zu lange wird. In der oberen linken Ecke, kann man einstellen, wie viele Daten jeweils aufeinmal angezeigt werden sollen.
+            Die Tabelle ist dynamisch aufgebaut und ermöglicht es, die Sortierung durch einen Klick auf die Spalten zu ändern. Du kannst aufsteigend oder absteigend sortieren lassen.
+            Außerdem steht dir in der rechten oberen Ecke eine Suchfunktion zur Verfügung, mit der du nach jedem Begriff suchen kannst, der in der Tabelle vorkommt. Um die Tabelle übersichtlich zu halten, kannst du unten rechts die Pagination nutzen, um weitere Daten anzuzeigen.
+            Dadurch wird verhindert, dass die Tabelle zu lange wird. In der oberen linken Ecke kannst du außerdem einstellen, wie viele Daten gleichzeitig angezeigt werden sollen.
         </div>
     </section>
     <!-- End About -->
