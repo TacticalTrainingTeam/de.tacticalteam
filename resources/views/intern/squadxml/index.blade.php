@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="title">
-        SquadXML Einträge
+        SquadXML
     </x-slot>
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
-        <h1>In SquadXML Eintragen</h1>
+        <h1>TTT-SquadXML</h1>
         <br>
         <x-button-link link="{{route('start')}}" title="Intern"/>
         <br><br>
@@ -21,14 +21,13 @@
             </div>
         @endif
         <p class="lead">
-            Auf dieser Seite kannst du deinen SquadXML Eintrag erstellen und ansehen. Willst du einen Eintrag bearbeiten/löschen, wende dich bitte im TTT-Discord an Isaac, Menom oder Addi.
+            Hier kannst du deinen SquadXML-Eintrag erstellen und anzeigen lassen. Wenn du einen Eintrag bearbeiten oder löschen möchtest, wende dich bitte im TTT-Discord an Technik.
         </p>
         <p class="lead">
             @if(\Illuminate\Support\Facades\Auth::user()->steam_id != null)
                 Deine Steam ID ist: {{\Illuminate\Support\Facades\Auth::user()->steam_id}} <a href="https://steamcommunity.com/profiles/{{\Illuminate\Support\Facades\Auth::user()->steam_id}}/" target="_blank">Dein Steam-Profil</a><br>
-                Möchtest du diese Verknüpfung aufheben, wende dich bitte an Isaac.
             @else
-                Es wurde noch keine Steam ID für dein Profil hinterlegt. Entweder legst du diese unten manuell fest, oder wir machen das für dich über Steam:<br>
+                Deinem Profil wurde noch keine Steam-ID zugeordnet. Du kannst sie entweder manuell unten eingeben oder dich über den Steam-Loginbutton verbinden:<br>
                 <a href="{{$steamUrl}}"><img src="{{asset('assets/img/steam.png')}}"></a>
             @endif
         </p>

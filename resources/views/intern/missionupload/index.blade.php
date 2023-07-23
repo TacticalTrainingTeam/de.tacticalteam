@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="title">
-        Missions-Upload Übersicht
+        Missionsupload
     </x-slot>
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
-        <h1>Übersicht aller Missionen</h1>
+        <h1>Missionsübersicht</h1>
         <br>
         <x-button-link link="{{route('missionsupload.upload')}}" title="Neue Mission hochladen"/>
         <x-button-link link="{{route('start')}}" title="Intern"/>
@@ -27,7 +27,7 @@
             <tr>
                 <td>#</td>
                 <td>Dateiname</td>
-                <td>Letzte Änderung/Datumsstempel</td>
+                <td>Letzte Änderung/Datumstempel</td>
             </tr>
             </thead>
             <tbody>
