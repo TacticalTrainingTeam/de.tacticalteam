@@ -27,7 +27,7 @@ class CreateSquadXml extends Command
     public function handle()
     {
         $xmlEntries = SquadXml::all();
-        $header = '<?xml version="1.0"?><!DOCTYPE squad SYSTEM "squad.dtd"><squad nick="TTT"><name>Tactical Training Team</name><email>N/A</email><web>N/A</web><picture>bacd1b16a0e4b7b29881c601bf5510fe.paa</picture><title>Tactical Training Team</title>';
+        $header = '<?xml version="1.0"?><!DOCTYPE squad SYSTEM "squad.dtd"><squad nick="TTT"><name>Tactical Training Team</name><email>kontakt@tacticalteam.de</email><web>tacticalteam.de</web><picture>tttsquadxml.paa</picture><title>Tactical Training Team</title>';
         $footer = '</squad>';
 
         foreach ($xmlEntries as $xmlEntry) {
