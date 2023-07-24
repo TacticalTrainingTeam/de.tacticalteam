@@ -10,8 +10,8 @@
             <thead>
             <tr>
                 <th>Discord-ID</th>
-                <th>Discord-Anzeigename</th>
                 <th>Discord-Globalname</th>
+                <th>Discord-Anzeigename</th>
                 <th>Steam-ID</th>
                 <th>Dabei-seit</th>
                 <th>Rollen</th>
