@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $url = "https://discord.com/api/webhooks/1128361784181522614/7cZaCYbknWq30Wrnwp7RQm_NCMj7g5VCBettdJ-G8mtIyRG0jfnUIW_14WZlSmBgYoY-";
+        /*$url = "https://discord.com/api/webhooks/1128361784181522614/7cZaCYbknWq30Wrnwp7RQm_NCMj7g5VCBettdJ-G8mtIyRG0jfnUIW_14WZlSmBgYoY-";
         $headers = [ 'Content-Type: application/json; charset=utf-8' ];
         $POST = [ 'username' => 'Testing BOT', 'content' => 'Testing message' ];
 
@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($POST));
-        $response   = curl_exec($ch);
+        $response   = curl_exec($ch);*/
         $schedule->command(CreateSquadXml::class)->everyMinute();
     }
 

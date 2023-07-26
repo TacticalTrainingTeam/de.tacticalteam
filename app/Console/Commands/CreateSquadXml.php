@@ -32,7 +32,7 @@ class CreateSquadXml extends Command
 
         foreach ($xmlEntries as $xmlEntry) {
             $xml = "";
-            $xml = '<member id="' . $xmlEntry->steam_id . '" nick="' . $xmlEntry->name . '"><name>N/A</name><email>N/A</email><icq>N/A</icq><remark>' . $xmlEntry->remark . '</remark></member>';
+            $xml = '<member id="' . $xmlEntry->steam_id . '" nick="' . $xmlEntry->name . '"><name>' . $xmlEntry->name . '</name><email>N/A</email><icq>N/A</icq><remark>' . $xmlEntry->remark . '</remark></member>';
             $header .= $xml;
         }
         $header .= $footer;
