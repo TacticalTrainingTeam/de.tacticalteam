@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9e23bdd88cbb88c27e5c16814ffc13d",
+    "content-hash": "35588307129a293ad250688776f5616f",
     "packages": [
         {
             "name": "brick/math",
@@ -976,16 +976,16 @@
         },
         {
             "name": "jakyeru/larascord",
-            "version": "v5.0.5",
+            "version": "v5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakyeRU/Larascord.git",
-                "reference": "26c9b3ad002f7d0344f455cd363a1b0cc52aaf0a"
+                "reference": "08ef9a9e5778c91b218e82169ebe5fc2d92b476e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/26c9b3ad002f7d0344f455cd363a1b0cc52aaf0a",
-                "reference": "26c9b3ad002f7d0344f455cd363a1b0cc52aaf0a",
+                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/08ef9a9e5778c91b218e82169ebe5fc2d92b476e",
+                "reference": "08ef9a9e5778c91b218e82169ebe5fc2d92b476e",
                 "shasum": ""
             },
             "require": {
@@ -1023,9 +1023,9 @@
             "description": "Larascord is a package that allows you to authenticate users in your Laravel application using Discord.",
             "support": {
                 "issues": "https://github.com/JakyeRU/Larascord/issues",
-                "source": "https://github.com/JakyeRU/Larascord/tree/v5.0.5"
+                "source": "https://github.com/JakyeRU/Larascord/tree/v5.0.6"
             },
-            "time": "2023-07-27T07:11:33+00:00"
+            "time": "2023-07-28T20:18:22+00:00"
         },
         {
             "name": "laravel/breeze",
@@ -7841,16 +7841,16 @@
         },
         {
             "name": "spatie/flare-client-php",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "943894c6a6b00501365ac0b91ae0dce56f2226fa"
+                "reference": "5f2c6a7a0d2c1d90c12559dc7828fd942911a544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/943894c6a6b00501365ac0b91ae0dce56f2226fa",
-                "reference": "943894c6a6b00501365ac0b91ae0dce56f2226fa",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/5f2c6a7a0d2c1d90c12559dc7828fd942911a544",
+                "reference": "5f2c6a7a0d2c1d90c12559dc7828fd942911a544",
                 "shasum": ""
             },
             "require": {
@@ -7899,7 +7899,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.4.1"
+                "source": "https://github.com/spatie/flare-client-php/tree/1.4.2"
             },
             "funding": [
                 {
@@ -7907,7 +7907,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-06T09:29:49+00:00"
+            "time": "2023-07-28T08:07:24+00:00"
         },
         {
             "name": "spatie/ignition",
