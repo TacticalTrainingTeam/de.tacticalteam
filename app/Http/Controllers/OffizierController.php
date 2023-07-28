@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Enums\Roles;
+use App\Models\SquadXml;
 use App\Models\User;
 use Illuminate\Http\Request;
 use function Symfony\Component\Translation\t;
@@ -26,6 +27,7 @@ class OffizierController extends Controller
         $user = User::where('id', $request->get('userid'))->firstOrFail();
         if ($user->active === 1) {
             $user->active = 0;
+            SquadXml::where('user_id', $request->get('userid'))->delete();
             $user->saveOrFail();
             return redirect()->route('offizier.user')->with('success', 'Der User ' . User::getUsername($user) . ' wurde erfolgreich gesperrt.');
         } elseif ($user->active === 0) {
