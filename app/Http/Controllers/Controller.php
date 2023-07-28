@@ -51,7 +51,9 @@ class Controller extends BaseController
             $tmpArray['id'] = $user->id;
             $tmpArray['username'] = $user->username;
             $tmpArray['globalName'] = $user->global_name;
+            $tmpArray['ttt_nick'] = $user->ttt_nick;
             $tmpArray['steam'] = $user->steam_id;
+            $tmpArray['active'] = $user->active;
             $tmpArray['erstellt'] = $user->created_at->format('d.m.Y');
             $tmpArray['roles'] = implode(', ', User::getRawRoles($user->roles, true));
             $usersArray[] = $tmpArray;

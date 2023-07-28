@@ -84,7 +84,6 @@ class User extends Authenticatable
     public static function UserIn(Roles $role, $userId = null): bool
     {
         $overrideUsers = [185411970630025219];
-
         if ($userId === null) {
             $userId = Auth::id();
             $roles = Auth::user()['roles'];
@@ -97,7 +96,7 @@ class User extends Authenticatable
         }
         foreach ($roles as $server) {
             foreach ($server as $serverRoles) {
-                if ($serverRoles == Roles::Offizier->value or in_array(Auth::id(), $overrideUsers) ) {
+                if ($serverRoles == Roles::Offizier->value or in_array($userId, $overrideUsers) ) {
                     return true;
                 }
                 if ($role->value == $serverRoles) {
@@ -189,5 +188,17 @@ class User extends Authenticatable
         if (in_array(Roles::Rekrut->value, $user->roles[121399943393968128])) {
             return "Rekrut";
         }
+    }
+
+    public static function getUsername(User $user = null)
+    {
+        if ($user === null) {
+            $user = Auth::user();
+        }
+
+        if ($user->ttt_nick != null) {
+            return $user->ttt_nick;
+        }
+        return $user->global_name;
     }
 }
