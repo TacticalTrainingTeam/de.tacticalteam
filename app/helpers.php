@@ -25,3 +25,18 @@ if (! function_exists('getColorForMissions')) {
         }
     }
 }
+if (!function_exists('getStatusForCampaign')) {
+    function getStatusForCampaign($status): string
+    {
+        if ($status == 0) {
+            return '<span class="badge badge-primary">Unsichtbar</span>';
+        }
+        if ($status == 1) {
+            return '<span class="badge badge-warning">Inaktiv</span>';
+        }
+        if ($status == 5) {
+            return '<span class="badge badge-success">Öffentlich</span>';
+        }
+        return '<span class="badge badge-danger">Status nicht feststellbar!</span>';
+    }
+}

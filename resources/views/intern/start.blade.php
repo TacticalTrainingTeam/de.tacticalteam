@@ -16,6 +16,7 @@
                 <p class="lead mt-3 mb-3">Offiziersbereich</p>
                 <x-button-link link="{{route('offizier.missionsteilnahme')}}" title="Missionsteilnahme einsehen"/>
                 <x-button-link link="{{route('offizier.user')}}" title="Übersicht alle Mitglieder"/>
+                <x-button-link link="{{route('campaign.showall')}}" title="Kampagnen Übersicht"/>
             @endif
             <br>
             @if(\App\Models\User::UserIn(\App\Enums\Roles::Missionsbauer))
@@ -25,6 +26,7 @@
                 <br>
                 <p class="lead mt-3 mb-3">Allgemeiner Bereich</p>
                 <x-button-link link="{{route('squadxml.index')}}" title="SquadXML"/>
+                <x-button-link link="{{route('campaign.show', ['slug' => 'kampagne-xiii-2023-q1'])}}" title="Kamp"/>
         </div>
 
     </section>

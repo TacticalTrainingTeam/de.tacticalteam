@@ -10,46 +10,48 @@
     @endif
 
     <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/favicon/apple-touch-icon.png')}}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/favicon/favicon-32x32.png')}}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/favicon/favicon-16x16.png')}}" />
-    <link rel="manifest" href="{{asset('assets/site.webmanifest')}}" />
-    <link rel="mask-icon" href="{{asset('assets/favicon/safari-pinned-tab.svg')}}" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#b91d47" />
-    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/favicon/apple-touch-icon.png')}}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/favicon/favicon-32x32.png')}}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/favicon/favicon-16x16.png')}}"/>
+    <link rel="manifest" href="{{asset('assets/site.webmanifest')}}"/>
+    <link rel="mask-icon" href="{{asset('assets/favicon/safari-pinned-tab.svg')}}" color="#5bbad5"/>
+    <meta name="msapplication-TileColor" content="#b91d47"/>
+    <meta name="theme-color" content="#ffffff"/>
     <link rel="stylesheet" href="{{asset('assets/font.css')}}">
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/bootstrap.min.css')}}"/>
     <!-- CSS Global Icons -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/icon-awesome/css/font-awesome.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/icon-line/css/simple-line-icons.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/icon-etlinefont/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/icon-line-pro/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/icon-hs/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/animate.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/dzsparallaxer.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/dzsscroller/scroller.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/advancedscroller/plugin.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/slick-carousel/slick/slick.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/hs-megamenu/src/hs.megamenu.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/hamburgers/hamburgers.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/fancybox/jquery.fancybox.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/vendor/icon-awesome/css/font-awesome.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/icon-line/css/simple-line-icons.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/icon-etlinefont/style.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/icon-line-pro/style.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/icon-hs/style.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/dzsparallaxer.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/dzsscroller/scroller.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/dzsparallaxer/advancedscroller/plugin.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/slick-carousel/slick/slick.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/hs-megamenu/src/hs.megamenu.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/hamburgers/hamburgers.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/fancybox/jquery.fancybox.css')}}"/>
 
     <!-- Revolution Slider -->
-    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/settings.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/layers.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/navigation.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('assets/css/unify.dark-theme.css')}}" />
+    <link rel="stylesheet"
+          href="{{asset('assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/settings.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/layers.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/vendor/revolution-slider/revolution/css/navigation.css')}}"/>
+    <link rel="stylesheet"
+          href="{{asset('assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('assets/css/unify.dark-theme.css')}}"/>
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}"/>
 
     @auth()
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
@@ -82,7 +84,7 @@
 
                     <!-- Logo -->
                     <a href="{{route('home')}}" class="navbar-brand d-flex">
-                        <img src="{{asset('assets/img/logo/logo-2.png')}}" alt="Logo" />
+                        <img src="{{asset('assets/img/logo/logo-2.png')}}" alt="Logo"/>
                     </a>
                     <!-- End Logo -->
 
@@ -93,6 +95,19 @@
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="{{route('home')}}" class="nav-link g-py-7 g-px-0">Home</a>
                             </li>
+                                <?php
+                                try {
+                                    $campaign = \App\Models\Campaign::where('status', 5)->firstOrFail();
+
+                                ?>
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                <a href="{{route('campaign.show', ['slug' => $campaign->slug])}}" class="nav-link g-py-7 g-px-0">Kampagne</a>
+                            </li>
+                                <?php
+                                } catch (Throwable) {
+
+                                }
+                            ?>
 
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="https://forum.tacticalteam.de" class="nav-link g-py-7 g-px-0">Forum</a>
@@ -148,11 +163,13 @@
                 <!-- Footer Content -->
                 <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
                     <a class="d-block g-mb-20" href="{{route('home')}}">
-                        <img class="img-fluid" src="{{asset('assets/img/logo/logo-2.png')}}" alt="Logo" />
+                        <img class="img-fluid" src="{{asset('assets/img/logo/logo-2.png')}}" alt="Logo"/>
                     </a>
                     <p>
-                        Gegründet 2013, zählt unser TTT heute zu den führenden Arma 3 Communities im deutschsprachigen Raum.
-                        Wir bieten wöchentliche Missionen mit mehr als 50 Teilnehmern sowie regelmäßige Ausbildungen, Trainings und TvT-Events an.
+                        Gegründet 2013, zählt unser TTT heute zu den führenden Arma 3 Communities im deutschsprachigen
+                        Raum.
+                        Wir bieten wöchentliche Missionen mit mehr als 50 Teilnehmern sowie regelmäßige Ausbildungen,
+                        Trainings und TvT-Events an.
                     </p>
                 </div>
                 <!-- End Footer Content -->
@@ -240,12 +257,12 @@
                     <address class="g-bg-no-repeat g-line-height-2 g-mt-minus-4"
                              style="background-image: url({{asset('assets/img/maps/map2.png')}})">
                         <a href="mailto:info@tacticalteam.de" class="">info@tacticalteam.de</a>
-                        <br /><a href="http://discord.tacticalteam.de"> Discord </a>
-                        <br /><a href="ts3server://ts3.tacticalteam.de">
+                        <br/><a href="http://discord.tacticalteam.de"> Discord </a>
+                        <br/><a href="ts3server://ts3.tacticalteam.de">
                             TeamSpeak 3</a>
-                        <br /><a href="https://x.com/ttt_arma">
+                        <br/><a href="https://x.com/ttt_arma">
                             𝕏 (Twitter)</a>
-                        <br />
+                        <br/>
                     </address>
                 </div>
                 <!-- End Footer Content -->
@@ -305,7 +322,8 @@
 
                 <div class="col-md-4 align-self-center">
                     <ul class="list-inline text-center text-md-right mb-0">
-                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
+                        <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top"
+                            title="Facebook">
                             <a href="https://www.facebook.com/tacticaltrainingteam/"
                                class="g-color-white-opacity-0_5 g-color-white--hover">
                                 <i class="fa fa-facebook"></i>
@@ -324,7 +342,8 @@
                             </a>
                         </li>
                         <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
-                            <a href="https://twitter.com/TTT_Arma" class="g-color-white-opacity-0_5 g-color-white--hover">
+                            <a href="https://twitter.com/TTT_Arma"
+                               class="g-color-white-opacity-0_5 g-color-white--hover">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
@@ -366,16 +385,26 @@
 <script src="{{asset('assets/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
 <script src="{{asset('assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
 
-<script src="{{asset('assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
-<script src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+<script
+    src="{{asset('assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
 
 <!-- JS Unify -->
 <script src="{{asset('assets/js/hs.core.js')}}"></script>
@@ -402,14 +431,14 @@
                 "url": "//cdn.datatables.net/plug-ins/1.12.1/i18n/de-DE.json"
             }
         });
-        $('#missionfinal').on('change', function() {
+        $('#missionfinal').on('change', function () {
             value = this.value;
             if (value == 1) {
                 $("#missiontester").show();
-                $("#tests").prop('required',true);
+                $("#tests").prop('required', true);
             } else {
                 $("#missiontester").hide();
-                $("#tests").prop('required',false);
+                $("#tests").prop('required', false);
             }
         });
 

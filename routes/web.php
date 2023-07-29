@@ -41,3 +41,4 @@ Route::get('/home', function () {
 Route::post('/logout', [\App\Http\Controllers\Controller::class, 'destory'])->name('logout')->middleware(['auth']);
 
 require_once 'auth.php';
+require_once 'campaigns.php';
