@@ -243,8 +243,8 @@
                         <br /><a href="http://discord.tacticalteam.de"> Discord </a>
                         <br /><a href="ts3server://ts3.tacticalteam.de">
                             TeamSpeak 3</a>
-                        <br /><a href="https://twitter.com/ttt_arma">
-                            Twitter</a>
+                        <br /><a href="https://x.com/ttt_arma">
+                            𝕏 (Twitter)</a>
                         <br />
                     </address>
                 </div>
