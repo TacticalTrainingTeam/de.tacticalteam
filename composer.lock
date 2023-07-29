@@ -980,12 +980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakyeRU/Larascord.git",
-                "reference": "08ef9a9e5778c91b218e82169ebe5fc2d92b476e"
+                "reference": "c2f5c3eb7d97b733ab9092b6898dec03c2b30d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/08ef9a9e5778c91b218e82169ebe5fc2d92b476e",
-                "reference": "08ef9a9e5778c91b218e82169ebe5fc2d92b476e",
+                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/c2f5c3eb7d97b733ab9092b6898dec03c2b30d42",
+                "reference": "c2f5c3eb7d97b733ab9092b6898dec03c2b30d42",
                 "shasum": ""
             },
             "require": {
@@ -1025,7 +1025,7 @@
                 "issues": "https://github.com/JakyeRU/Larascord/issues",
                 "source": "https://github.com/JakyeRU/Larascord/tree/v5.0.6"
             },
-            "time": "2023-07-28T20:18:22+00:00"
+            "time": "2023-07-29T06:32:33+00:00"
         },
         {
             "name": "laravel/breeze",
