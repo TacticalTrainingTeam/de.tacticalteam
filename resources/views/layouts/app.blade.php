@@ -244,7 +244,7 @@
                         <br /><a href="ts3server://ts3.tacticalteam.de">
                             TeamSpeak 3</a>
                         <br /><a href="https://x.com/ttt_arma">
-                            𝕏/Twitter</a>
+                            𝕏 (Twitter)</a>
                         <br />
                     </address>
                 </div>
