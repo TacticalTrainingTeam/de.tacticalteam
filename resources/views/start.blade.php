@@ -760,7 +760,7 @@
                     <div class="g-bg-black-opacity-0_3 g-px-20 g-py-30">
                         <h4 class="h6 g-color-white-opacity-0_8 text-uppercase">
                             <a class="gh6 g-color-white-opacity-0_8 text-uppercase"
-                               href="https://twitter.com/TTT_ArmA">Twitter</a>
+                               href="https://x.com/TTT_ArmA">𝕏 (Twitter)</a>
                         </h4>
                     </div>
                 </div>
@@ -769,7 +769,7 @@
                     <div class="g-bg-black-opacity-0_3 g-px-20 g-py-30">
                         <h4 class="h6 g-color-white-opacity-0_8 text-uppercase">
                             <a class="gh6 g-color-white-opacity-0_8 text-uppercase"
-                               href="https://www.facebook.com/tacticaltrainingteam/">Facebook</a>
+                               href="https://mastodon.social/@tacticaltrainingteam">Mastodon</a>
                         </h4>
                     </div>
                 </div>
