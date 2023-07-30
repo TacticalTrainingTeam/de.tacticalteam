@@ -119,7 +119,7 @@
 									</li>
 									<li class="dropdown-item">
 										<a href="{{route('newsletter')}}"
-                                   class="nav-link g-py-7 g-px-0">Newsletter</a>
+                                        class="nav-link">Newsletter</a>
 									</li>
 
 								</ul>
