@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="title">
-        10JahreTTT
+        10 Jahre TTT
     </x-slot>
 
     <!-- About -->

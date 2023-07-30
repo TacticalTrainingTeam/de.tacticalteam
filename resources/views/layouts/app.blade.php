@@ -93,6 +93,17 @@
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="{{route('home')}}" class="nav-link g-py-7 g-px-0">Home</a>
                             </li>
+                                <?php
+                            try {
+                                $campaign = \App\Models\Campaign::where('status', 5)->firstOrFail();
+                                ?>
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                <a href="{{route('campaign.show', ['slug' => $campaign->slug])}}" class="nav-link g-py-7 g-px-0">Kampagne</a>
+                            </li>
+                                <?php
+                            } catch (Throwable) {
+                            }
+                                ?>
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="https://forum.tacticalteam.de/calendar-node-field-date/"
                                    class="nav-link g-py-7 g-px-0">Events</a>
