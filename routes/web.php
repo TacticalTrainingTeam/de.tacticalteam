@@ -29,9 +29,9 @@ Route::get('/newsletter', function () {
 Route::get('/datenschutz', function () {
     return view('datenschutz');
 })->name('datenschutz');
-Route::get('/reforger', function () {
-    return view('reforger');
-})->name('reforger');
+Route::get('/10jahre', function () {
+    return view('10jahre');
+})->name('10jahre');
 
 // Dieser Redirct muss sein, da der login automatisch nach home geht
 Route::get('/home', function () {
