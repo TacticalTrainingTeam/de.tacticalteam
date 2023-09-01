@@ -799,7 +799,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpw.png')}}" alt="Image Description" />
+                        <a href="https://www.gruppe-w.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpw.png')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
 
@@ -829,7 +829,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_esm.png')}}" alt="Image Description" />
+                        <a href="https://www.esportsmasters.org" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_esm.png')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
 
@@ -856,7 +856,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.png')}}" alt="Image Description" />
+                        <a href="https://forum.gruppe-adler.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.png')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
                     <!-- Figure Info -->
