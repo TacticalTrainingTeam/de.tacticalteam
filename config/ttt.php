@@ -7,4 +7,6 @@ return [
     'stasi_user' => env('TTT_STASI_USER', null),
     'stasi_password' => env('TTT_STASI_PASSWORD', null),
     'guild_id' => env('TTT_SERVER_ID', 121399943393968128),
+    'twitch_client_id' => env('TWITCH_CLIENT_ID', null),
+    'twitch_client_secret' => env('TWITCH_CLIENT_SECRET', null),
 ];

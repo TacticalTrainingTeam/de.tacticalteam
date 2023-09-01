@@ -27,7 +27,6 @@
                 <p class="lead mt-3 mb-3">Allgemeiner Bereich</p>
                 <x-button-link link="{{route('squadxml.index')}}" title="SquadXML"/>
         </div>
-
     </section>
     <!-- End About -->
 </x-app-layout>

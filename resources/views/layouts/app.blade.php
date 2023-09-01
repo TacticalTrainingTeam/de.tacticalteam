@@ -148,6 +148,10 @@
                                        class="nav-link g-py-7 g-px-0">Intern</a>
                                 </li>
                             @endauth
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                <a href="{{route('twitch.live')}}"
+                                   class="nav-link g-py-7 g-px-0">Twitch</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- End Navigation -->

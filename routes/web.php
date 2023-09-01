@@ -32,6 +32,7 @@ Route::get('/datenschutz', function () {
 Route::get('/10jahre', function () {
     return view('10jahre');
 })->name('10jahre');
+Route::get('/twitch', [\App\Http\Controllers\TwitchController::class, 'index'])->name('twitch.live');
 
 // Dieser Redirct muss sein, da der login automatisch nach home geht
 Route::get('/home', function () {
