@@ -5,8 +5,9 @@
 
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
-        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+        <script src= "{{asset('assets/js/twitch_tv_js_embed_v1.js')}}"></script>
         <h2>Folgende Leute streamen gerade für das TTT:</h2>
+        <br>
         <p class="lead">Du willst auch hier angezeigt werden? Folgende Schlüsselwörter muss dein Stream enthalten: „tacticalteam.de“ oder „Tactical Training Team“ </p>
         @if(count($streams) > 0)
             @foreach($streams as $stream)
@@ -22,6 +23,8 @@
                     player{{$stream->user_login}}.setVolume(0.5);
                 </script>
             @endforeach
+        @else
+            <p class="lead">Derzeit streamt keiner für das TTT.</p>
         @endif
     </section>
     <!-- End About -->
