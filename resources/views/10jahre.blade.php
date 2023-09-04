@@ -69,168 +69,168 @@
           </div>
         </section>
         <!-- End Geschichte -->
-        <!-- Start Voraussetzungen -->
-        <section class="container g-pt-100 g-pb-10">
-            <div class="row">
-                <div class="col-md-6 text-md-right g-mb-40">
-                    <div class="media g-mb-40">
-                        <div class="media-body mr-4">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                11. November 2013
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                1l
-                            </p>
+                <!-- Start Timeline -->
+                <section class="container g-pt-100 g-pb-10">
+                    <div class="row">
+                        <div class="col-md-6 text-md-right g-mb-40">
+                            <div class="media g-mb-40">
+                                <div class="media-body mr-4">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        11. November 2013
+                                    </h3>
+                                    <p class="lead">
+                                        Offizielle Gründung Tactical Training Teams - kurz TTT
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                            </div>
+                            <div class="media g-mb-40">
+                                <div class="media-body mr-4">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        März 2014
+                                    </h3>
+                                    <p class="lead">
+                                        Veröffentlichung des ersten TTT-Newsletters an die Mitglieder <a href="https://files.tacticalteam.de/s/L5ipawgDwRNySXb">(Zum Newsletter)</a>
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<i class="icon-real-estate-055 u-line-icon-pro"></i>
+            						</span>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="media-body mr-4">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        April/Mai 2015
+                                    </h3>
+                                    <p class="lead">
+                                        Einführung von Einsteiger-Events und Managementposten
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<i class="icon-real-estate-055 u-line-icon-pro"></i>
+            						</span>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="media-body mr-4">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        Januar 2017
+                                    </h3>
+                                    <p class="lead">
+                                        Umstrukturierung der TTT-Ränge von Stammspieler, Reservisten, Manager & Gremium zu Gast, Stammspieler, Mitspieler, Manager & Gremium
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<i class="icon-real-estate-055 u-line-icon-pro"></i>
+            						</span>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="media-body mr-4">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        September 2018
+                                    </h3>
+                                    <p class="lead">
+                                        Neue Sparte im TTT: "TVT-Team" und Beginn der E-Sport-Ära mit den Electronic Sports Masters™ (ESM)
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<i class="icon-real-estate-055 u-line-icon-pro"></i>
+            						</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex">
-                  <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
-                    <i class="icon-user u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                    </div>
-                    <div class="media g-mb-40">
-                        <div class="media-body mr-4">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                2l
-                            </p>
-                        </div>
-                        <div class="d-flex">
-    						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
-    						<i class=" icon-communication-009 u-line-icon-pro"></i>
-    						</span>
-                        </div>
-                    </div>
-    				<div class="media g-mb-40">
-                        <div class="media-body mr-4">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                3l
-                            </p>
-                        </div>
-                        <div class="d-flex">
-    						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
-    						<i class=" icon-communication-009 u-line-icon-pro"></i>
-    						</span>
-                        </div>
-                    </div>
-    				<div class="media g-mb-40">
-                        <div class="media-body mr-4">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                4l
-                            </p>
-                        </div>
-                        <div class="d-flex">
-    						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
-    						<i class=" icon-communication-009 u-line-icon-pro"></i>
-    						</span>
-                        </div>
-                    </div>
-    				<div class="media g-mb-40">
-                        <div class="media-body mr-4">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                5l
-                            </p>
-                        </div>
-                        <div class="d-flex">
-    						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
-    						<i class=" icon-communication-009 u-line-icon-pro"></i>
-    						</span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-6 g-mb-40">
-                    <div class="media g-mb-40">
-                        <div class="d-flex mr-4">
-                  <span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
-                    <i class="icon-science-020 u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                1r
-                            </p>
-                        </div>
-                    </div>
+                        <div class="col-md-6 g-mb-40">
+                            <div class="media g-mb-40">
+                                <div class="d-flex mr-4">
+                          <span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        Januar  2019
+                                    </h3>
+                                    <p class="lead">
+                                        Das neue Corporate-Design wird eingeführt
+                                    </p>
+                                </div>
+                            </div>
 
-                    <div class="media g-mb-40">
-                        <div class="d-flex mr-4">
-                  <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
-                    <i class="icon-communication-180 u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                2r
-                            </p>
+                            <div class="media g-mb-40">
+                                <div class="d-flex mr-4">
+                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        März 2019
+                                    </h3>
+                                    <p class="lead">
+                                        TTT-Rangneustrukturierung zu Soldat, Veteran und Gast; außerdem Etablierung von Offiziersposten
+                                    </p>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="d-flex mr-4">
+                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        September 2020
+                                    </h3>
+                                    <p class="lead">
+                                        Neuer TTT-Webauftritt. Modernes Design und einfache Navigation.
+                                    </p>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="d-flex mr-4">
+                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        Oktober 2021
+                                    </h3>
+                                    <p class="lead">
+                                        Das brandneue TTT-Wiki wurde veröffentlicht
+                                    </p>
+                                </div>
+                            </div>
+            				<div class="media g-mb-40">
+                                <div class="d-flex mr-4">
+                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                            <i class="icon-real-estate-055 u-line-icon-pro"></i>
+                          </span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="h5 g-color-white g-font-weight-600 mb-20">
+                                        xx. Januar xxxx
+                                    </h3>
+                                    <p class="lead">
+                                        5r
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-    				<div class="media g-mb-40">
-                        <div class="d-flex mr-4">
-                  <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
-                    <i class="icon-communication-180 u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                3r
-                            </p>
-                        </div>
-                    </div>
-    				<div class="media g-mb-40">
-                        <div class="d-flex mr-4">
-                  <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
-                    <i class="icon-communication-180 u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                4r
-                            </p>
-                        </div>
-                    </div>
-    				<div class="media g-mb-40">
-                        <div class="d-flex mr-4">
-                  <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
-                    <i class="icon-communication-180 u-line-icon-pro"></i>
-                  </span>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                xx. Januar xxxx
-                            </h3>
-                            <p class="g-color-gray-dark-v4">
-                                5r
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Voraussetzungen -->
+                </section>
+                <!-- End Timeline -->
 
         <!-- Cube Portfolio Blocks - Content -->
         <div class="container-fluid g-px-4 g-mb-4">
