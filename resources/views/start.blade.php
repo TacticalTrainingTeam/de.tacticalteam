@@ -856,7 +856,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <a href="https://forum.gruppe-adler.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.png')}}" alt="Image Description" /></a>
+                        <a href="https://gruppe-adler.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.png')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
                     <!-- Figure Info -->

@@ -113,7 +113,7 @@
                                     </p>
                                 </div>
                                 <div class="d-flex">
-            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
             						<i class="icon-real-estate-055 u-line-icon-pro"></i>
             						</span>
                                 </div>
@@ -143,7 +143,7 @@
                                     </p>
                                 </div>
                                 <div class="d-flex">
-            						<span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
+            						<span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
             						<i class="icon-real-estate-055 u-line-icon-pro"></i>
             						</span>
                                 </div>
@@ -184,7 +184,7 @@
                             </div>
             				<div class="media g-mb-40">
                                 <div class="d-flex mr-4">
-                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                          <span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
                             <i class="icon-real-estate-055 u-line-icon-pro"></i>
                           </span>
                                 </div>
@@ -193,7 +193,7 @@
                                         September 2020
                                     </h3>
                                     <p class="lead">
-                                        Neuer TTT-Webauftritt. Modernes Design und einfache Navigation.
+                                        Neuer TTT-Webauftritt. Modernes Design und einfache Navigation
                                     </p>
                                 </div>
                             </div>
@@ -208,13 +208,13 @@
                                         Oktober 2021
                                     </h3>
                                     <p class="lead">
-                                        Das brandneue TTT-Wiki wurde veröffentlicht
+                                        Das brandneue TTT-Wiki wurde mit über 150 Informationsseiten veröffentlicht
                                     </p>
                                 </div>
                             </div>
             				<div class="media g-mb-40">
                                 <div class="d-flex mr-4">
-                          <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
+                          <span class="u-icon-v2 g-color-white g-bg-black rounded-circle">
                             <i class="icon-real-estate-055 u-line-icon-pro"></i>
                           </span>
                                 </div>

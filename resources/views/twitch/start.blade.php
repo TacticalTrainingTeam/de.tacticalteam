@@ -6,9 +6,9 @@
     <!-- About -->
     <section class="container g-pt-100 g-pb-70">
         <script src= "{{asset('assets/js/twitch_tv_js_embed_v1.js')}}"></script>
-        <h2>Folgende Leute streamen gerade für das TTT:</h2>
+        <h2>Live-Streams von Mitgliedern des Tactical Training Teams</h2>
         <br>
-        <p class="lead">Du willst auch hier angezeigt werden? Folgende Schlüsselwörter muss dein Stream enthalten: „tacticalteam.de“ oder „Tactical Training Team“ </p>
+        <p class="lead">Möchtest du auch hier angezeigt werden? Dein Stream sollte unbedingt die Schlüsselwörter 'tacticalteam.de' oder 'Tactical Training Team' enthalten.</p>
         @if(count($streams) > 0)
             @foreach($streams as $stream)
                 <h3><a href="https://twitch.tv/{{$stream->user_login}}" target="_blank">twitch.tv/{{$stream->user_login}}</a></h3>
@@ -24,7 +24,7 @@
                 </script>
             @endforeach
         @else
-            <p class="lead">Derzeit streamt keiner für das TTT.</p>
+            <p class="lead">Aktuell sind keine Streams für das TTT verfügbar.</p>
         @endif
     </section>
     <!-- End About -->
