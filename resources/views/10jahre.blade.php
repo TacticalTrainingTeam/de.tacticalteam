@@ -258,7 +258,7 @@
 					Das TTT ist der Nachfolger des Projekts "GT-Kommando".
 					Das Projekt "GT-Kommando" wurde über Monate von mir bis Ende 2012 in einem stillen Kämmerlein entwickelt, dann Mitte Dezember 2012 vorgestellt und mit ein paar Eingeweihten besprochen.
 					Im Quartal 1 2013 erlebte es seine Feuertaufe in der Gamtwitter-Community. Daher auch der Name "GT" stand nicht für Gran Turismo, sondern ist die Abkürzung für Gametwitter.
-					Kommando sagt aus, was es sein sollte - basierend auf Ausbildungsunterlagen, Biographien, Literatur der SAS (AUS, UK), DEVGRU, Seals und vor allem den Ranger (75th) sollte ein ARMA-Grundlagentraining entstehen.</p>
+					Kommando sagt aus, was es sein sollte - basierend auf Ausbildungsunterlagen, Biographien, Literatur der SAS (AUS, UK), DEVGRU, Seals und vor allem den Ranger (75th) sollte ein Arma-Grundlagentraining entstehen.</p>
 					<p class="lead">Das GT-Kommando entstand auch aus dem Frust heraus, dass wir uns in der Community regelmäßig über den Haufen schossen, dass das Gelände keinerlei Einfluss auf die Planung hatte und beim geringsten Feindkontakt ein kompletter Zug in Einzelbestandteile zerfiel.</p>
                 <p class="lead"><div><h3><strong>Die Gründung TTT</strong></h3></div></p>
 					<p class="lead">
@@ -273,37 +273,37 @@
 					 Häufig werden auch Spiele wie "..-Live" oder eben diverse Zombie-Mods gespielt. Der Altersdurchschnitt ist eher niedrig.</p>
 				<p class="lead"><div><h4><strong>Multigaming-Communities</strong></h4></div></p>
 				<p class="lead">
-                     Es gibt auch eine Anzahl an Multi-Gaming-Communities, die zwar ARMA regelmäßig zocken, aber durchaus auch bei anderen Games ihren Schwerpunkt setzen.
+                     Es gibt auch eine Anzahl an Multi-Gaming-Communities, die zwar Arma regelmäßig zocken, aber durchaus auch bei anderen Games ihren Schwerpunkt setzen.
 					 Durch ihre Vielfältigkeit können sie natürlich nie so „effizient“ sein, wie hoch spezialisierte Einheiten.
 					 Besonders im englischsprachigen Raum gibt es solche Units - die sind so vielfältig, dass sie sich kaum unter einen Hut bringen. Und manche sind so groß, dass sie eigentlich als eigene MilSim-Einheit durchgehen.</p>
 				<p class="lead"><div><h4><strong>MilSim-Einheiten mit realem Hintergrund</strong></h4></div></p>
 				<p class="lead">
-                     Hier finden sich die echte „Profis“ und den Kern der ARMA-Community. Meist hat ein Ex-Soldat einer Einheit irgendwann einfach mal sein virtuelles Gegenstück stark vereinfacht oder leicht verändert in die ARMA-Welt gebracht.
+                     Hier finden sich die echte „Profis“ und den Kern der Arma-Community. Meist hat ein Ex-Soldat einer Einheit irgendwann einfach mal sein virtuelles Gegenstück stark vereinfacht oder leicht verändert in die Arma-Welt gebracht.
 					 Hier kennt er sich aus, hier weiß er was er will. Solche Squads haben sich zur Aufgabe gesetzt, die reelle Gepflogenheiten militärischer Einheiten realistisch nachzubilden.
 					 Von der Bewaffnung, Fahrzeuge bis hin zur strikten Befehlsstruktur, Ränge bis zum Tätigkeitsabzeichen. ACRE und ACE sind Pflicht. Der Altersdurchschnitt ist eher hoch.
-					 In Deutschland sind natürlich die BW-Squads stark vertreten, während Amis natürlich gerne „ihre“ Ex-Einheiten spielen. Die meisten spielen derzeit, weil es kein ACE gibt, nur ARMA 2.</p>
-				<p class="lead"><div><h4><strong>Die offenen ARMA-Communities</strong></h4></div></p>
+					 In Deutschland sind natürlich die BW-Squads stark vertreten, während Amis natürlich gerne „ihre“ Ex-Einheiten spielen. Die meisten spielen derzeit, weil es kein ACE gibt, nur Arma 2.</p>
+				<p class="lead"><div><h4><strong>Die offenen Arma-Communities</strong></h4></div></p>
 				<p class="lead">
-                     Als quasi Ergänzungsbewegung zu militärischen Einheiten hat sich in ARMA auch eine Art offene ARMA-Communities entwickelt.
+                     Als quasi Ergänzungsbewegung zu militärischen Einheiten hat sich in Arma auch eine Art offene Arma-Communities entwickelt.
 					 In diversen Varianten, diese vermeiden die Anlehnung an militärische Einheiten, spielen evtl. nicht ganz auf dem hohen Niveau der MilSimmer (da es beispielsweise in der Regel keine festen Positionen gibt), aber trotzdem so gut, dass sie über jeden Zweifel erhaben sind.
 					 Sie bieten herausragende Events und jede Menge Spielspaß mit zahlreichen Spielern.</p>
 					<p class="lead"></p>
 				<div><h1><strong>Zusammenfassung</strong></h1>
-                 <p class="lead">Nach wirklich wochenlangem Prüfen der ARMA-Szene war aber klar: So etwas wie das TTT-Konzept gibt es nicht. Ich wollte eine Community, die sowohl
+                 <p class="lead">Nach wirklich wochenlangem Prüfen der Arma-Szene war aber klar: So etwas wie das TTT-Konzept gibt es nicht. Ich wollte eine Community, die sowohl
 					<ul>
 						<li class="lead">1. Das Training in den Mittelpunkt stellt </li>
 						<li class="lead">2. die Spielweise von Kommando-Soldaten abbildet (maximales Teamwork, maximales Training, kleinste Gruppen, höchste Flexibilität)</li>
 						<li class="lead">3. eine offene Community darstellt - als Vorbild gelten offene Communitys - und nicht die MilSim-Squads, die vergleichsweise hohe Hürden für Neueinsteiger anlegen (Rangordnung, Bewerbungsgespräche, etc.)</li>
 					</ul></p>
 				<p class="lead">
-                     Es gibt absolut gute Bundeswehr-ARMA-Einheiten da draußen, Jäger, PzGrenadiere, Fallies, you name it.
+                     Es gibt absolut gute Bundeswehr-Arma-Einheiten da draußen, Jäger, PzGrenadiere, Fallies, you name it.
 					 Die machen das so gut, dass es (meiner Meinung nach) keine weitere Einheit braucht mit einer ähnlichen thematischen Bundeswehr-Ausrichtung und Organisation.
-					 Ich persönlich sah und sehe eher den Bedarf an den drei oben genannten Punkten. Diese Kombi halte ich für das ARMA-Spiel für absolut passend und bietet die nötige Flexibilität.
+					 Ich persönlich sah und sehe eher den Bedarf an den drei oben genannten Punkten. Diese Kombi halte ich für das Arma-Spiel für absolut passend und bietet die nötige Flexibilität.
 					 Daher ist es mir auch egal, ob wir in GIGN oder KSK-Kluft rummrennen, die oberen drei Punkte können auch in Unterhosen erreicht werden.</p>
 					 <p class="lead">
                      Aber, diese Ausrichtung hat natürlich auch seine Probleme: Der Verzicht auf sehr starke Orientierung an einem realen militärischen Vorbild birgt seine Gefahren.
 					 Es gibt deutlich mehr Abstimmungsbedarf. Argumente wie "bei den Pionieren XY wird das so gemacht" funktionieren halt am besten,
-					 wenn man halt auch die Pionier XY in ARMA nachbildet und die „offene Community“ sorgt automatisch für mehr Reibungspunkte, da die „Machtstrukturen“ gar nicht so klar geregelt sind.
+					 wenn man halt auch die Pionier XY in Arma nachbildet und die „offene Community“ sorgt automatisch für mehr Reibungspunkte, da die „Machtstrukturen“ gar nicht so klar geregelt sind.
 					 Bei den anderen Units gibt es halt ein Offz dem Rekrut die Anweisungen (Community als auch Ingame) …</p>
              </div>
          </div>
