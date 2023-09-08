@@ -3,7 +3,7 @@
         10 Jahre TTT
     </x-slot>
 
-    <!-- About -->
+    <!-- Einleitung -->
         <section class="container g-pt-100 g-pb-70">
             <div class="row align-items-center">
                 <div class="col-md-7 g-mb-30">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <!-- End About -->
+        <!-- End Einleitung -->
 
         <!-- Start Geschichte -->
     	    <section
@@ -106,7 +106,7 @@
             				<div class="media g-mb-40">
                                 <div class="media-body mr-4">
                                     <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                        April/Mai 2015
+                                        Mai 2015
                                     </h3>
                                     <p class="lead">
                                         Einführung von Einsteiger-Events und Managementposten
@@ -121,10 +121,10 @@
             				<div class="media g-mb-40">
                                 <div class="media-body mr-4">
                                     <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                        Januar 2017
+                                        Juni 2016
                                     </h3>
                                     <p class="lead">
-                                        Umstrukturierung der TTT-Ränge von Stammspieler, Reservisten, Manager & Gremium zu Gast, Stammspieler, Mitspieler, Manager & Gremium
+                                        Beendigung des TTT-Public-Servers und Übertragung an ArmaWorld
                                     </p>
                                 </div>
                                 <div class="d-flex">
@@ -220,10 +220,10 @@
                                 </div>
                                 <div class="media-body">
                                     <h3 class="h5 g-color-white g-font-weight-600 mb-20">
-                                        xx. Januar xxxx
+                                        11. November 2023
                                     </h3>
                                     <p class="lead">
-                                        5r
+                                        Das Tactical Training Team blickt stolz auf eine erfolgreiche Dekade seiner Existenz zurück – 10 Jahre
                                     </p>
                                 </div>
                             </div>
@@ -231,6 +231,84 @@
                     </div>
                 </section>
                 <!-- End Timeline -->
+
+    <!-- Start About-Header -->
+    <section class="dzsparallaxer auto-init height-is-based-on-content">
+        <!-- Parallax Image -->
+        <div class="divimage dzsparallaxer--target w-100"
+             style="height: 160%; background: black"></div>
+        <div class="container g-pt-100 g-pb-50">
+            <!-- Heading -->
+            <div class="row justify-content-center text-center g-mb-50">
+                <div class="col-lg-9">
+                    <h2 class="h2 g-color-white g-font-weight-600 text-uppercase mb-2">
+                        Warum gibt es ein TTT?
+                    </h2>
+					<p class="lead mb-0">Ein Auszug eines Beitrags von relain aus 2013</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Ende About-Header -->
+<!-- About -->
+     <section class="container g-pt-100 g-pb-70">
+         <div class="row align-items-center">
+                 <p class="lead"><div><h3><strong>Wo kommt das TTT eigentlich her? Der Vorgänger "GT-Kommando"</strong></h3></div></p>
+					<p class="lead">
+					Das TTT ist der Nachfolger des Projekts "GT-Kommando".
+					Das Projekt "GT-Kommando" wurde über Monate von mir bis Ende 2012 in einem stillen Kämmerlein entwickelt, dann Mitte Dezember 2012 vorgestellt und mit ein paar Eingeweihten besprochen.
+					Im Quartal 1 2013 erlebte es seine Feuertaufe in der Gamtwitter-Community. Daher auch der Name "GT" stand nicht für Gran Turismo, sondern ist die Abkürzung für Gametwitter.
+					Kommando sagt aus, was es sein sollte - basierend auf Ausbildungsunterlagen, Biographien, Literatur der SAS (AUS, UK), DEVGRU, Seals und vor allem den Ranger (75th) sollte ein ARMA-Grundlagentraining entstehen.</p>
+					<p class="lead">Das GT-Kommando entstand auch aus dem Frust heraus, dass wir uns in der Community regelmäßig über den Haufen schossen, dass das Gelände keinerlei Einfluss auf die Planung hatte und beim geringsten Feindkontakt ein kompletter Zug in Einzelbestandteile zerfiel.</p>
+                <p class="lead"><div><h3><strong>Die Gründung TTT</strong></h3></div></p>
+					<p class="lead">
+                    Das GT-Kommando sorgte aber nach ein paar gelungenen Trainingsmonate für immer mehr Unbehagen -woran es genau lag, kann ich nicht beziffern.
+					Jedenfalls gab es wohl zwischen „Trainierten“ und "Untrainierten" teils knusprige Abstimmungsschwierigkeiten. Das Projekt GT-Kommando wurde eingestellt - stattdessen gab es nach einer Karenzzeit das Projekt [TTT].
+					Diesmal mit dem besonderen Twist, sich auf paramilitärische Einheiten zu fixieren - aber mit faktisch dem gleichen Programm. Warum?</p>
+					<p class="lead">Das war das Ergebnis einer Marktanalyse. Denn eigentlich wollte ich persönlich gar keinen eigenen Laden machen, sondern die Idee woanders ausleben. Das Problem: Es gab sowas nicht. Dazu eine kleine Marktanalyse:</p>
+                <p class="lead"><div><h4><strong>Fun-Clans</strong></h4></div></p>
+				<p class="lead">
+                     Fun-Clans nehmen es alles nicht so ernst - hier steht das gemeinsame, entspannte Zocken und Spaß im Vordergrund.
+					 Ränge oder Militärbegriffe findet man selten. Das Niveau kann natürlich nicht mit "MilSim"-Clans mithalten, soll es aber auch nicht.
+					 Häufig werden auch Spiele wie "..-Live" oder eben diverse Zombie-Mods gespielt. Der Altersdurchschnitt ist eher niedrig.</p>
+				<p class="lead"><div><h4><strong>Multigaming-Communities</strong></h4></div></p>
+				<p class="lead">
+                     Es gibt auch eine Anzahl an Multi-Gaming-Communities, die zwar ARMA regelmäßig zocken, aber durchaus auch bei anderen Games ihren Schwerpunkt setzen.
+					 Durch ihre Vielfältigkeit können sie natürlich nie so „effizient“ sein, wie hoch spezialisierte Einheiten.
+					 Besonders im englischsprachigen Raum gibt es solche Units - die sind so vielfältig, dass sie sich kaum unter einen Hut bringen. Und manche sind so groß, dass sie eigentlich als eigene MilSim-Einheit durchgehen.</p>
+				<p class="lead"><div><h4><strong>MilSim-Einheiten mit realem Hintergrund</strong></h4></div></p>
+				<p class="lead">
+                     Hier finden sich die echte „Profis“ und den Kern der ARMA-Community. Meist hat ein Ex-Soldat einer Einheit irgendwann einfach mal sein virtuelles Gegenstück stark vereinfacht oder leicht verändert in die ARMA-Welt gebracht.
+					 Hier kennt er sich aus, hier weiß er was er will. Solche Squads haben sich zur Aufgabe gesetzt, die reelle Gepflogenheiten militärischer Einheiten realistisch nachzubilden.
+					 Von der Bewaffnung, Fahrzeuge bis hin zur strikten Befehlsstruktur, Ränge bis zum Tätigkeitsabzeichen. ACRE und ACE sind Pflicht. Der Altersdurchschnitt ist eher hoch.
+					 In Deutschland sind natürlich die BW-Squads stark vertreten, während Amis natürlich gerne „ihre“ Ex-Einheiten spielen. Die meisten spielen derzeit, weil es kein ACE gibt, nur ARMA 2.</p>
+				<p class="lead"><div><h4><strong>Die offenen ARMA-Communities</strong></h4></div></p>
+				<p class="lead">
+                     Als quasi Ergänzungsbewegung zu militärischen Einheiten hat sich in ARMA auch eine Art offene ARMA-Communities entwickelt.
+					 In diversen Varianten, diese vermeiden die Anlehnung an militärische Einheiten, spielen evtl. nicht ganz auf dem hohen Niveau der MilSimmer (da es beispielsweise in der Regel keine festen Positionen gibt), aber trotzdem so gut, dass sie über jeden Zweifel erhaben sind.
+					 Sie bieten herausragende Events und jede Menge Spielspaß mit zahlreichen Spielern.</p>
+					<p class="lead"></p>
+				<div><h1><strong>Zusammenfassung</strong></h1>
+                 <p class="lead">Nach wirklich wochenlangem Prüfen der ARMA-Szene war aber klar: So etwas wie das TTT-Konzept gibt es nicht. Ich wollte eine Community, die sowohl
+					<ul>
+						<li class="lead">1. Das Training in den Mittelpunkt stellt </li>
+						<li class="lead">2. die Spielweise von Kommando-Soldaten abbildet (maximales Teamwork, maximales Training, kleinste Gruppen, höchste Flexibilität)</li>
+						<li class="lead">3. eine offene Community darstellt - als Vorbild gelten offene Communitys - und nicht die MilSim-Squads, die vergleichsweise hohe Hürden für Neueinsteiger anlegen (Rangordnung, Bewerbungsgespräche, etc.)</li>
+					</ul></p>
+				<p class="lead">
+                     Es gibt absolut gute Bundeswehr-ARMA-Einheiten da draußen, Jäger, PzGrenadiere, Fallies, you name it.
+					 Die machen das so gut, dass es (meiner Meinung nach) keine weitere Einheit braucht mit einer ähnlichen thematischen Bundeswehr-Ausrichtung und Organisation.
+					 Ich persönlich sah und sehe eher den Bedarf an den drei oben genannten Punkten. Diese Kombi halte ich für das ARMA-Spiel für absolut passend und bietet die nötige Flexibilität.
+					 Daher ist es mir auch egal, ob wir in GIGN oder KSK-Kluft rummrennen, die oberen drei Punkte können auch in Unterhosen erreicht werden.</p>
+					 <p class="lead">
+                     Aber, diese Ausrichtung hat natürlich auch seine Probleme: Der Verzicht auf sehr starke Orientierung an einem realen militärischen Vorbild birgt seine Gefahren.
+					 Es gibt deutlich mehr Abstimmungsbedarf. Argumente wie "bei den Pionieren XY wird das so gemacht" funktionieren halt am besten,
+					 wenn man halt auch die Pionier XY in ARMA nachbildet und die „offene Community“ sorgt automatisch für mehr Reibungspunkte, da die „Machtstrukturen“ gar nicht so klar geregelt sind.
+					 Bei den anderen Units gibt es halt ein Offz dem Rekrut die Anweisungen (Community als auch Ingame) …</p>
+             </div>
+         </div>
+     </section>
+     <!-- End About -->
 
         <!-- Cube Portfolio Blocks - Content -->
         <div class="container-fluid g-px-4 g-mb-4">
