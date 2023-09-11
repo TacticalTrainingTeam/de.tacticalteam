@@ -59,7 +59,7 @@
                   </h2>
                   <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                   <p class="lead mb-0">
-                    Die Geschichte des Tactical Training Teams - Abteilung 22 <br> vom 1. Januar 2015
+                    Die Geschichte des Tactical Training Teams - Abteilung 22
                   </p>
                 </div>
                 <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
@@ -269,6 +269,8 @@
 					Es sollte eine flexible und zugängliche Einheit sein, unabhängig von einem spezifischen militärischen Vorbild.</p>
 				<p class="lead">
                      Obwohl diese Ausrichtung Herausforderungen mit sich bringt, wie den Bedarf an ständiger Abstimmung und klaren Strukturen, ist das Ziel des TTT, eine Community aufzubauen, die die Bedürfnisse der Spieler erfüllt.</p>
+                <p class="lead">
+                     Gegründet wurde das TTT von relain, der im April 2015 von seiner Leitungsposition zurückgetreten ist.</p>
              </div>
          </div>
      </section>
@@ -312,7 +314,7 @@
 				<p class="lead"><div><h3><strong>Die Taktik-Fibel des TTT</strong></h3></div></p>
 				<p class="lead">
 					Dieses <a href="https://files.tacticalteam.de/s/5sx3G8iNcPgeD7s">Dokument</a> war eine umfassende Anleitung für die Grundausbildung im Tactical Training Team (TTT), die sowohl Anfängern als auch erfahrenen Spielern geholfen hat, die theoretischen Grundlagen des taktischen Spiels im TTT zu erlernen und zu festigen.
-					Es betonte die Bedeutung von aktiver Lektüre, Diskussion, kontinuierlicher Verbesserung und Strategie. Die Maxime lautete: "Train hard, play smart!".</p>
+					Es betonte die Bedeutung von aktiver Lektüre, Diskussion, kontinuierlicher Verbesserung und Strategie. Die Maxime lautete: "Train hard, play smart!". Die Fibel wurde durch das Wiki abgelöst.</p>
              </div>
          </div>
      </section>
