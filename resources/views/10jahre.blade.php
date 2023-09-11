@@ -13,17 +13,17 @@
                     </h2>
                     </div>
                     <p class="lead">
-                        Wir sind stolz darauf, als eine der ältesten und etabliertesten Communities in der deutschsprachigen Arma 3 Szene zu fungieren.
-    					Seit einem Jahrzehnt bieten wir Ausbildung, Training, unvergessliche Events und fesselnde Kampagnen. Doch das Wichtigste für uns ist: Der Spaß steht immer an erster Stelle!
+                      Es ist kaum zu glauben, aber am 11. November 2023 feiert unser TTT bereits sein 10-jähriges Bestehen. In all den Jahren haben wir zahlreiche Spieler mit Begeisterung und Freude erfüllt.
+                      Doch das Beste kommt erst noch!
                     </p>
                     <p class="lead">
-                        Es ist kaum zu glauben, aber am 11. November 2023 feiert unser TTT bereits sein 10-jähriges Bestehen. In all den Jahren haben wir zahlreiche Spieler mit Begeisterung und Freude erfüllt.
-    					Als Offiziere war es für uns eine Reise voller Abenteuer und Vielfalt. Doch das Beste kommt erst noch!
+    					Wir sind stolz darauf, als eine der ältesten Communities in der deutschsprachigen Arma3-Szene zu gelten.
+                        Seit einem Jahrzehnt bieten wir Ausbildung, Training, unvergessliche Events und fesselnde Kampagnen. Doch das Wichtigste für uns ist: Der Spaß steht immer an erster Stelle!
                     </p>
                     <p class="lead">
-                        Wir möchten uns bei unseren wertvollen Communitymitgliedern bedanken, die dieses Jubiläum erst möglich gemacht haben.
+                        Wir möchten uns bei unseren wertvollen Communitymitgliedern bedanken, die dieses Jubiläumsjahr erst möglich gemacht haben.
     					Ihr seid unsere Community, und wir freuen uns darauf, mit euch noch viele weitere spannende Jahre zu erleben.
-    					Gemeinsam werden wir die Arma 3 Welt weiter erkunden, uns neuen Herausforderungen stellen und Erinnerungen schaffen, die für immer bleiben werden.
+    					Gemeinsam werden wir die Welt von Arma 3 weiter erkunden, uns neuen Herausforderungen stellen und Erinnerungen schaffen, die für immer bleiben werden.
                     </p>
     				<p class="lead">
                         Auf die nächsten 10 Jahre voller Action, Zusammenhalt und unvergesslicher Momente! Lasst uns das Jubiläum gebührend feiern und die Zukunft unserer Community mit Begeisterung gestalten!
@@ -223,7 +223,7 @@
                                         11. November 2023
                                     </h3>
                                     <p class="lead">
-                                        Das Tactical Training Team blickt stolz auf eine erfolgreiche Dekade seiner Existenz zurück – 10 Jahre
+                                        Das Tactical Training Team wird auf eine erfolgreiche Dekade seiner Existenz zurückblicken – 10 Jahre
                                     </p>
                                 </div>
                             </div>
@@ -244,7 +244,6 @@
                     <h2 class="h2 g-color-white g-font-weight-600 text-uppercase mb-2">
                         Warum gibt es ein TTT?
                     </h2>
-					<p class="lead mb-0">Ein Auszug eines Beitrags von relain aus 2013</p>
                 </div>
             </div>
         </div>
@@ -253,62 +252,71 @@
 <!-- About -->
      <section class="container g-pt-100 g-pb-70">
          <div class="row align-items-center">
-                 <p class="lead"><div><h3><strong>Wo kommt das TTT eigentlich her? Der Vorgänger "GT-Kommando"</strong></h3></div></p>
 					<p class="lead">
-					Das TTT ist der Nachfolger des Projekts "GT-Kommando".
-					Das Projekt "GT-Kommando" wurde über Monate von mir bis Ende 2012 in einem stillen Kämmerlein entwickelt, dann Mitte Dezember 2012 vorgestellt und mit ein paar Eingeweihten besprochen.
-					Im Quartal 1 2013 erlebte es seine Feuertaufe in der Gamtwitter-Community. Daher auch der Name "GT" stand nicht für Gran Turismo, sondern ist die Abkürzung für Gametwitter.
-					Kommando sagt aus, was es sein sollte - basierend auf Ausbildungsunterlagen, Biographien, Literatur der SAS (AUS, UK), DEVGRU, Seals und vor allem den Ranger (75th) sollte ein Arma-Grundlagentraining entstehen.</p>
-					<p class="lead">Das GT-Kommando entstand auch aus dem Frust heraus, dass wir uns in der Community regelmäßig über den Haufen schossen, dass das Gelände keinerlei Einfluss auf die Planung hatte und beim geringsten Feindkontakt ein kompletter Zug in Einzelbestandteile zerfiel.</p>
-                <p class="lead"><div><h3><strong>Die Gründung TTT</strong></h3></div></p>
+					Das Tactical Training Team (TTT) ist der Nachfolger des Projekts "GT-Kommando", das Ende 2012 entwickelt wurde.
+					Ursprünglich entstand GT-Kommando aus dem Frust über mangelnde Koordination in der Community.
+					Es sollte ein Arma-Grundlagentraining basierend auf militärischen Unterlagen entstehen.</p>
 					<p class="lead">
-                    Das GT-Kommando sorgte aber nach ein paar gelungenen Trainingsmonate für immer mehr Unbehagen -woran es genau lag, kann ich nicht beziffern.
-					Jedenfalls gab es wohl zwischen „Trainierten“ und "Untrainierten" teils knusprige Abstimmungsschwierigkeiten. Das Projekt GT-Kommando wurde eingestellt - stattdessen gab es nach einer Karenzzeit das Projekt [TTT].
-					Diesmal mit dem besonderen Twist, sich auf paramilitärische Einheiten zu fixieren - aber mit faktisch dem gleichen Programm. Warum?</p>
-					<p class="lead">Das war das Ergebnis einer Marktanalyse. Denn eigentlich wollte ich persönlich gar keinen eigenen Laden machen, sondern die Idee woanders ausleben. Das Problem: Es gab sowas nicht. Dazu eine kleine Marktanalyse:</p>
-                <p class="lead"><div><h4><strong>Fun-Clans</strong></h4></div></p>
+					Nach einigen erfolgreichen Monaten entwickelte sich jedoch Unbehagen, insbesondere zwischen trainierten und untrainierten Spielern.
+					Daher wurde das GT-Kommando-Projekt eingestellt und später das TTT-Projekt ins Leben gerufen.
+					Dieses konzentrierte sich auf paramilitärische Einheiten, aber mit einem ähnlichen Programm.</p>
+					<p class="lead">
+                    Die Gründung des TTT war das Ergebnis einer Marktanalyse der Arma3-Community.
+                    Es wurde festgestellt, dass es keine Gruppe gab, die die gewünschte Kombination aus Training, realistischem Teamspiel und einer offenen Community bot.
+                    Die Arma-Communities wurden grob in Fun-Clans, Multigaming-Communities, MilSim-Einheiten mit realem Hintergrund und offene Arma-Communities unterteilt.</p>
+					<p class="lead">
+					Das TTT wurde gegründet, um diese Lücke zu füllen und sich auf Training, realistisches Teamspiel und eine offene Community zu konzentrieren.
+					Es sollte eine flexible und zugängliche Einheit sein, unabhängig von einem spezifischen militärischen Vorbild.</p>
 				<p class="lead">
-                     Fun-Clans nehmen es alles nicht so ernst - hier steht das gemeinsame, entspannte Zocken und Spaß im Vordergrund.
-					 Ränge oder Militärbegriffe findet man selten. Das Niveau kann natürlich nicht mit "MilSim"-Clans mithalten, soll es aber auch nicht.
-					 Häufig werden auch Spiele wie "..-Live" oder eben diverse Zombie-Mods gespielt. Der Altersdurchschnitt ist eher niedrig.</p>
-				<p class="lead"><div><h4><strong>Multigaming-Communities</strong></h4></div></p>
-				<p class="lead">
-                     Es gibt auch eine Anzahl an Multi-Gaming-Communities, die zwar Arma regelmäßig zocken, aber durchaus auch bei anderen Games ihren Schwerpunkt setzen.
-					 Durch ihre Vielfältigkeit können sie natürlich nie so „effizient“ sein, wie hoch spezialisierte Einheiten.
-					 Besonders im englischsprachigen Raum gibt es solche Units - die sind so vielfältig, dass sie sich kaum unter einen Hut bringen. Und manche sind so groß, dass sie eigentlich als eigene MilSim-Einheit durchgehen.</p>
-				<p class="lead"><div><h4><strong>MilSim-Einheiten mit realem Hintergrund</strong></h4></div></p>
-				<p class="lead">
-                     Hier finden sich die echte „Profis“ und den Kern der Arma-Community. Meist hat ein Ex-Soldat einer Einheit irgendwann einfach mal sein virtuelles Gegenstück stark vereinfacht oder leicht verändert in die Arma-Welt gebracht.
-					 Hier kennt er sich aus, hier weiß er was er will. Solche Squads haben sich zur Aufgabe gesetzt, die reelle Gepflogenheiten militärischer Einheiten realistisch nachzubilden.
-					 Von der Bewaffnung, Fahrzeuge bis hin zur strikten Befehlsstruktur, Ränge bis zum Tätigkeitsabzeichen. ACRE und ACE sind Pflicht. Der Altersdurchschnitt ist eher hoch.
-					 In Deutschland sind natürlich die BW-Squads stark vertreten, während Amis natürlich gerne „ihre“ Ex-Einheiten spielen. Die meisten spielen derzeit, weil es kein ACE gibt, nur Arma 2.</p>
-				<p class="lead"><div><h4><strong>Die offenen Arma-Communities</strong></h4></div></p>
-				<p class="lead">
-                     Als quasi Ergänzungsbewegung zu militärischen Einheiten hat sich in Arma auch eine Art offene Arma-Communities entwickelt.
-					 In diversen Varianten, diese vermeiden die Anlehnung an militärische Einheiten, spielen evtl. nicht ganz auf dem hohen Niveau der MilSimmer (da es beispielsweise in der Regel keine festen Positionen gibt), aber trotzdem so gut, dass sie über jeden Zweifel erhaben sind.
-					 Sie bieten herausragende Events und jede Menge Spielspaß mit zahlreichen Spielern.</p>
-					<p class="lead"></p>
-				<div><h1><strong>Zusammenfassung</strong></h1>
-                 <p class="lead">Nach wirklich wochenlangem Prüfen der Arma-Szene war aber klar: So etwas wie das TTT-Konzept gibt es nicht. Ich wollte eine Community, die sowohl
-					<ul>
-						<li class="lead">1. Das Training in den Mittelpunkt stellt </li>
-						<li class="lead">2. die Spielweise von Kommando-Soldaten abbildet (maximales Teamwork, maximales Training, kleinste Gruppen, höchste Flexibilität)</li>
-						<li class="lead">3. eine offene Community darstellt - als Vorbild gelten offene Communitys - und nicht die MilSim-Squads, die vergleichsweise hohe Hürden für Neueinsteiger anlegen (Rangordnung, Bewerbungsgespräche, etc.)</li>
-					</ul></p>
-				<p class="lead">
-                     Es gibt absolut gute Bundeswehr-Arma-Einheiten da draußen, Jäger, PzGrenadiere, Fallies, you name it.
-					 Die machen das so gut, dass es (meiner Meinung nach) keine weitere Einheit braucht mit einer ähnlichen thematischen Bundeswehr-Ausrichtung und Organisation.
-					 Ich persönlich sah und sehe eher den Bedarf an den drei oben genannten Punkten. Diese Kombi halte ich für das Arma-Spiel für absolut passend und bietet die nötige Flexibilität.
-					 Daher ist es mir auch egal, ob wir in GIGN oder KSK-Kluft rummrennen, die oberen drei Punkte können auch in Unterhosen erreicht werden.</p>
-					 <p class="lead">
-                     Aber, diese Ausrichtung hat natürlich auch seine Probleme: Der Verzicht auf sehr starke Orientierung an einem realen militärischen Vorbild birgt seine Gefahren.
-					 Es gibt deutlich mehr Abstimmungsbedarf. Argumente wie "bei den Pionieren XY wird das so gemacht" funktionieren halt am besten,
-					 wenn man halt auch die Pionier XY in Arma nachbildet und die „offene Community“ sorgt automatisch für mehr Reibungspunkte, da die „Machtstrukturen“ gar nicht so klar geregelt sind.
-					 Bei den anderen Units gibt es halt ein Offz dem Rekrut die Anweisungen (Community als auch Ingame) …</p>
+                     Obwohl diese Ausrichtung Herausforderungen mit sich bringt, wie den Bedarf an ständiger Abstimmung und klaren Strukturen, ist das Ziel des TTT, eine Community aufzubauen, die die Bedürfnisse der Spieler erfüllt.</p>
              </div>
          </div>
      </section>
      <!-- End About -->
+
+    <!-- Start Altes-Header -->
+    <section class="dzsparallaxer auto-init height-is-based-on-content">
+        <!-- Parallax Image -->
+        <div class="divimage dzsparallaxer--target w-100"
+             style="height: 160%; background: black"></div>
+        <div class="container g-pt-100 g-pb-50">
+            <!-- Heading -->
+            <div class="row justify-content-center text-center g-mb-50">
+                <div class="col-lg-9">
+                    <h2 class="h2 g-color-white g-font-weight-600 text-uppercase mb-2">
+                        Vergangene Truppsysteme und Trainingsinhalte
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Ende Altes-Header -->
+<!-- Altes -->
+     <section class="container g-pt-100 g-pb-70">
+         <div class="row align-items-center">
+            <p class="lead"><div><h3><strong>Ehemalige TTT-Philosophie</strong></h3></div></p>
+			    <p class="lead">
+					Die TTT-Philosophie basierte auf kleinen Trupps und modularer Effizienz. Das Hauptkonzept war:
+					<ul>
+                        <li class="lead">Buddy-System: Immer zu zweit unterwegs, um Sicherheit zu gewährleisten. </li>
+                    	<li class="lead">Vierer-Trupp: Die Grundstruktur des TTT, angelehnt an Spezialeinheiten, mit klaren Vorteilen wie Rundumsicherung und Feuerüberlegenheit.</li>
+                    	<li class="lead">Unterstützer und Spezialisten: Teams in Gelb (Zugführer und Koordinatoren), Gold (Aufklärer und Scharfschützen) und Grau (schwere Waffen).</li>
+                    	<li class="lead">Modulares Konzept: Die Möglichkeit, 4-Mann-Trupps bei Bedarf um 2er-Teams zu erweitern, um Flexibilität und Spezialisierung zu gewährleisten.</li>
+                    </ul></p>
+				<p class="lead">
+					Das TTT zielte darauf ab, effiziente und spezialisierte Einheiten mit geringer Mannstärke zu schaffen, um maximalen Spielspaß und Leistung zu gewährleisten.</p>
+				<p class="lead"><div><h3><strong>Das Buddy-System</strong></h3></div></p>
+				<p class="lead">
+                    Das Tactical Training Team verwendete das "Buddy-System" für effizientes Teamwork. Vorteile waren vereinfachte Führung, höhere Kampfkraft und bessere Sicherheit.
+                    Nachteile waren Einzelgänger und Probleme im Feuergefecht. Das System ist nicht mehr aktuell und existiert nicht mehr.</p>
+				<p class="lead"><div><h3><strong>Die Taktik-Fibel des TTT</strong></h3></div></p>
+				<p class="lead">
+					Dieses <a href="https://files.tacticalteam.de/s/5sx3G8iNcPgeD7s">Dokument</a> war eine umfassende Anleitung für die Grundausbildung im Tactical Training Team (TTT), die sowohl Anfängern als auch erfahrenen Spielern geholfen hat, die theoretischen Grundlagen des taktischen Spiels im TTT zu erlernen und zu festigen.
+					Es betonte die Bedeutung von aktiver Lektüre, Diskussion, kontinuierlicher Verbesserung und Strategie. Die Maxime lautete: "Train hard, play smart!".</p>
+             </div>
+         </div>
+     </section>
+     <!-- End Altes -->
 
         <!-- Cube Portfolio Blocks - Content -->
         <div class="container-fluid g-px-4 g-mb-4">
