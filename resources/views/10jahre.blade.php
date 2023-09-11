@@ -54,7 +54,7 @@
             <div class="row justify-content-center text-center">
               <div class="col-lg-9">
                 <div class="g-mb-50">
-                  <h2 class="h2 g-color-white g-font-weight-600 mb-2">
+                  <h2 class="h2 g-color-white g-font-weight-600 text-uppercase mb-2">
                     Fiktive Geschichte des TTT
                   </h2>
                   <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
