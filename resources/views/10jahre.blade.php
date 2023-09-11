@@ -298,7 +298,7 @@
          <div class="row align-items-center">
             <p class="lead"><div><h3><strong>Ehemalige TTT-Philosophie</strong></h3></div></p>
 			    <p class="lead">
-					Die TTT-Philosophie basierte auf kleinen Trupps und modularer Effizienz. Das Hauptkonzept war:
+					Die TTT-Philosophie basierte auf kleinen Trupps und modularer Effizienz, innerhalb des Events. Das Hauptkonzept war:
 					<ul>
                         <li class="lead">Buddy-System: Immer zu zweit unterwegs, um Sicherheit zu gewährleisten. </li>
                     	<li class="lead">Vierer-Trupp: Die Grundstruktur des TTT, angelehnt an Spezialeinheiten, mit klaren Vorteilen wie Rundumsicherung und Feuerüberlegenheit.</li>
