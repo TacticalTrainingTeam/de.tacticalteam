@@ -79,7 +79,7 @@
                                         11. November 2013
                                     </h3>
                                     <p class="lead">
-                                        Offizielle Gründung Tactical Training Teams - kurz TTT
+                                        Offizielle Gründung des Tactical Training Teams - kurz TTT
                                     </p>
                                 </div>
                                 <div class="d-flex">
