@@ -269,7 +269,7 @@
 
                     <address class="g-bg-no-repeat g-line-height-2 g-mt-minus-4"
                              style="background-image: url({{asset('assets/img/maps/map2.png')}})">
-                        <a href="mailto:info@tacticalteam.de" class="">info@tacticalteam.de</a>
+                        <a href="mailto:kontakt@tacticalteam.de" class="">kontakt@tacticalteam.de</a>
                         <br /><a href="http://discord.tacticalteam.de"> Discord </a>
                         <br /><a href="ts3server://ts3.tacticalteam.de">
                             TeamSpeak 3</a>
