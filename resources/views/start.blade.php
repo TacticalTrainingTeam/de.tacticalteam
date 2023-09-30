@@ -11,12 +11,12 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-67" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="600"
-                        data-thumb="assets/img/arma3/slides/1c.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide"
+                        data-thumb="assets/img/arma3/slides/1c.webp" data-rotate="0" data-saveperformance="off" data-title="Slide"
                         data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                         data-param8="" data-param9="" data-param10="" data-description=""
                         data-slicey_shadow="0px 0px 0px 0px transparent">
                         <!-- MAIN IMAGE -->
-                        <img src="{{asset('assets/img/arma3/slides/1c.jpg')}}" alt="" data-bgposition="center center" data-kenburns="on"
+                        <img src="{{asset('assets/img/arma3/slides/1c.webp')}}" alt="" data-bgposition="center center" data-kenburns="on"
                              data-duration="5000" data-ease="Power2.easeInOut" data-scalestart="100" data-scaleend="120"
                              data-rotatestart="0" data-rotateend="0" data-blurstart="10" data-blurend="0" data-offsetstart="0 0"
                              data-offsetend="0 0" class="rev-slidebg" />
@@ -70,12 +70,12 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-66" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="600"
-                        data-thumb="assets/img/arma3/slides/4.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide"
+                        data-thumb="assets/img/arma3/slides/4.webp" data-rotate="0" data-saveperformance="off" data-title="Slide"
                         data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                         data-param8="" data-param9="" data-param10="" data-description=""
                         data-slicey_shadow="0px 0px 0px 0px transparent">
                         <!-- MAIN IMAGE -->
-                        <img src="{{asset('assets/img/arma3/slides/4.jpg')}}" alt="" data-bgposition="center top" data-kenburns="on" data-duration="5000"
+                        <img src="{{asset('assets/img/arma3/slides/4.webp')}}" alt="" data-bgposition="center top" data-kenburns="on" data-duration="5000"
                              data-ease="Power2.easeInOut" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                              data-rotateend="0" data-blurstart="10" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0"
                              class="rev-slidebg" />
@@ -129,12 +129,12 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-68" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="600"
-                        data-thumb="assets/img/arma3/slides/3.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide"
+                        data-thumb="assets/img/arma3/slides/3.webp" data-rotate="0" data-saveperformance="off" data-title="Slide"
                         data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                         data-param8="" data-param9="" data-param10="" data-description=""
                         data-slicey_shadow="0px 0px 0px 0px transparent">
                         <!-- MAIN IMAGE -->
-                        <img src="{{asset('assets/img/arma3/slides/3.jpg')}}" alt="" data-bgposition="center top" data-kenburns="on" data-duration="5000"
+                        <img src="{{asset('assets/img/arma3/slides/3.webp')}}" alt="" data-bgposition="center top" data-kenburns="on" data-duration="5000"
                              data-ease="Power2.easeInOut" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                              data-rotateend="0" data-blurstart="10" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0"
                              class="rev-slidebg" />
@@ -799,7 +799,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <a href="https://www.gruppe-w.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpw.png')}}" alt="Image Description" /></a>
+                        <a href="https://www.gruppe-w.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpw.webp')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
 
@@ -829,7 +829,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <a href="https://www.esportsmasters.org" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_esm.png')}}" alt="Image Description" /></a>
+                        <a href="https://www.esportsmasters.org" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_esm.webp')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
 
@@ -856,7 +856,7 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <a href="https://forum.gruppe-adler.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.png')}}" alt="Image Description" /></a>
+                        <a href="https://forum.gruppe-adler.de" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_grpa.webp')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
                     <!-- Figure Info -->
