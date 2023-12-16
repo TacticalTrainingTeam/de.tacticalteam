@@ -105,7 +105,7 @@
                             }
                                 ?>
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
-                                <a href="https://forum.tacticalteam.de/calendar-node-field-date/"
+                                <a href="https://events.tacticalteam.de/events"
                                    class="nav-link g-py-7 g-px-0">Events</a>
                             </li>
 							<li class="nav-item g-mx-10--lg g-mx-15--xl">
@@ -207,14 +207,14 @@
                             <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                 <h4 class="h6 g-pr-20 mb-0">
                                     <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                       href="https://forum.tacticalteam.de/calendar-node-field-date/">Slottung</a>
+                                       href="https://events.tacticalteam.de/events">Slottung</a>
                                     <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                 </h4>
                             </li>
                             <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                 <h4 class="h6 g-pr-20 mb-0">
                                     <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                       href="https://forum.tacticalteam.de">Forum</a>
+                                       href="https://discord.tacticalteam.de">Discord</a>
                                     <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                 </h4>
                             </li>
