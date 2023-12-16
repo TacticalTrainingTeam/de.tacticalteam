@@ -182,7 +182,7 @@
                     </a>
                     <p>
                         Gegründet 2013, zählt unser TTT heute zu den führenden Arma 3 Communities im deutschsprachigen Raum.
-                        Wir bieten wöchentliche Missionen mit mehr als 50 Teilnehmern sowie regelmäßige Ausbildungen, Trainings und TvT-Events an.
+                        Wir bieten wöchentliche Missionen sowie regelmäßige Ausbildungen, Trainings und TvT-Events an.
                     </p>
                 </div>
                 <!-- End Footer Content -->
