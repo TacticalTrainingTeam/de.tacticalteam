@@ -136,6 +136,11 @@
 										<a href="{{route('newsletter')}}"
                                         class="nav-link">Newsletter</a>
 									</li>
+                                    <li class="dropdown-item">
+										<a class="nav-link"
+											href="https://tacticalteam.myspreadshop.de"
+											target="_blank">Shop</a>
+									</li>
 
 								</ul>
 							</li>
