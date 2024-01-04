@@ -253,7 +253,7 @@
                         </h2>
                         <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                         <p class="lead mb-0">
-                            Anmeldung Forum - Arma3Sync - Einsteiger-Event - los geht's!
+                            Anmeldung TTT-Discord - Arma3Sync - Einsteiger-Event - los geht's!
                         </p>
                     </div>
                     <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
