@@ -346,11 +346,11 @@
                         <p class="lead">
                             Du hast bereits Erfahrung im taktischen Spielen von Arma 3 und verstehst den Begriff MilSim.
                             Du beherrschst ACE & ACRE2 und kennst dich mit taktischen Bewegungen und Angriffsmanövern aus?
-                            Dann vereinbare einen Termin für einen Fast-Path mit @Addi#0995 im Discord oder per PN im Forum.
+                            Dann vereinbare einen Termin für einen Fast-Path mit @Addi#0995 im Discord.
                         </p>
                         <p class="lead">
                             Bevor du dich anmeldest, stelle bitte sicher, dass du unser Mod-Repository heruntergeladen und auf Funktionalität überprüft hast.
-                            Ein Forum-Account ist ebenfalls erforderlich, um dich für Events anzumelden.
+                            Ein Discord-Account ist ebenfalls erforderlich, um dich für Events anzumelden.
                         </p>
                     </div>
                 </div>
@@ -367,15 +367,15 @@
                 <div class="col-lg-9">
                     <div class="g-mb-50">
                         <h2 class="h2 g-color-white g-font-weight-600 mb-2">
-                            Das nächste Einsteiger Event im Forum finden
+                            Das nächste Einsteiger Event finden
                         </h2>
                         <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                         <p class="lead mb-0">
-                            Anmeldung Forum - Arma3Sync - Einsteiger-Event - los geht's!
+                            Anmeldung TTT-Discord - Arma3Sync - Einsteiger-Event - los geht's!
                         </p>
                     </div>
                     <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-                       href="https://forum.tacticalteam.de/calendar-node-field-date/">Jetzt nachschauen</a>
+                       href="https://events.tacticalteam.de/events/">Jetzt nachschauen</a>
                 </div>
             </div>
         </div>
