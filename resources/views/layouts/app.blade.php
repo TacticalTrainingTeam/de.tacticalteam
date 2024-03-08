@@ -145,7 +145,10 @@
 											href="https://tacticalteam.myspreadshop.de"
 											target="_blank">Shop</a>
 									</li>
-
+									<li class="dropdown-item">
+                                        <a href="{{route('10jahre')}}"
+                                        lass="nav-link">10 Jahre TTT</a>
+                                    </li>
 								</ul>
 							</li>
 
@@ -168,10 +171,6 @@
                     <div class="d-inline-block g-hidden-md-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
                         <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15"
                            href="{{route('mitmachen')}}">Jetzt mitmachen</a>
-                    </div>
-                    <div class="d-inline-block g-hidden-md-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
-                        <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15"
-                        href="{{route('10jahre')}}">10JahreTTT</a>
                     </div>
                 </div>
             </nav>
