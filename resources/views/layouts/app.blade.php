@@ -113,6 +113,10 @@
                                    class="nav-link g-py-7 g-px-0">Discord</a>
                             </li>
                             <li class="nav-item g-mx-10--lg g-mx-15--xl">
+                                <a href="ts3server://ts3.tacticalteam.de"
+                                    class="nav-link g-py-7 g-px-0">Ts3</a>
+                                </li>
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl">
                                 <a href="https://wiki.tacticalteam.de" class="nav-link g-py-7 g-px-0">Wiki</a>
                             </li>
 
@@ -276,10 +280,8 @@
                              style="background-image: url({{asset('assets/img/maps/map2.png')}})">
                         <a href="mailto:kontakt@tacticalteam.de" class="">kontakt@tacticalteam.de</a>
                         <br /><a href="http://discord.tacticalteam.de"> Discord </a>
-                        <br /><a href="ts3server://ts3.tacticalteam.de">
-                            TeamSpeak 3</a>
-                        <br /><a href="https://x.com/ttt_arma">
-                            𝕏 (Twitter)</a>
+                        <br /><a href="ts3server://ts3.tacticalteam.de"> ts3.tacticalteam.de</a>
+                        <br /><a href="https://x.com/ttt_arma"> 𝕏 (Twitter)</a>
                         <br />
                     </address>
                 </div>
