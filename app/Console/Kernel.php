@@ -4,6 +4,7 @@ namespace App\Console;
 
 use App\Console\Commands\AddDiscordGuildNick;
 use App\Console\Commands\CreateSquadXml;
+use App\Console\Commands\CreateTvTSquadXml;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -27,6 +28,7 @@ class Kernel extends ConsoleKernel
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($POST));
         $response   = curl_exec($ch);*/
         $schedule->command(CreateSquadXml::class)->everyFifteenMinutes();
+        $schedule->command(CreateTvTSquadXml::class)->everyFifteenMinutes();
         $schedule->command(AddDiscordGuildNick::class)->everyFourHours();
     }
 
