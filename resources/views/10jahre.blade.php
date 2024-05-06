@@ -63,7 +63,7 @@
                   </p>
                 </div>
                 <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
-                  href="https://files.tacticalteam.de/s/r4aAPx5GopxKJrY">Zur Geschichte</a>
+                  href="https://drive.google.com/file/d/1QpkevojoID6-HfPsp5GIW3OUmUjnfOSd/view?usp=drive_link">Zur Geschichte</a>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
                                         März 2014
                                     </h3>
                                     <p class="lead">
-                                        Veröffentlichung des ersten TTT-Newsletters an die Mitglieder <a href="https://files.tacticalteam.de/s/L5ipawgDwRNySXb">(Zum Newsletter)</a>
+                                        Veröffentlichung des ersten TTT-Newsletters an die Mitglieder <a href="https://drive.google.com/file/d/158JcHfivj0Y5XDhAl9qKoXGNSFFNjOcU/view?usp=drive_link">(Zum Newsletter)</a>
                                     </p>
                                 </div>
                                 <div class="d-flex">
@@ -313,7 +313,7 @@
                     Nachteile waren Einzelgänger und Probleme im Feuergefecht. Das System ist nicht mehr aktuell und existiert nicht mehr.</p>
 				<p class="lead"><div><h3><strong>Die Taktik-Fibel des TTT</strong></h3></div></p>
 				<p class="lead">
-					Dieses <a href="https://files.tacticalteam.de/s/5sx3G8iNcPgeD7s">Dokument</a> war eine umfassende Anleitung für die Grundausbildung im Tactical Training Team (TTT), die sowohl Anfängern als auch erfahrenen Spielern geholfen hat, die theoretischen Grundlagen des taktischen Spiels im TTT zu erlernen und zu festigen.
+					Dieses <a href="https://drive.google.com/file/d/1W4oZP_0hhb6ZdOh5cO4RpKE8auSm5Ey7/view?usp=drive_link">Dokument</a> war eine umfassende Anleitung für die Grundausbildung im Tactical Training Team (TTT), die sowohl Anfängern als auch erfahrenen Spielern geholfen hat, die theoretischen Grundlagen des taktischen Spiels im TTT zu erlernen und zu festigen.
 					Es betonte die Bedeutung von aktiver Lektüre, Diskussion, kontinuierlicher Verbesserung und Strategie. Die Maxime lautete: "Train hard, play smart!". Die Fibel wurde durch das Wiki abgelöst.</p>
              </div>
          </div>
