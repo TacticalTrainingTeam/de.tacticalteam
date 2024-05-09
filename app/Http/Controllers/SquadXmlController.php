@@ -94,7 +94,7 @@ class SquadXmlController extends Controller
     {
         $entries = SquadXml::where('user_id', Auth::id())->get();
         if (count($entries) > 1) {
-            return redirect()->route('squadxml.index')->withErrors(['Du versuchst einen Eintrag zu erstellen, aber du hast bereits einen. Also Nein!']);
+            return redirect()->route('squadxml.index')->withErrors(['Du versuchst einen Eintrag zu erstellen, aber du hast bereits die maximale Anzahl erreicht.']);
         }
         $validatedData = $request->validate([
             'steam' => ['digits:17', 'required'],
