@@ -21,7 +21,7 @@ class SquadXmlController extends Controller
         }*/
         $entries = SquadXml::where('user_id', Auth::id())->get();
         $locked = false;
-        if (count($entries) > 0) {
+        if (count($entries) > 1) {
             $locked = true;
         }
 
@@ -93,7 +93,7 @@ class SquadXmlController extends Controller
     public function store(Request $request)
     {
         $entries = SquadXml::where('user_id', Auth::id())->get();
-        if (count($entries) > 0) {
+        if (count($entries) > 1) {
             return redirect()->route('squadxml.index')->withErrors(['Du versuchst einen Eintrag zu erstellen, aber du hast bereits einen. Also Nein!']);
         }
         $validatedData = $request->validate([
