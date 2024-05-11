@@ -37,7 +37,7 @@
                 <h3>Neuen Eintrag erstellen</h3>
                 @if($locked === true)
                     <div class="alert alert-warning" role="alert">
-                        Du hast bereits einen Eintrag erstellt, deswegen kannst du keinen neuen erstellen!
+                        Du hast bereits die maximale Anzahl Einträge erreicht, deswegen kannst du keinen weiteren mehr erstellen!
                     </div>
                 @else
                     <form method="post" action="{{route("squadxml.store")}}">
