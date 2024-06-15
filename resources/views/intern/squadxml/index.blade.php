@@ -21,7 +21,7 @@
             </div>
         @endif
         <p class="lead">
-            Hier kannst du deinen SquadXML-Eintrag erstellen und anzeigen lassen. Wenn du einen Eintrag bearbeiten oder löschen möchtest, wende dich bitte im TTT-Discord an Technik.
+            Hier kannst du deinen SquadXML-Eintrag erstellen und anzeigen lassen. Wenn du einen Eintrag bearbeiten oder löschen möchtest, wende dich bitte im TTT-Discord an Technik. Eine Anleitung findest du im Wiki unter <a href="https://wiki.tacticalteam.de/de/Technik/SquadXML" target="_blank">SquadXML</a>. 
         </p>
         <p class="lead">
             @if(\Illuminate\Support\Facades\Auth::user()->steam_id != null)
