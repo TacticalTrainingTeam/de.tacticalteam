@@ -346,7 +346,7 @@
                         <p class="lead">
                             Du hast bereits Erfahrung im taktischen Spielen von Arma 3 und verstehst den Begriff MilSim.
                             Du beherrschst ACE & ACRE2 und kennst dich mit taktischen Bewegungen und Angriffsmanövern aus?
-                            Dann vereinbare einen Termin für einen Fast-Path mit @Addi#0995 im Discord.
+                            Dann vereinbare einen Termin für einen Fast-Path mit @addi0995 im Discord.
                         </p>
                         <p class="lead">
                             Bevor du dich anmeldest, stelle bitte sicher, dass du unser Mod-Repository heruntergeladen und auf Funktionalität überprüft hast.
