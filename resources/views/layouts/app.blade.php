@@ -162,7 +162,7 @@
 									</li>
 									<li class="dropdown-item">
                                         <a href="{{route('10jahre')}}"
-                                        lass="nav-link">10 Jahre TTT</a>
+                                        class="nav-link">10 Jahre TTT</a>
                                     </li>
 								</ul>
 							</li>
