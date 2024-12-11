@@ -230,7 +230,7 @@
                 </article>
                 <!-- End Article -->
                 <div class="text-center">
-                    <span class="g-color-gray-dark-v4">Interview mit monclefu und SchmidtLR</span>
+                    <span class="g-color-gray-dark-v4">Interview mit dem TTT</span>
                 </div>
             </div>
         </div>
