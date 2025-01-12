@@ -1060,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakyeRU/Larascord.git",
-                "reference": "6621b6595d1f00797bd367d821518a9dc54c3480"
+                "reference": "3990404c7cac124c38247714b5758fe734743c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/6621b6595d1f00797bd367d821518a9dc54c3480",
-                "reference": "6621b6595d1f00797bd367d821518a9dc54c3480",
+                "url": "https://api.github.com/repos/JakyeRU/Larascord/zipball/3990404c7cac124c38247714b5758fe734743c4a",
+                "reference": "3990404c7cac124c38247714b5758fe734743c4a",
                 "shasum": ""
             },
             "require": {
