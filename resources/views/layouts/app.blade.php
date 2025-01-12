@@ -148,10 +148,6 @@
 											target="_blank">Ansprechpartner</a>
 									</li>
 									<li class="dropdown-item">
-                                    	<a href="{{route('twitch.live')}}"
-                                        class="nav-link">Livestreams</a>
-                                    </li>
-									<li class="dropdown-item">
 										<a href="{{route('newsletter')}}"
                                         class="nav-link">Newsletter</a>
 									</li>
