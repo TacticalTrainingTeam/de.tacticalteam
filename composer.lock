@@ -1056,7 +1056,7 @@
         },
         {
             "name": "jakyeru/larascord",
-            "version": "v5.1.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JakyeRU/Larascord.git",
@@ -1103,7 +1103,7 @@
             "description": "Larascord is a package that allows you to authenticate users in your Laravel application using Discord.",
             "support": {
                 "issues": "https://github.com/JakyeRU/Larascord/issues",
-                "source": "https://github.com/JakyeRU/Larascord/tree/v5.1.1"
+                "source": "https://github.com/JakyeRU/Larascord/tree/v6.0.2"
             },
             "time": "2023-09-22T06:33:58+00:00"
         },
