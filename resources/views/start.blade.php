@@ -205,13 +205,10 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Als eine der führenden Gemeinschaften in der deutschsprachigen Arma 3-Szene bieten wir ein umfassendes Erlebnis, das Ausbildung, Training, spannende Events und packende Kampagnen miteinander verbindet.
-                    Unser oberstes Ziel ist es, dass du Spaß hast und dich bei uns wohl fühlst.
+                    Als eine der größeren Arma 3-Gemeinschaften im deutschsprachigen Raum bieten wir dir das volle Paket: Von Ausbildung und Training bis hin zu Events und Kampagnen ist alles dabei. Klingt nach viel Arbeit? Keine Sorge, bei uns steht der Spaß an erster Stelle. Wir wollen einfach, dass du dich bei uns wohlfühlst und eine gute Zeit hast.
                 </p>
                 <p class="lead">
-                    Wir vermitteln dir alles, was du für eine erfolgreiche Teilnahme an unseren Aktivitäten benötigst - vom Umgang mit Waffen und Kommunikation, bis hin zu taktischen Vorgehensweisen und dem Bau von unterhaltsamen Missionen.
-                    Unser einzigartiges Trainingskonzept führt dich von den Grundlagen militärischen Handelns in der vielfältigen Sandbox-Umgebung von Arma 3 an, sodass du dich als Anfänger sicher und gut vorbereitet fühlst.
-                    Selbst als Fortgeschrittener findest du bei uns immer neue Herausforderungen und Möglichkeiten zur Weiterentwicklung.
+                    Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma 3-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
                 </p>
             </div>
 
@@ -275,7 +272,7 @@
                 <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                 <p class="lead mb-0">
                     Als eine der führenden Communities in der deutschsprachigen Arma 3 MilSim-Szene legen wir großen Wert auf Ausbildung,
-                    Training, spannende Events und realitätsnahe Kampagnen, bei denen der Spaß jedoch niemals zu kurz kommt.
+                    Training, schöne Events und realitätsnahe Kampagnen.
                 </p>
             </div>
         </div>
