@@ -15,11 +15,7 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Als Teilnehmer unserer Arma 3 MilSim Community kannst du an regelmäßigen Events teilnehmen,
-                    bei denen du dich auf unterschiedliche Herausforderungen im militärischen Stil einstellen kannst.
-                    Ob es um das Training deiner Fähigkeiten geht, um packende Missionen oder um spannende taktische Gefechte - bei uns bist du genau richtig.
-                    Die Events finden in der Regel an Dienstagen und Freitagen zwischen 19:30 Uhr und 23:30 Uhr statt und sind für alle ab dem Rang Rekrut oder Gast zugänglich.
-                    Komm' doch einfach vorbei und tauche ein in die vielfältigen Möglichkeiten von Arma 3!
+                    Bei uns gibt’s regelmäßig Events im Militär-Stil. Du kannst deine Skills trainieren, spannende Missionen erleben oder dich in taktischen Gefechten beweisen. Unsere Treffen sind dienstags und freitags von 19:30 bis 23:30 Uhr. Mitmachen kann jeder - egal ob Rekrut oder Gast. Neugierig? Schau einfach mal rein und entdecke, was Arma 3 zu bieten hat!
                 </p>
             </div>
             <div class="col-md-5 g-mb-30">
@@ -346,7 +342,7 @@
                         <p class="lead">
                             Du hast bereits Erfahrung im taktischen Spielen von Arma 3 und verstehst den Begriff MilSim.
                             Du beherrschst ACE & ACRE2 und kennst dich mit taktischen Bewegungen und Angriffsmanövern aus?
-                            Dann vereinbare einen Termin für einen Fast-Path mit @cellenserifloli im Discord.
+                            Dann vereinbare einen Termin für einen Fast-Path mit unserer Personal-Abteilung (@Personal) im Discord.
                         </p>
                         <p class="lead">
                             Bevor du dich anmeldest, stelle bitte sicher, dass du unser Mod-Repository heruntergeladen und auf Funktionalität überprüft hast.
