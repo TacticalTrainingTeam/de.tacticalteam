@@ -213,7 +213,7 @@
             </div>
 
             <div class="col-md-5 g-mb-30">
-                <!-- Article -->
+                <!-- Video -->
                 <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
                     <img class="img-fluid w-100" src="{{asset('assets/img/arma3/500x320_interview.JPG')}}" alt="Image Description" />
                     <div class="g-absolute-centered g-px-50 g-py-200">
@@ -225,10 +225,17 @@
                         </a>
                     </div>
                 </article>
-                <!-- End Article -->
                 <div class="text-center">
                     <span class="g-color-gray-dark-v4">Interview mit dem TTT</span>
                 </div>
+                <!-- End Video -->
+                <!-- Start Discord -->
+                <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
+                    <div class="g-absolute-centered g-px-50 g-py-200">
+                        <iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                </article>
+                <!-- End Discord -->
             </div>
         </div>
     </section>
