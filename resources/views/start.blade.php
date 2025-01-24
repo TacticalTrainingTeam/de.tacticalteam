@@ -211,7 +211,11 @@
                     Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma 3-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
                 </p>
             </div>
-
+            <!-- Start Discord -->
+             <div class="col-md-7 g-mb-30">
+                   <iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
+             </div>
+            <!-- End Discord -->
             <div class="col-md-5 g-mb-30">
                 <!-- Video -->
                 <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
@@ -229,13 +233,6 @@
                     <span class="g-color-gray-dark-v4">Interview mit dem TTT</span>
                 </div>
                 <!-- End Video -->
-                <!-- Start Discord -->
-                <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
-                    <div class="g-absolute-centered g-px-50 g-py-200">
-                        <iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                    </div>
-                </article>
-                <!-- End Discord -->
             </div>
         </div>
     </section>
