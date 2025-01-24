@@ -14,7 +14,7 @@ updates:
       - dependency-type: "all"
     versioning-strategy: "auto"
     open-pull-requests-limit: 10
-    target-branch: "main"
+    target-branch: "master"
     labels:
       - "dependencies"
       - "composer"
