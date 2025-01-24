@@ -19,21 +19,22 @@
                 </p>
             </div>
             <div class="col-md-5 g-mb-30">
-                <!-- Article -->
+                <!-- Video -->
                 <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
-                    <img class="img-fluid w-100" src="assets/img/arma3/mitmachen-videobild.jpg" alt="Image Description" />
+                    <img class="img-fluid w-100" src="{{asset('assets/img/arma3/500x320_interview.JPG')}}" alt="Image Description" />
                     <div class="g-absolute-centered g-px-50 g-py-200">
-                        <a class="js-fancybox d-inline-block" href="javascript:;" data-src="//https://youtu.be/U2lg_a5mHXY?autoplay=1" data-speed="350" data-caption="Arma Reforger Trailer">
+                        <a class="js-fancybox d-inline-block" href="javascript:;"
+                           data-src="//https://youtu.be/UfT42Ogmae8?autoplay=1" data-speed="350" data-caption="Single Image">
                 <span class="u-icon-v3 g-bg-primary g-color-white g-bg-black--hover g-rounded-50x g-cursor-pointer">
                   <i class="g-font-size-17 g-pos-rel g-left-2 fa fa-play"></i>
                 </span>
                         </a>
                     </div>
                 </article>
-                <!-- End Article -->
                 <div class="text-center">
-                    <span class="g-color-gray-dark-v4">TTT - Offizieller Teaser von 2015</span>
+                    <span class="g-color-gray-dark-v4">Interview mit dem TTT</span>
                 </div>
+                <!-- End Video -->
             </div>
         </div>
     </section>
