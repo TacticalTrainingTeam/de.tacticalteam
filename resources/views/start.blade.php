@@ -211,29 +211,13 @@
                     Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma 3-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
                 </p>
             </div>
-            <!-- Start Discord -->
-             <div class="col-md-7 g-mb-30">
-                   <iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
-             </div>
-            <!-- End Discord -->
+            <!-- Discord -->
             <div class="col-md-5 g-mb-30">
-                <!-- Video -->
-                <article class="u-shadow-v21 u-shadow-v21--hover g-pos-rel bg-black g-transition-0_3 g-pa-10 rounded">
-                    <img class="img-fluid w-100" src="{{asset('assets/img/arma3/500x320_interview.JPG')}}" alt="Image Description" />
-                    <div class="g-absolute-centered g-px-50 g-py-200">
-                        <a class="js-fancybox d-inline-block" href="javascript:;"
-                           data-src="//https://youtu.be/UfT42Ogmae8?autoplay=1" data-speed="350" data-caption="Single Image">
-                <span class="u-icon-v3 g-bg-primary g-color-white g-bg-black--hover g-rounded-50x g-cursor-pointer">
-                  <i class="g-font-size-17 g-pos-rel g-left-2 fa fa-play"></i>
-                </span>
-                        </a>
-                    </div>
-                </article>
                 <div class="text-center">
-                    <span class="g-color-gray-dark-v4">Interview mit dem TTT</span>
+					<iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
                 </div>
-                <!-- End Video -->
             </div>
+			<!-- End Discord -->
         </div>
     </section>
     <!-- End About -->
