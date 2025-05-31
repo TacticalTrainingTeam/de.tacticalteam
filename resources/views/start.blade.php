@@ -214,7 +214,7 @@
             <!-- Discord -->
             <div class="col-md-5 g-mb-30">
                 <div class="text-center">
-					<iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
+					<iframe src="https://discord.com/widget?id=121399943393968128&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
 			<!-- End Discord -->
@@ -740,21 +740,22 @@
                     <!-- Figure -->
                     <figure class="u-block-hover">
                         <!-- Figure Image -->
-                        <a href="https://www.esportsmasters.org" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_esm.webp')}}" alt="Image Description" /></a>
+                        <a href="https://prae-garde.de/" target="_blank"><img class="w-100" src="{{asset('assets/img/arma3/400x450/partner_prae.webp')}}" alt="Image Description" /></a>
                         <!-- End Figure Image-->
                     </figure>
 
                     <!-- Figure Info -->
                     <div class="g-bg-gray-dark-v2 g-pt-25" style="padding: 10px">
                         <div class="g-mb-15">
-                            <h2 class="h5 g-color-white g-font-weight-600">Electronic Sports Masters™</h2>
+                            <h2 class="h5 g-color-white g-font-weight-600">Praetorianische Garde™</h2>
                             <em
-                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Partnerschaft seit 2019</em>
+                                class="d-block u-info-v6-1__item g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Partnerschaft seit 2025</em>
                         </div>
 
                         <p style="padding: 10px">
-                            Kurz die "ESM" ist die weltweit größte Platform speziell für Arma und kommende Spiele von Bohemia Interactive a.s., wenn es um die Themen PvP, TvT, Liga und diverse Wettbewerbe geht.
-                            Hier werden internationale Veranstaltungen seit Januar 2015 geplant und professionell ausgerichtet. Die ESM ist der erste internationale Partner des Tactical Training Teams.
+                            Die Praetorianische Garde zählt etwa 50 aktive Mitglieder und zeichnet sich durch einen taktisch geprägten Spielstil aus.
+                            Der Fokus liegt auf Teamgeist, Spielfreude, Disziplin und einer möglichst realitätsnahen Darstellung militärischer Abläufe – alles eingebettet in eine respektvolle und offene Community.
+                            Der Clan heißt sowohl Einsteiger als auch erfahrene Spieler willkommen.
                         </p>
                     </div>
                     <!-- End Figure Info-->
