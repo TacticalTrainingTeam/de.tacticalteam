@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.2",
         "guzzlehttp/guzzle": "^7.8.1",
-        "jakyeru/larascord": "v6.0.2",
+        "jakyeru/larascord": "v5.1.1",
         "laravel/framework": "^10.48.10",
         "laravel/sanctum": "^3.3.3",
         "laravel/tinker": "^2.9.0"
