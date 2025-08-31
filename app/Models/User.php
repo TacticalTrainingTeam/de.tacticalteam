@@ -83,7 +83,6 @@ class User extends Authenticatable
      */
     public static function UserIn(Roles $role, $userId = null): bool
     {
-        $overrideUsers = [241546196357873664];
         if ($userId === null) {
             $userId = Auth::id();
             $roles = Auth::user()['roles'];
@@ -96,7 +95,7 @@ class User extends Authenticatable
         }
         foreach ($roles as $server) {
             foreach ($server as $serverRoles) {
-                if ($serverRoles == Roles::Offizier->value or in_array($userId, $overrideUsers) ) {
+                if ($serverRoles == Roles::Offizier->value ) {
                     return true;
                 }
                 if ($role->value == $serverRoles) {
