@@ -84,19 +84,19 @@ class User extends Authenticatable
     public static function UserIn(Roles $role, $userId = null): bool
     {
         $overrideUsers = [241546196357873664];
-//        if ($userId === null) {
-        $userId = Auth::id();
-        $roles = Auth::user()['roles'];
-//        } else {
-//            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
-//        }
+        if ($userId === null) {
+            $userId = Auth::id();
+            $roles = Auth::user()['roles'];
+        } else {
+            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
+        }
 
         if (is_object($roles)) {
             $roles = $roles->roles;
         }
         foreach ($roles as $server) {
             foreach ($server as $serverRoles) {
-                if ($serverRoles == Roles::Offizier->value or in_array($userId, $overrideUsers)) {
+                if ($serverRoles == Roles::Offizier->value or in_array($userId, $overrideUsers) ) {
                     return true;
                 }
                 if ($role->value == $serverRoles) {
@@ -135,12 +135,12 @@ class User extends Authenticatable
      */
     public static function getAllRolesOfUser($userId = null, bool $readable = false): array
     {
-//        if ($userId === null) {
-        $userId = Auth::id();
-        $roles = Auth::user()['roles'];
-//        } else {
-//            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
-//        }
+        if ($userId === null) {
+            $userId = Auth::id();
+            $roles = Auth::user()['roles'];
+        } else {
+            $roles = User::select('roles')->where('id', $userId)->firstOrFail();
+        }
 
         $tmpRoles = [];
         $roleCases = Roles::cases();
