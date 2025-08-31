@@ -12,6 +12,13 @@ class Authenticate extends Middleware
      */
     protected function redirectTo(Request $request): ?string
     {
-        return $request->expectsJson() ? null : route('login');
+        if (!$request->expectsJson()) {
+            // Save where the user wanted to go
+            session()->put('url.intended', $request->fullUrl());
+
+            // Redirect to Larascord’s login route
+            return route('login');
+        }
+        return null;
     }
 }

@@ -34,12 +34,7 @@ Route::get('/10jahre', function () {
 })->name('10jahre');
 Route::get('/twitch', [\App\Http\Controllers\TwitchController::class, 'index'])->name('twitch.live');
 
-// Dieser Redirct muss sein, da der login automatisch nach home geht
-Route::get('/home', function () {
-    return redirect('/intern/start');
-});
-
-Route::post('/logout', [\App\Http\Controllers\Controller::class, 'destory'])->name('logout')->middleware(['auth']);
+Route::post('/logout', [\App\Http\Controllers\Controller::class, 'destroy'])->name('logout')->middleware(['auth']);
 
 require_once 'auth.php';
 require_once 'campaigns.php';

@@ -14,7 +14,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function destory(Request $request)
+    public function destroy(Request $request)
     {
         Auth::guard('web')->logout();
 
