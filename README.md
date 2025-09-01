@@ -1,5 +1,7 @@
 # Installationshilfe
+
 Mittels `cd` in das Stammverzeichniss wechseln:
+
 ### Nur beim erstmaligen Installieren:
 
 * `cp .env.example .env`
