@@ -9,7 +9,7 @@
             <div>
                 <h1><strong>Datenschutzerklärung</strong></h1>
                 <hr>
-                 <p class="lead">Diese Erklärung gilt für alle Subdomains von *.tacticalteam.de, ausgenommen events.tacticalteam.de. Für events.tacticalteam.de gilt folgende Datenschutzerklärung: https://docs.slotbot.de/policies/datenschutzerkl%C3%A4rung </p>
+                 <p class="lead">Diese Erklärung gilt für alle Subdomains von *.tacticalteam.de, ausgenommen events.tacticalteam.de. Für events.tacticalteam.de gilt die Datenschutzerklärung von <a href="https://docs.slotbot.de/policies/datenschutzerkl%C3%A4rung">slotbot.de</a> </p>
                 <p class="lead"><span style="font-size:16px;"><h4><strong>Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO</strong></h4></span></p>
                 <p class="lead">Online-Gaming-Community: Tactical Training Team (TTT)<br>
                     E-Mail: kontakt {at} tacticalteam . de</p>
