@@ -272,6 +272,7 @@
                         <br/><a href="http://discord.tacticalteam.de"> Discord </a>
                         <br/><a href="ts3server://ts3.tacticalteam.de"> ts3.tacticalteam.de</a>
                         <br/><a href="https://x.com/ttt_arma"> 𝕏 (Twitter)</a>
+                        <br/><a href="https://mastodon.social/@tacticaltrainingteam" rel="me">Mastodon</a>
                         <br/>
                     </address>
                 </div>
