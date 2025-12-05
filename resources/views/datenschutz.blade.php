@@ -3,346 +3,243 @@
         Datenschutzerklärung
     </x-slot>
 
-    <!-- About -->
+    <!-- Datenschutz -->
     <section class="container g-pt-100 g-pb-70">
-        <div class="row align-items-center">
-            <div>
-                <h1><strong>Datenschutzerklärung</strong></h1>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mb-4"><strong>Datenschutzerklärung</strong></h1>
+                
+                <div class="alert alert-info g-mb-30" role="alert">
+                    <strong>Hinweis:</strong> Informationen zur Datenverarbeitung auf unseren Social-Media-Kanälen finden Sie in unserer separaten 
+                    <a href="{{ route('datenschutz.social-media') }}" class="alert-link"><strong>Datenschutzerklärung für Social Media</strong></a>.
+                </div>
+                
                 <hr>
-                 <p class="lead">Diese Erklärung gilt für alle Subdomains von *.tacticalteam.de, ausgenommen events.tacticalteam.de. Für events.tacticalteam.de gilt die Datenschutzerklärung von <a href="https://docs.slotbot.de/policies/datenschutzerkl%C3%A4rung">slotbot.de</a> </p>
-                <p class="lead"><span style="font-size:16px;"><h4><strong>Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO</strong></h4></span></p>
-                <p class="lead">Online-Gaming-Community: Tactical Training Team (TTT)<br>
-                    E-Mail: kontakt {at} tacticalteam . de</p>
-                <p class="lead">
-                    <span style="font-size:16px;"><h4><strong>Sicherheit und Schutz Ihrer personenbezogenen Daten</strong></h4></span><br>
-                <p class="lead">Wir betrachten es als unsere vorrangige Aufgabe, die Vertraulichkeit der von Ihnen bereitgestellten personenbezogenen Daten zu wahren und diese vor unbefugten Zugriffen zu schützen. Deshalb wenden wir äußerste Sorgfalt und modernste Sicherheitsstandards an, um einen maximalen Schutz Ihrer personenbezogenen Daten zu gewährleisten.</p>
-                <p class="lead">Als Online-Gaming-Community unterliegen wir zwar nicht den Bestimmungen der europäischen Datenschutzgrundverordnung (DSGVO) und den Regelungen des Bundesdatenschutzgesetzes (BDSG). Jedoch haben wir technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns, als auch von unseren externen Dienstleistern beachtet werden.</p>
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><h4><strong>Begriffsbestimmungen</strong></h4></span>
-                <p class="lead">Der Gesetzgeber fordert, dass personenbezogene Daten auf rechtmäßige Weise, nach Treu und Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden („Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz“). Um dies zu gewährleisten, informieren wir Sie über die einzelnen gesetzlichen Begriffsbestimmungen, die auch in dieser Datenschutzerklärung verwendet werden:</p>
-                <ol><li>
-                        <p class="lead"><strong>Personenbezogene Daten</strong></p>
-                    </li>
-                </ol>
 
-                <p class="lead">„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.</p>
-                <ol start="2"><li>
-                        <p class="lead"><strong>Verarbeitung</strong></p>
-                    </li>
-                </ol>
+                <h2 class="mt-5 mb-4">1. Datenschutz auf einen Blick</h2>
 
-                <p class="lead">„Verarbeitung“ ist jeder, mit oder ohne Hilfe automatisierter Verfahren, ausgeführter Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.</p>
-                <ol start="3"><li>
-                        <p class="lead"><strong>Einschränkung der Verarbeitung</strong></p>
-                    </li>
-                </ol>
+                <h4 class="mt-4 mb-3">Allgemeine Hinweise</h4>
+                <p class="lead">Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
 
-                <p class="lead">„Einschränkung der Verarbeitung“ ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung einzuschränken.</p>
-                <ol start="4"><li>
-                        <p class="lead"><strong>Profiling</strong></p>
-                    </li>
-                </ol>
+                <h4 class="mt-4 mb-3">Datenerfassung auf dieser Website</h4>
 
-                <p class="lead">„Profiling“ ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.</p>
-                <ol start="5"><li>
-                        <p class="lead"><strong>Pseudonymisierung</strong></p>
-                    </li>
-                </ol>
+                <h5 class="mt-3 mb-2">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h5>
+                <p class="lead">Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur verantwortlichen Stelle" in dieser Datenschutzerklärung entnehmen.</p>
 
-                <p class="lead">„Pseudonymisierung“ ist die Verarbeitung personenbezogener Daten in einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden können.</p>
-                <ol start="6"><li>
-                        <p class="lead"><strong>Dateisystem</strong></p>
-                    </li>
-                </ol>
+                <h5 class="mt-3 mb-2">Wie erfassen wir Ihre Daten?</h5>
+                <p class="lead">Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder wenn Sie sich über den Discord Login für den Mitgliederbereich anmelden. Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.</p>
 
-                <p class="lead">„Dateisystem“ ist jede strukturierte Sammlung personenbezogener Daten, die nach bestimmten Kriterien zugänglich sind, unabhängig davon, ob diese Sammlung zentral, dezentral oder nach funktionalen oder geografischen Gesichtspunkten geordnet geführt wird.</p>
-                <ol start="7"><li>
-                        <p class="lead"><strong>Verantwortlicher</strong></p>
-                    </li>
-                </ol>
+                <h5 class="mt-3 mb-2">Wofür nutzen wir Ihre Daten?</h5>
+                <p class="lead">Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten (z. B. Hosting, technische Cookies, Darstellung von Schriftarten, Einbindung des Discord Widgets, Anzeige von Twitch Livestreams). Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden (z. B. durch Matomo Analytics). Sofern über die Website Verträge geschlossen oder angebahnt werden können oder ein Mitgliederbereich betrieben wird, werden die übermittelten Daten auch für Vertragsangebote, Bestellungen, die Verwaltung Ihres Zugangs oder sonstige Auftragsanfragen verarbeitet. Für den Versand unseres Newsletters nutzen wir einen externen Dienstleister (Mailchimp).</p>
 
-                <p class="lead">„Verantwortlicher“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet; sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so können der Verantwortliche beziehungsweise die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.</p>
-                <ol start="8"><li>
-                        <p class="lead"><strong>Auftragsverarbeiter</strong></p>
-                    </li>
-                </ol>
+                <h5 class="mt-3 mb-2">Welche Rechte haben Sie bezüglich Ihrer Daten?</h5>
+                <p class="lead">Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.</p>
 
-                <p class="lead">„Auftragsverarbeiter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.</p>
-                <ol start="9"><li>
-                        <p class="lead"><strong>Empfänger</strong></p>
-                    </li>
-                </ol>
+                <h4 class="mt-4 mb-3">Analyse Tools und Tools von Drittanbietern</h4>
+                <p class="lead">Beim Besuch dieser Website kann Ihr Surf Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen (z. B. Matomo Analytics) sowie durch eingebundene Drittinhalte (z. B. Discord Widget, Twitch Inhalte, Newsletter Dienst Mailchimp). Detaillierte Informationen zu diesen Analyseprogrammen und eingebundenen Drittanbietern finden Sie in der folgenden Datenschutzerklärung.</p>
 
-                <p class="lead">„Empfänger“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, denen personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger; die Verarbeitung dieser Daten durch die genannten Behörden erfolgt im Einklang mit den geltenden Datenschutzvorschriften gemäß den Zwecken der Verarbeitung.</p>
-                <ol start="10"><li>
-                        <p class="lead"><strong>Dritter</strong></p>
-                    </li>
-                </ol>
+                <h4 class="mt-4 mb-3">Hinweis zur Alterszielgruppe (Ü16)</h4>
+                <p class="lead">Unsere Website richtet sich inhaltlich vorwiegend an Nutzerinnen und Nutzer ab 16 Jahren, da sie sich mit einem taktischen Militär Simulationsspiel (Arma) und entsprechenden Inhalten befasst. Eine besondere Altersverifikation findet auf der Website derzeit nicht statt. Personen unter 16 Jahren sollten ohne Zustimmung ihrer Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln.</p>
 
-                <p class="lead">„Dritter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, außer der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.</p>
-                <ol start="11"><li>
-                        <p class="lead"><strong>Einwilligung</strong></p>
-                    </li>
-                </ol>
+                <h2 class="mt-5 mb-4">2. Hosting</h2>
 
-                <p class="lead">Eine „Einwilligung“ der betroffenen Person ist jede freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.<br>
-                    &nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><h4><strong>Rechtmäßigkeit der Verarbeitung</strong></h4></span>
-                <p class="lead">Die Verarbeitung personenbezogener Daten ist nur rechtmäßig, wenn für die Verarbeitung eine Rechtsgrundlage besteht. Rechtsgrundlage für die Verarbeitung können gemäß Artikel 6 Abs. 1<br>
-                    lit. a – f DSGVO insbesondere sein:</p>
-                <ol><li>
-                        <p class="lead">Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der Verantwortliche unterliegt;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.</p>
-                    </li>
-                </ol>
+                <p class="lead">Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
 
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><strong>Information über die Erhebung personenbezogener Daten</strong></span><br>
-                    (1) Im Folgenden informieren wir über die Erhebung personenbezogener Daten bei Nutzung unserer Website. Personenbezogene Daten sind z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.</p>
-                <p class="lead">(2) Bei einer Kontaktaufnahme mit uns per E-Mail werden die von Ihnen mitgeteilten Daten (Ihre E-Mail-Adresse, ggf. Ihr Name) von uns gespeichert, um Ihre Fragen zu beantworten. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder die Verarbeitung wird eingeschränkt, falls gesetzliche Aufbewahrungspflichten bestehen.</p>
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><strong>Erhebung personenbezogener Daten bei Besuch unserer Website</strong></span><br>
-                    Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns anderweitig Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):</p>
-                <ul><li>
-                        <p class="lead">IP-Adresse</p>
-                    </li>
-                    <li>
-                        <p class="lead">Datum und Uhrzeit der Anfrage</p>
-                    </li>
-                    <li>
-                        <p class="lead">Zeitzonendifferenz zur Greenwich Mean Time (GMT)</p>
-                    </li>
-                    <li>
-                        <p class="lead">Inhalt der Anforderung (konkrete Seite)</p>
-                    </li>
-                    <li>
-                        <p class="lead">Zugriffsstatus/HTTP-Statuscode</p>
-                    </li>
-                    <li>
-                        <p class="lead">jeweils übertragene Datenmenge</p>
-                    </li>
-                    <li>
-                        <p class="lead">Website, von der die Anforderung kommt</p>
-                    </li>
-                    <li>
-                        <p class="lead">Browser</p>
-                    </li>
-                    <li>
-                        <p class="lead">Betriebssystem und dessen Oberfläche</p>
-                    </li>
-                    <li>
-                        <p class="lead">Sprache und Version der Browsersoftware.</p>
-                    </li>
+                <h4 class="mt-4 mb-3">Hetzner</h4>
+                <p class="lead">Anbieter ist die Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen (nachfolgend „Hetzner"). Details entnehmen Sie der Datenschutzerklärung von Hetzner:<br>
+                <a href="https://www.hetzner.com/de/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">https://www.hetzner.com/de/legal/privacy-policy/</a>.</p>
+
+                <p class="lead">Die Verwendung von Hetzner erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.</p>
+
+                <h4 class="mt-4 mb-3">Einsatz von Cloudflare</h4>
+                <p class="lead">Zur Absicherung und Optimierung der Bereitstellung unseres Onlineangebotes nutzen wir den Dienst „Cloudflare" des Anbieters Cloudflare, Inc. Cloudflare fungiert als Content Delivery Network und Sicherheitsdienst und verarbeitet dabei insbesondere die IP-Adresse, technische Verbindungsdaten sowie weitere Protokolldaten, um Angriffe abzuwehren und die Auslieferung der Website zu beschleunigen.</p>
+
+                <p class="lead">Die Nutzung von Cloudflare erfolgt auf Grundlage unseres berechtigten Interesses an einer möglichst sicheren und effizienten Bereitstellung unseres Webangebotes (Art. 6 Abs. 1 lit. f DSGVO). Soweit hierbei eine Übermittlung personenbezogener Daten in Drittländer (insbesondere die USA) erfolgt, geschieht dies auf Basis geeigneter Garantien im Sinne der Art. 44 ff. DSGVO (z.B. Angemessenheitsbeschluss oder Standardvertragsklauseln).</p>
+
+                <p class="lead">Weitere Informationen zur Datenverarbeitung durch Cloudflare finden Sie in den Datenschutzhinweisen von Cloudflare.</p>
+
+                <h2 class="mt-5 mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
+
+                <h4 class="mt-4 mb-3">Datenschutz</h4>
+                <p class="lead">Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
+
+                <p class="lead">Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.</p>
+
+                <p class="lead">Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+
+                <h4 class="mt-4 mb-3">Hinweis zur verantwortlichen Stelle</h4>
+                <p class="lead">Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+
+                <div class="my-4">
+                    <img src="{{ asset('assets/img/anschrift-kontakt.webp') }}" alt="Kontaktdaten" class="img-fluid" style="max-width: 250px;">
+                </div>
+
+                <p class="lead">Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E Mail Adressen o. Ä.) entscheidet.</p>
+
+                <h4 class="mt-4 mb-3">Speicherdauer</h4>
+                <p class="lead">Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer  oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.</p>
+
+                <h4 class="mt-4 mb-3">Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</h4>
+                <p class="lead">Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Dies gilt insbesondere für Daten, die Sie bei der Nutzung eines Mitgliederbereichs (z. B. Login über Discord) angeben. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind, auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.</p>
+
+                <h4 class="mt-4 mb-3">Empfänger von personenbezogenen Daten</h4>
+                <p class="lead">Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von personenbezogenen Daten an diese externen Stellen erforderlich. Dazu zählen insbesondere technische Dienstleister (z. B. Hosting Provider), Analyse Dienstleister (Matomo, soweit notwendig), Kommunikations  und Newsletter Dienstleister (Mailchimp) sowie Plattformanbieter (z. B. Discord, Twitch). Wir geben personenbezogene Daten nur dann an externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer Nutzer nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen.</p>
+
+                <h4 class="mt-4 mb-3">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
+                <p class="lead">Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
+
+                <h4 class="mt-4 mb-3">Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h4>
+                <p class="lead"><strong>WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</strong></p>
+
+                <p class="lead"><strong>WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</strong></p>
+
+                <h4 class="mt-4 mb-3">Beschwerderecht bei der zuständigen Aufsichtsbehörde</h4>
+                <p class="lead">Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</p>
+
+                <h4 class="mt-4 mb-3">Recht auf Datenübertragbarkeit</h4>
+                <p class="lead">Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
+
+                <h4 class="mt-4 mb-3">Auskunft, Berichtigung und Löschung</h4>
+                <p class="lead">Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.</p>
+
+                <h4 class="mt-4 mb-3">Recht auf Einschränkung der Verarbeitung</h4>
+                <p class="lead">Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:</p>
+
+                <ul class="lead">
+                    <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+                    <li>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.</li>
+                    <li>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+                    <li>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
                 </ul>
 
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><h4><strong>Einsatz von Cookies</strong></h4></span>
-                <p class="lead">(1) Zusätzlich zu den zuvor genannten Daten werden bei der Nutzung unserer Website Cookies auf Ihrem Rechner gespeichert. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrer Festplatte dem von Ihnen verwendeten Browser zugeordnet gespeichert werden und durch welche der Stelle, die den Cookie setzt, bestimmte Informationen zufließen. Cookies können keine Programme ausführen oder Viren auf Ihren Computer übertragen. Sie dienen dazu, das Internetangebot insgesamt nutzerfreundlicher und effektiver zu machen.</p>
-                <p class="lead">(2) Diese Website nutzt folgende Arten von Cookies, deren Umfang und Funktionsweise im Folgenden erläutert werden:</p>
-                <ul><li>
-                        <p class="lead">Transiente Cookies (dazu a.)</p>
-                    </li>
-                    <li>
-                        <p class="lead">Persistente Cookies (dazu b.).</p>
-                    </li>
+                <p class="lead">Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.</p>
+
+                <h4 class="mt-4 mb-3">SSL  bzw. TLS Verschlüsselung</h4>
+                <p class="lead">Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL  bzw. TLS Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://" auf „https://" wechselt und an dem Schloss Symbol in Ihrer Browserzeile. Wenn die SSL  bzw. TLS Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</p>
+
+                <h4 class="mt-4 mb-3">Widerspruch gegen Werbe E Mails</h4>
+                <p class="lead">Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam E Mails, vor.</p>
+
+                <h2 class="mt-5 mb-4">4. Datenerfassung auf dieser Website</h2>
+
+                <h4 class="mt-4 mb-3">Cookies</h4>
+                <p class="lead">Unsere Internetseiten verwenden so genannte „Cookies". Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.</p>
+
+                <p class="lead">Cookies können von uns (First Party Cookies) oder von Drittunternehmen stammen (sog. Third Party Cookies). Third Party Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Dienste von Discord, Mailchimp oder eingebundene Inhalte von Twitch).</p>
+
+                <p class="lead">Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. der Login in den Mitgliederbereich über Discord SSO, die Anzeige eingebundener Inhalte oder die Speicherung Ihrer Cookie Einwilligung). Andere Cookies können zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden.</p>
+
+                <p class="lead">Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums mittels Matomo, soweit erforderlich) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG); die Einwilligung ist jederzeit widerrufbar.</p>
+
+                <p class="lead">Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.</p>
+
+                <p class="lead">Welche Cookies und Dienste auf dieser Website konkret eingesetzt werden, können Sie dieser Datenschutzerklärung sowie ggf. unserem Cookie Banner entnehmen.</p>
+
+                <h4 class="mt-4 mb-3">Anfrage per E Mail</h4>
+                <p class="lead">Wenn Sie uns per E Mail kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage, Kontaktdaten) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Hierbei nutzen wir den E Mail Dienst des Hosting Anbieters Lima City.de als technischen Dienstleister. Mit diesem Dienstleister wurde ein Vertrag zur Auftragsverarbeitung gemäß Art. 28 DSGVO geschlossen. Eine Weitergabe Ihrer Daten an sonstige Dritte erfolgt nicht ohne Ihre ausdrückliche Einwilligung.</p>
+
+                <p class="lead">Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), sofern diese abgefragt wurde; die Einwilligung ist jederzeit mit Wirkung für die Zukunft widerrufbar.</p>
+
+                <p class="lead">Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.</p>
+
+                <h4 class="mt-4 mb-3">Mitgliederbereich / Login über Discord (SSO)</h4>
+                <p class="lead">Für den Zugang zu unserem Mitgliederbereich bieten wir Ihnen die Möglichkeit, sich über den Dienst „Discord" mittels Single Sign On (SSO) anzumelden. Anbieter ist die Discord Inc., 444 De Haro Street, Suite 200, San Francisco, CA 94107, USA bzw. die jeweils zuständige europäische Niederlassung.</p>
+
+                <p class="lead">Wenn Sie sich über Discord auf unserer Website anmelden, werden Sie zu Discord weitergeleitet. Dort können Sie sich mit Ihren Zugangsdaten anmelden und uns die Berechtigung erteilen, bestimmte Informationen aus Ihrem Discord Profil auszulesen (z. B. Benutzername, Discord ID, Avatar, ggf. E Mail Adresse, Serverzugehörigkeiten, Rollen). Wir verwenden diese Daten, um Ihnen den Login zu ermöglichen, Ihren Account zuzuordnen und Ihnen Berechtigungen im Mitgliederbereich zuzuweisen.</p>
+
+                <p class="lead">Rechtsgrundlage für die Nutzung von Discord SSO ist in der Regel Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen und Vertragserfüllung im Rahmen der Nutzung des Mitgliederbereichs) sowie unser berechtigtes Interesse an einer einfachen und sicheren Anmeldung (Art. 6 Abs. 1 lit. f DSGVO). Soweit hierfür Ihre Einwilligung erforderlich sein sollte, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die Einwilligung ist jederzeit mit Wirkung für die Zukunft widerrufbar.</p>
+
+                <p class="lead">Discord kann bei Nutzung des Logins Daten auch in den USA verarbeiten. Nähere Informationen zur Datenverarbeitung durch Discord finden Sie in der Datenschutzerklärung von Discord:<br>
+                <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">https://discord.com/privacy</a>.</p>
+
+                <h2 class="mt-5 mb-4">5. Newsletter</h2>
+
+                <h4 class="mt-4 mb-3">Newsletterdaten / Einsatz von Mailchimp</h4>
+                <p class="lead">Wenn Sie den auf der Website angebotenen Newsletter beziehen möchten, benötigen wir von Ihnen eine E Mail Adresse sowie Informationen, welche uns die Überprüfung gestatten, dass Sie der Inhaber der angegebenen E Mail Adresse sind und mit dem Empfang des Newsletters einverstanden sind (Double Opt In Verfahren). Weitere Daten werden nicht bzw. nur auf freiwilliger Basis erhoben. Diese Daten verwenden wir ausschließlich für den Versand der angeforderten Informationen.</p>
+
+                <p class="lead">Für den Versand des Newsletters nutzen wir den Dienst „Mailchimp". Anbieter ist die Intuit Inc. (vormals The Rocket Science Group LLC), 2700 Coast Avenue, Mountain View, CA 94043, USA, bzw. deren zuständige europäische Gesellschaft. Mailchimp verarbeitet Ihre Daten in unserem Auftrag und speichert diese in der Regel auch auf Servern in den USA.</p>
+
+                <p class="lead">Mit Mailchimp haben wir einen Vertrag über Auftragsverarbeitung geschlossen. Zudem stützt sich die Übermittlung Ihrer Daten in die USA auf die Regelungen der DSGVO (insbesondere Art. 46 DSGVO, geeignete Garantien, z. B. Standardvertragsklauseln). Soweit auf Mailchimp das EU US Data Privacy Framework Anwendung findet und eine entsprechende Zertifizierung vorliegt, erfolgt die Übermittlung Ihrer Daten zusätzlich hierauf.</p>
+
+                <p class="lead">Die Verarbeitung der in das Newsletteranmeldeformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die erteilte Einwilligung zur Speicherung der Daten, der E Mail Adresse sowie deren Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen, etwa über den „Austragen" Link im Newsletter oder durch eine Nachricht an uns. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.</p>
+
+                <p class="lead">Die von Ihnen zum Zwecke des Newsletter Bezugs bei uns hinterlegten Daten werden von uns bis zu Ihrer Austragung aus dem Newsletter bei uns bzw. bei Mailchimp gespeichert und nach der Abbestellung des Newsletters oder nach Zweckfortfall aus der Newsletterverteilerliste gelöscht. Wir behalten uns vor, E Mail Adressen aus unserem Newsletterverteiler nach eigenem Ermessen im Rahmen unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO zu löschen oder zu sperren.</p>
+
+                <p class="lead">Nach Ihrer Austragung aus der Newsletterverteilerliste wird Ihre E Mail Adresse bei uns bzw. bei Mailchimp ggf. in einer Blacklist gespeichert, sofern dies zur Verhinderung künftiger Mailings erforderlich ist. Die Daten aus der Blacklist werden nur für diesen Zweck verwendet und nicht mit anderen Daten zusammengeführt. Dies dient sowohl Ihrem Interesse als auch unserem Interesse an der Einhaltung der gesetzlichen Vorgaben beim Versand von Newslettern (berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO). Die Speicherung in der Blacklist ist zeitlich nicht befristet. Sie können der Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse überwiegen.</p>
+
+                <p class="lead">Weitere Informationen zur Datenverarbeitung durch Mailchimp finden Sie unter:<br>
+                <a href="https://www.intuit.com/privacy/statement/" target="_blank" rel="noopener noreferrer">https://www.intuit.com/privacy/statement/</a><br>
+                sowie in den Informationen von Mailchimp zum Datenschutz:<br>
+                <a href="https://mailchimp.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://mailchimp.com/legal/privacy/</a>.</p>
+
+                <h2 class="mt-5 mb-4">6. Analyse Tools</h2>
+
+                <h4 class="mt-4 mb-3">Matomo Analytics</h4>
+                <p class="lead">Diese Website nutzt den Webanalysedienst „Matomo" (ehemals Piwik), um die Nutzung der Website zu analysieren und regelmäßig zu verbessern. Matomo ist eine Open Source Software zur statistischen Auswertung von Besucherzugriffen.</p>
+
+                <p class="lead">Wir setzen einen selbst-gehosteten Matomo-Service mit IP Anonymisierung ein. Hierbei wird Ihre IP Adresse vor der Auswertung gekürzt, sodass eine direkte Personenbeziehbarkeit ausgeschlossen ist. Je nach Konfiguration können hierbei Cookies verwendet werden, um wiederkehrende Besucher zu erkennen und Nutzungsstatistiken zu erstellen. Es werden insbesondere folgende Daten verarbeitet:</p>
+                <ul class="lead">
+                    <li>Gekürzte IP Adresse</li>
+                    <li>Aufgerufene Seiten und Dateien</li>
+                    <li>Datum und Uhrzeit des Seitenaufrufs</li>
+                    <li>Verwendeter Browser und Betriebssystem</li>
+                    <li>Referrer URL (zuvor besuchte Seite, sofern übermittelt)</li>
                 </ul>
 
-                <ol><li>
-                        <p class="lead">Transiente Cookies werden automatisiert gelöscht, wenn Sie den Browser schließen. Dazu zählen insbesondere die Session-Cookies. Diese speichern eine sogenannte Session-ID, mit welcher sich verschiedene Anfragen Ihres Browsers der gemeinsamen Sitzung zuordnen lassen. Dadurch kann Ihr Rechner wiedererkannt werden, wenn Sie auf unsere Website zurückkehren. Die Session-Cookies werden gelöscht, wenn Sie sich ausloggen oder den Browser schließen.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Persistente Cookies werden automatisiert nach einer vorgegebenen Dauer gelöscht, die sich je nach Cookie unterscheiden kann. Sie können die Cookies in den Sicherheitseinstellungen Ihres Browsers jederzeit löschen.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Sie können Ihre Browser-Einstellung entsprechend Ihren Wünschen konfigurieren und<br>
-                            z. B. die Annahme von Third-Party-Cookies oder allen Cookies ablehnen. Sog. „Third Party Cookies“ sind Cookies, die durch einen Dritten gesetzt wurden, folglich nicht durch die eigentliche Website auf der man sich gerade befindet. Wir weisen Sie darauf hin, dass Sie durch die Deaktivierung von Cookies eventuell nicht alle Funktionen dieser Website nutzen können.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Wir setzen Cookies ein, um Sie für Folgebesuche identifizieren zu können, falls Sie über einen Account bei uns verfügen. Andernfalls müssten Sie sich für jeden Besuch erneut einloggen.</p>
-                    </li>
-                </ol>
+                <p class="lead">Die Nutzung von Matomo erfolgt entweder auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG (soweit Cookies oder ähnliche Technologien eingesetzt werden) oder – bei Einsatz ohne Cookies und mit vollständiger IP Anonymisierung – auf Grundlage unseres berechtigten Interesses an der statistischen Analyse des Nutzerverhaltens zu Optimierungszwecken (Art. 6 Abs. 1 lit. f DSGVO). Welche Variante konkret eingesetzt wird, entnehmen Sie bitte gegebenenfalls unserem Cookie Banner.</p>
 
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><strong>Weitere Funktionen und Angebote unserer Website</strong></span><br>
-                    (1) Neben der rein informatorischen Nutzung unserer Website bieten wir verschiedene Leistungen an, die Sie bei Interesse nutzen können. Dazu müssen Sie in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der jeweiligen Leistung nutzen und für die die zuvor genannten Grundsätze zur Datenverarbeitung gelten.</p>
-                <p class="lead">(2) Teilweise bedienen wir uns zur Verarbeitung Ihrer Daten externer Dienstleister. Diese wurden von uns sorgfältig ausgewählt und beauftragt, sind an unsere Weisungen gebunden und werden regelmäßig kontrolliert.</p>
-                <p class="lead">(3) Weiterhin können wir Ihre personenbezogenen Daten an Dritte weitergeben, wenn Aktionsteilnahmen, Gewinnspiele, Vertragsabschlüsse oder ähnliche Leistungen von uns gemeinsam mit Partnern angeboten werden. Nähere Informationen hierzu erhalten Sie bei Angabe Ihrer personenbezogenen Daten oder untenstehend in der Beschreibung des Angebotes.</p>
-                <p class="lead">(4) Soweit unsere Dienstleister oder Partner ihren Sitz in einem Staat außerhalb des Europäischen Wirtschaftsraumen (EWR) haben, informieren wir Sie über die Folgen dieses Umstands in der Beschreibung des Angebotes.</p>
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><strong>Newsletter</strong></span><br>
-                    (1) Mit Ihrer Einwilligung können Sie unseren Newsletter abonnieren, mit dem wir Sie über unsere aktuellen interessanten Angebote informieren.</p>
-                <p class="lead">(2) Für die Anmeldung zu unserem Newsletter verwenden wir das sog. Double-Opt-in-Verfahren. Das heißt, dass wir Ihnen nach Ihrer Anmeldung eine E-Mail an die angegebene E-Mail-Adresse senden, in welcher wir Sie um Bestätigung bitten, dass Sie den Versand des Newsletters wünschen. Wenn Sie Ihre Anmeldung nicht innerhalb von 24 Stunden bestätigen, werden Ihre Informationen gesperrt und nach einem Monat automatisch gelöscht. Darüber hinaus speichern wir jeweils Ihre eingesetzten IP-Adressen und Zeitpunkte der Anmeldung und Bestätigung. Zweck des Verfahrens ist, Ihre Anmeldung nachweisen und ggf. einen möglichen Missbrauch Ihrer persönlichen Daten aufklären zu können.</p>
-                <p class="lead">(3) Pflichtangabe für die Übersendung des Newsletters ist allein Ihre E-Mail-Adresse. Die Angabe weiterer, gesondert markierter Daten ist freiwillig und wird verwendet, um Sie persönlich ansprechen zu können. Nach Ihrer Bestätigung speichern wir Ihre E-Mail-Adresse zum Zweck der Zusendung des Newsletters. Rechtsgrundlage ist Art. <a href="https://beck-online.beck.de/?typ=reference&amp;y=100&amp;a=6&amp;g=EWG_DSGVO" data-extlink="" target="_blank" rel=" noopener noreferrer">6<span class="ext"></span></a> Abs. <a href="https://beck-online.beck.de/?typ=reference&amp;y=100&amp;a=6&amp;g=EWG_DSGVO&amp;x=1" data-extlink="" target="_blank" rel=" noopener noreferrer">1</a> S. 1 lit. a DSGVO.</p>
-                <p class="lead">(4) Ihre Einwilligung in die Übersendung des Newsletters können Sie jederzeit widerrufen und den Newsletter abbestellen. Den Widerruf können Sie durch Klick auf den in jeder Newsletter-E-Mail bereitgestellten Link oder durch eine Nachricht an die im Impressum angegebenen Kontaktdaten erklären.</p>
-                <p class="lead">(5) Wir weisen Sie darauf hin, dass wir bei Versand des Newsletters Ihr Nutzerverhalten auswerten. Für diese Auswertung beinhalten die versendeten E-Mails sogenannte Web-Beacons bzw. Tracking-Pixel, die Ein-Pixel-Bilddateien darstellen, die auf unserer Website gespeichert sind. Für die Auswertungen verknüpfen wir die oben genannten Daten und die Web-Beacons mit Ihrer E-Mail-Adresse und einer individuellen ID. Die Daten werden ausschließlich pseudonymisiert erhoben, die IDs werden also nicht mit Ihren weiteren persönlichen Daten verknüpft, eine direkte Personenbeziehbarkeit wird ausgeschlossen. Sie können diesem Tracking jederzeit widersprechen, indem Sie den gesonderten Link, der in jeder E-Mail bereitgestellt wird, anklicken oder uns über einen anderen Kontaktweg informieren. Die Informationen werden solange gespeichert, wie Sie den Newsletter abonniert haben. Nach einer Abmeldung speichern wir die Daten rein statistisch und anonym.</p>
-                <p class="lead">(6) Für den Versand von Newslettern verwenden wir einen externen Dienstleister. Mit dem Dienstleister wurde eine separate Auftragsdatenverarbeitung geschlossen, um den Schutz Ihrer personenbezogenen Daten zu gewährleisten. Derzeit arbeiten wir mit folgendem Dienstleister zusammen:</p>
-                <ol><li>
-                        <p class="lead"><strong>MailChimp</strong></p>
-                    </li>
-                </ol>
+                <p class="lead">Sie können Ihre Einwilligung über die entsprechenden Einstellungen im Cookie Banner jederzeit mit Wirkung für die Zukunft widerrufen oder Matomo deaktivieren. Daneben können Sie in Ihrem Browser die Speicherung von Cookies verhindern.</p>
 
-                <p class="lead">The Rocket Science Group LLC d/b/a MailChimp<br>
-                    675 Ponce De Leon Ave NE, Suite 5000<br>
-                    Atlanta, Georgia 30308<br>
-                    Tel.: +1 404 806-5843<br>
-                    E-Mail: <a href="mailto:legal@mailchimp.com" data-extlink="">legal@mailchimp.com<span class="mailto"><span class="element-invisible">(link sends e-mail)</span></span></a></p>
-                <p class="lead">Dabei werden folgende Daten an MailChimp übermittelt:</p>
-                <p class="lead">- E-Mail-Adresse<br>
-                    - IP-Adresse</p>
-                <p class="lead">Weitere Informationen können Sie der Datenschutzerklärung von MailChimp entnehmen welche unter <a href="https://mailchimp.com/legal/privacy/" data-extlink="" target="_blank" rel=" noopener noreferrer">https://mailchimp.com/legal/privacy/</a> abrufbar ist.<br>
-                    MailChimp bzw. das Mutterunternehmen The Rocket Science Group LLC ist im Rahmen des US-EU-Privacy-Shield-Abkommens zertifiziert und stellt hierdurch sicher, das europäische Datenschutzniveau einzuhalten. Der aktuelle Status der Zertifizierung kann unter dem folgenden Link überprüft werden:<a href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG" data-extlink="" target="_blank" rel=" noopener noreferrer"> https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG<span class="ext"></span></a></p>
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><strong>Kinder</strong></span><br>
-                    Unser Angebot richtet sich grundsätzlich an Erwachsene. Personen unter 18 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln.</p>
-                <p class="lead">&nbsp;</p>
-                <p class="lead"><span style="font-size:16px;"><h4><strong>Rechte der betroffenen Person</strong></h4></span></p>
-                <p class="lead"><strong>(1) Widerruf der Einwilligung</strong><br>
-                    Sofern die Verarbeitung der personenbezogenen Daten auf einer erteilten Einwilligung beruht, haben Sie jederzeit das Recht, die Einwilligung zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.<br>
-                    Für die Ausübung des Widerrufsrechts können Sie sich jederzeit an uns wenden.</p>
-                <p class="lead"><strong>(2)</strong> <strong>Recht auf Bestätigung</strong><br>
-                    Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir sie betreffende personenbezogene Daten verarbeiten. Die Bestätigung können Sie jederzeit unter den oben genannten Kontaktdaten verlangen.</p>
-                <p class="lead"><strong>(3) Auskunftsrecht</strong><br>
-                    Sofern personenbezogene Daten verarbeitet werden, können Sie jederzeit Auskunft über diese personenbezogenen Daten und über folgenden Informationen verlangen:</p>
-                <ol><li>
-                        <p class="lead">die Verarbeitungszwecke;</p>
-                    </li>
-                    <li>
-                        <p class="lead">den Kategorien personenbezogener Daten, die verarbeitet werden;</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Empfänger oder Kategorien von Empfängern, gegenüber denen die personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden, insbesondere bei Empfängern in Drittländern oder bei internationalen Organisationen;</p>
-                    </li>
-                    <li>
-                        <p class="lead">falls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer;</p>
-                    </li>
-                    <li>
-                        <p class="lead">das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;</p>
-                    </li>
-                    <li>
-                        <p class="lead">das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;</p>
-                    </li>
-                    <li>
-                        <p class="lead">wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten;</p>
-                    </li>
-                    <li>
-                        <p class="lead">das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Artikel 22 Absätze 1 und 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.</p>
-                    </li>
-                </ol>
+                <h2 class="mt-5 mb-4">7. Plugins und Tools</h2>
 
-                <p class="lead">Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt, so haben Sie das Recht, über die geeigneten Garantien gemäß Artikel 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden. Wir stellen eine Kopie der personenbezogenen Daten, die Gegenstand der Verarbeitung sind, zur Verfügung. Für alle weiteren Kopien, die Sie Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der Verwaltungskosten verlangen. Stellen Sie den Antrag elektronisch, so sind die Informationen in einem gängigen elektronischen Format zur Verfügung zu stellen, sofern er nichts anderes angibt. Das Recht auf Erhalt einer Kopie gemäß Absatz 3 darf die Rechte und Freiheiten anderer Personen nicht beeinträchtigen.</p>
-                <p class="lead"><strong>(4) Recht auf Berichtigung</strong><br>
-                    Sie haben das Recht, von uns unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten zu verlangen. Unter Berücksichtigung der Zwecke der Verarbeitung haben Sie das Recht, die Vervollständigung unvollständiger personenbezogener Daten – auch mittels einer ergänzenden Erklärung – zu verlangen.</p>
-                <p class="lead"><strong>(5) Recht auf Löschung („Recht auf vergessen werden“)</strong><br>
-                    Sie haben das Recht, von dem Verantwortlichen zu verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden, und wir sind verpflichtet, personenbezogene Daten unverzüglich zu löschen, sofern einer der folgenden Gründe zutrifft:</p>
-                <ol><li>
-                        <p class="lead">Die personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Die betroffene Person widerruft ihre Einwilligung, auf die sich die Verarbeitung gemäß Artikel 6 Absatz 1 Buchstabe a oder Artikel 9 Absatz 2 Buchstabe a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Die betroffene Person legt gemäß Artikel 21 Absatz 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder die betroffene Person legt gemäß Artikel 21 Absatz 2 DSGVO Widerspruch gegen die Verarbeitung ein.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.</p>
-                    </li>
-                    <li>
-                        <p class="lead">Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Artikel 8 Absatz 1 DSGVO erhoben.</p>
-                    </li>
-                </ol>
+                <h4 class="mt-4 mb-3">Bunny Fonts</h4>
+                <p class="lead">Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten sog. „Bunny Fonts", die von BunnyWay d.o.o., Cesta komandanta Staneta 4A, 1215 Medvode, Slowenien, bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.</p>
 
-                <p class="lead">Hat der Verantwortliche die personenbezogenen Daten öffentlich gemacht und ist er gemäß Absatz 1 zu deren Löschung verpflichtet, so trifft er unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um für die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren, dass eine betroffene Person von ihnen die Löschung aller Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt hat.</p>
-                <p class="lead">Das Recht auf Löschung („Recht auf vergessen werden“) besteht nicht, soweit die Verarbeitung erforderlich ist:</p>
-                <ul><li>
-                        <p class="lead">zur Ausübung des Rechts auf freie Meinungsäußerung und Information;</p>
-                    </li>
-                    <li>
-                        <p class="lead">zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;</p>
-                    </li>
-                    <li>
-                        <p class="lead">aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Artikel 9 Absatz 2 Buchstaben h und i sowie Artikel 9 Absatz 3 DSGVO;</p>
-                    </li>
-                    <li>
-                        <p class="lead">für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gemäß Artikel 89 Absatz 1 DSGVO, soweit das in Absatz 1 genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder</p>
-                    </li>
-                    <li>
-                        <p class="lead">zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
-                    </li>
+                <p class="lead">Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Bunny herstellen. Hierdurch erlangt Bunny Kenntnis darüber, dass über Ihre IP Adresse diese Website aufgerufen wurde. Nach Angaben des Anbieters werden bei Bunny Fonts keine Cookies gesetzt und nur die zur Auslieferung der Schriftarten technisch notwendigen Daten verarbeitet.</p>
+
+                <p class="lead">Die Nutzung von Bunny Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der einheitlichen und performanten Darstellung des Schriftbildes auf seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung den Zugriff auf Informationen im Endgerät des Nutzers im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.</p>
+
+                <p class="lead">Weitere Informationen zu Bunny Fonts finden Sie unter:<br>
+                <a href="https://bunny.net/privacy/" target="_blank" rel="noopener noreferrer">https://bunny.net/privacy/</a></p>
+
+                <h4 class="mt-4 mb-3">Discord Widget</h4>
+                <p class="lead">Auf unserer Website kann ein sogenanntes Discord Widget eingebunden sein, das Informationen zu unserem Discord Server (z. B. Online Mitglieder, Einladungslink) anzeigt. Anbieter ist die Discord Inc., 444 De Haro Street, Suite 200, San Francisco, CA 94107, USA.</p>
+
+                <p class="lead">Beim Aufruf einer Seite mit eingebundenem Discord Widget wird eine Verbindung zu den Servern von Discord hergestellt. Dabei können Discords Server insbesondere Ihre IP Adresse, Geräte  und Browserinformationen, das Datum und die Uhrzeit des Aufrufs sowie Informationen über die von Ihnen besuchten Seiten erfassen und verarbeiten. Zudem kann Discord Cookies oder ähnliche Technologien einsetzen, um das Nutzerverhalten zu analysieren oder Funktionen bereitzustellen.</p>
+
+                <p class="lead">Rechtsgrundlage für die Einbindung des Discord Widgets ist in der Regel Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG), die wir über ein entsprechendes Cookie Banner einholen, soweit dabei Cookies oder ähnliche Technologien eingesetzt werden. Soweit keine Einwilligung erforderlich ist, erfolgt die Verarbeitung auf Grundlage unseres berechtigten Interesses an einer attraktiven und communitynahen Darstellung unserer Online Angebote (Art. 6 Abs. 1 lit. f DSGVO). Die Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen.</p>
+
+                <p class="lead">Discord kann Daten auch in den USA verarbeiten. Weitere Informationen zur Datenverarbeitung durch Discord finden Sie in der Datenschutzerklärung von Discord:<br>
+                <a href="https://discord.com/privacy" target="_blank" rel="noopener noreferrer">https://discord.com/privacy</a>.</p>
+
+                <h4 class="mt-4 mb-3">Twitch Livestreams</h4>
+                <p class="lead">Auf unserer Website können Inhalte des Streaming Dienstes „Twitch" angezeigt werden (z. B. Livestreams oder Aufzeichnungen). Die Einbindung erfolgt technisch über unser eigenes Backend ohne standardisiertes Twitch Embed, es wird jedoch ggf. eine Verbindung zu Twitch Servern hergestellt, um Streams abzurufen oder Metadaten zu laden. Anbieter ist die Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA.</p>
+
+                <p class="lead">Bei Aufruf einer Seite, auf der Twitch Inhalte angezeigt werden, kann Twitch Informationen über Sie verarbeiten, z. B.:</p>
+                <ul class="lead">
+                    <li>IP Adresse</li>
+                    <li>Informationen zu Gerät und Browser</li>
+                    <li>Zeitpunkt und Umfang der Nutzung</li>
+                    <li>gegebenenfalls Daten aus Ihrem Twitch Konto, wenn Sie dort gleichzeitig eingeloggt sind</li>
                 </ul>
 
-                <p class="lead"><strong>(6) Recht auf Einschränkung der Verarbeitung</strong><br>
-                    Sie haben das Recht, von uns die Einschränkung der Verarbeitung ihrer personenbezogenen Daten zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:</p>
-                <ol><li>
-                        <p class="lead">die Richtigkeit der personenbezogenen Daten von der betroffenen Person bestritten wird, und zwar für eine Dauer, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen,</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung unrechtmäßig ist und die betroffene Person die Löschung der personenbezogenen Daten ablehnt und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangt;</p>
-                    </li>
-                    <li>
-                        <p class="lead">der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, die betroffene Person sie jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigt, oder</p>
-                    </li>
-                    <li>
-                        <p class="lead">die betroffene Person Widerspruch gegen die Verarbeitung gemäß Artikel 21 Absatz 1 DSGVO eingelegt hat, solange noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber denen der betroffenen Person überwiegen.</p>
-                    </li>
-                </ol>
+                <p class="lead">Twitch kann Cookies und ähnliche Technologien einsetzen und Besucherdaten einem bestehenden Twitch Konto zuordnen, sofern Sie dort eingeloggt sind. Die Datenverarbeitung erfolgt in gemeinsamer Verantwortung mit Twitch, soweit Twitch die Daten auch zu eigenen Zwecken (z. B. zur Reichweitenmessung oder Werbung) verarbeitet.</p>
 
-                <p class="lead">Wurde die Verarbeitung gemäß den oben genannten Voraussetzungen eingeschränkt, so werden diese personenbezogenen Daten – von ihrer Speicherung abgesehen – nur mit Einwilligung der betroffenen Person oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet.<br>
-                    Um das Recht auf Einschränkung der Verarbeitung geltend zu machen, kann sich die betroffene Person jederzeit an uns unter den oben angegebenen Kontaktdaten wenden.</p>
-                <p class="lead"><strong>(7) Recht auf Datenübertragbarkeit</strong><br>
-                    Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten, und Sie haben das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern:</p>
-                <ol><li>
-                        <p class="lead">die Verarbeitung auf einer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a oder Artikel 9 Absatz 2 Buchstabe a oder auf einem Vertrag gemäß Artikel 6 Absatz 1 Buchstabe b DSGVO beruht und</p>
-                    </li>
-                    <li>
-                        <p class="lead">die Verarbeitung mithilfe automatisierter Verfahren erfolgt.</p>
-                    </li>
-                </ol>
+                <p class="lead">Die Nutzung von Twitch Inhalten auf unserer Website erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG), soweit dabei Cookies oder ähnliche Technologien eingesetzt werden und Daten an Twitch in die USA übermittelt werden. Die Einwilligung wird im Rahmen unseres Cookie Banners eingeholt und kann dort jederzeit mit Wirkung für die Zukunft widerrufen werden.</p>
 
-                <p class="lead">Bei der Ausübung des Rechts auf Datenübertragbarkeit gemäß Absatz 1 haben Sie das Recht, zu erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen zu einem anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist. Die Ausübung des Rechts auf Datenübertragbarkeit lässt das Recht auf Löschung („Recht auf Vergessen werden“) unberührt. Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.</p>
-                <p class="lead"><strong>(8) Widerspruchsrecht</strong><br>
-                    Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Artikel 6 Absatz 1 Buchstaben e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Der Verantwortliche verarbeitet die personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
-                <p class="lead">Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben SIe das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.</p>
-                <p class="lead">Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.</p>
-                <p class="lead">Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten, die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt, Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.</p>
-                <p class="lead">Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden.</p>
-                <p class="lead"><strong>(9) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</strong><br>
-                    Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt. Dies gilt nicht, wenn die Entscheidung:</p>
-                <ol><li>
-                        <p class="lead">für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem Verantwortlichen erforderlich ist,</p>
-                    </li>
-                    <li>
-                        <p class="lead">aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung der Rechte und Freiheiten sowie der berechtigten Interessen der betroffenen Person enthalten oder</p>
-                    </li>
-                    <li>
-                        <p class="lead">mit ausdrücklicher Einwilligung der betroffenen Person erfolgt.</p>
-                    </li>
-                </ol>
+                <p class="lead">Weitere Informationen zur Datenverarbeitung durch Twitch finden Sie in der Datenschutzerklärung von Twitch:<br>
+                <a href="https://www.twitch.tv/p/de-de/legal/privacy-notice/" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/p/de-de/legal/privacy-notice/</a>.</p>
 
-                <p class="lead">Der Verantwortliche trifft angemessene Maßnahmen, um die Rechte und Freiheiten sowie die berechtigten Interessen der betroffenen Person zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.</p>
-                <p class="lead">Dieses Recht kann die betroffene Person jederzeit ausüben, indem sie sich an den jeweiligen Verantwortlichen wendet.</p>
-                <p class="lead"><strong>(10) Recht auf Beschwerde bei einer Aufsichtsbehörde</strong><br>
-                    Sie haben zudem, unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs, das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn die betroffene Person der Ansicht ist, dass die Verarbeitung der sie betreffenden personenbezogenen Daten gegen diese Verordnung verstößt.<strong> </strong></p>
-                <p class="lead"><strong>(11) Recht auf wirksamen gerichtlichen Rechtsbehelf</strong><br>
-                    Sie haben unbeschadet eines verfügbaren verwaltungsrechtlichen oder außergerichtlichen Rechtsbehelfs einschließlich des Rechts auf Beschwerde bei einer Aufsichtsbehörde gemäß <a href="https://dsgvo-gesetz.de/art-77-dsgvo/" data-extlink="" target="_blank" rel=" noopener noreferrer">Artikel 77<span class="ext"></a> DSGVO das Recht auf einen wirksamen gerichtlichen Rechtsbehelf, wenn sie der Ansicht ist, dass Ihre, aufgrund dieser Verordnung zustehenden Rechte, infolge einer nicht im Einklang mit dieser Verordnung stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.</p>
+                <h2 class="mt-5 mb-4">8. Geltungsbereich</h2>
+                <p class="lead">Diese Datenschutzerklärung gilt für sämtliche Webangebote des Tactical Team Training, die unter der Domain *.tacticalteam.de erreichbar sind, mit Ausnahme des Angebots unter events.tacticalteam.de. Für das dort bereitgestellte Angebot gelten gegebenenfalls gesonderte Datenschutzbestimmungen.</p>
+
+                <hr class="my-5">
+                <p class="text-muted">
+                    Gültig ab: 06.12.2025<br>
+                    Letzte Aktualisierung: 05.12.2025
+                </p>
             </div>
         </div>
     </section>
-    <!-- End About -->
+    <!-- End Datenschutz -->
 </x-app-layout>

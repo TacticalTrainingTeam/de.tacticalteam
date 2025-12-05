@@ -29,6 +29,9 @@ Route::get('/newsletter', function () {
 Route::get('/datenschutz', function () {
     return view('datenschutz');
 })->name('datenschutz');
+Route::get('/datenschutz-social-media', function () {
+    return view('datenschutz-social-media');
+})->name('datenschutz.social-media');
 Route::get('/10jahre', function () {
     return view('10jahre');
 })->name('10jahre');
