@@ -159,8 +159,8 @@
                                            target="_blank">Shop</a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="{{route('10jahre')}}"
-                                           class="nav-link">10 Jahre TTT</a>
+                                        <a href="{{route('chronik')}}"
+                                           class="nav-link">Chronik</a>
                                     </li>
                                 </ul>
                             </li>
@@ -291,8 +291,7 @@
                     </div>
 
                     <address class="g-bg-no-repeat g-line-height-2 g-mt-minus-4"
-                             style="background-image: url({{asset('assets/img/maps/map2.png')}})">
-                        <a href="mailto:kontakt@tacticalteam.de" class="">kontakt@tacticalteam.de</a>
+                             style="background-image: url('{{asset('assets/img/maps/map2.png')}}')">
                         <br/><a href="http://discord.tacticalteam.de"> Discord </a>
                         <br/><a href="ts3server://ts3.tacticalteam.de"> ts3.tacticalteam.de</a>
                         <br/><a href="https://x.com/ttt_arma"> 𝕏 (Twitter)</a>

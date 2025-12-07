@@ -32,12 +32,17 @@ Route::get('/datenschutz', function () {
 Route::get('/datenschutz-social-media', function () {
     return view('datenschutz-social-media');
 })->name('datenschutz.social-media');
-Route::get('/10jahre', function () {
+Route::get('/chronik', function () {
     return view('10jahre');
-})->name('10jahre');
-Route::get('/twitch', [\App\Http\Controllers\TwitchController::class, 'index'])->name('twitch.live');
+})->name('chronik');
+Route::get('/medien', [\App\Http\Controllers\TwitchController::class, 'index'])->name('medien');
 
 Route::post('/logout', [\App\Http\Controllers\Controller::class, 'destroy'])->name('logout')->middleware(['auth']);
 
 require_once 'auth.php';
 require_once 'campaigns.php';
+
+// Fallback route - redirect all undefined routes to home
+Route::fallback(function () {
+    return redirect()->route('home');
+});
