@@ -32,11 +32,11 @@ class MissionsuploadController extends Controller
     {
         $this->validate(
             $request,
-            ['mission' => 'required|max:6000'],
+            ['mission' => 'required|max:20000'],
             [
                 'mission.required' => "Es muss eine PBO-Datei ausgewählt werden!",
                 'mission.mimes' => 'Es dürfen nur .pbo Dateien hochgeladen werden!',
-                'mission.max' => 'Die Datei darf maximal 6 MB groß sein!',
+                'mission.max' => 'Die Datei darf maximal 20 MB groß sein!',
             ]
         );
         if ($request->has('missionfinal') === false) {
