@@ -8,12 +8,12 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="mb-4"><strong>Datenschutzerklärung</strong></h1>
-                
+
                 <div class="alert alert-info g-mb-30" role="alert">
-                    <strong>Hinweis:</strong> Informationen zur Datenverarbeitung auf unseren Social-Media-Kanälen finden Sie in unserer separaten 
+                    <strong>Hinweis:</strong> Informationen zur Datenverarbeitung auf unseren Social-Media-Kanälen finden Sie in unserer separaten
                     <a href="{{ route('datenschutz.social-media') }}" class="alert-link"><strong>Datenschutzerklärung für Social Media</strong></a>.
                 </div>
-                
+
                 <hr>
 
                 <h2 class="mt-5 mb-4">1. Datenschutz auf einen Blick</h2>
@@ -231,7 +231,7 @@
                 <a href="https://www.twitch.tv/p/de-de/legal/privacy-notice/" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/p/de-de/legal/privacy-notice/</a>.</p>
 
                 <h2 class="mt-5 mb-4">8. Geltungsbereich</h2>
-                <p class="lead">Diese Datenschutzerklärung gilt für sämtliche Webangebote des Tactical Team Training, die unter der Domain *.tacticalteam.de erreichbar sind, mit Ausnahme des Angebots unter events.tacticalteam.de. Für das dort bereitgestellte Angebot gelten gegebenenfalls gesonderte Datenschutzbestimmungen.</p>
+                <p class="lead">Diese Datenschutzerklärung gilt für sämtliche Webangebote des Tactical Training Team, die unter der Domain *.tacticalteam.de erreichbar sind, mit Ausnahme des Angebots unter events.tacticalteam.de. Für das dort bereitgestellte Angebot gelten gegebenenfalls gesonderte Datenschutzbestimmungen.</p>
 
                 <hr class="my-5">
                 <p class="text-muted">
