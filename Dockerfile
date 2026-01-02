@@ -13,8 +13,7 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip \
-    nginx \
-    cron
+    nginx
 
 # Clear cache
 RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -37,12 +36,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Copy Nginx configuration
 COPY docker/nginx.conf /etc/nginx/sites-available/default
 
-# Add cron job
-RUN echo "* * * * * www-data cd /var/www && php artisan schedule:run >> /dev/null 2>&1" >> /etc/cron.d/laravel-scheduler
-RUN chmod 0744 /etc/cron.d/laravel-scheduler
-
-# Make entrypoint script executable
+# Make entrypoint and scheduler script executable
 RUN chmod +x /var/www/docker/entrypoint.sh
+RUN chmod +x /var/www/docker/scheduler.sh
 
 # Expose port 80
 EXPOSE 80
