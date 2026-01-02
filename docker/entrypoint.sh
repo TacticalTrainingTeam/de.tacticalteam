@@ -3,9 +3,6 @@
 # Exit on error
 set -e
 
-# Start PHP-FPM in background
-php-fpm -D
-
 # Run Laravel migrations
 # -----------------------------------------------------------
 # Ensure the database schema is up to date.
@@ -18,5 +15,5 @@ php artisan migrate --force
 # -----------------------------------------------------------
 php artisan config:cache
 
-# Start Nginx in foreground
-nginx -g 'daemon off;'
+# Start supervisor
+/usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf

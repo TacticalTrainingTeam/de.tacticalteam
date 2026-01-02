@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip \
-    nginx
+    nginx \
+    supervisor
 
 # Clear cache
 RUN apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -35,6 +36,12 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Copy Nginx configuration
 COPY docker/nginx.conf /etc/nginx/sites-available/default
+
+# Copy Supervisor configuration
+COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+# Create log directory for supervisor
+RUN mkdir -p /var/log/supervisor
 
 # Make entrypoint and scheduler script executable
 RUN chmod +x /var/www/docker/entrypoint.sh
