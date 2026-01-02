@@ -6,9 +6,6 @@ set -e
 # Start PHP-FPM in background
 php-fpm -D
 
-# Start Cron daemon
-cron
-
 # Run Laravel migrations
 # -----------------------------------------------------------
 # Ensure the database schema is up to date.
