@@ -18,3 +18,4 @@ Mittels `cd` in das Stammverzeichniss wechseln:
 Da jeden Tag um Mitternacht die SquadXML neu erstellt werden soll, muss für das Laravel Framework die Aufgabenplanung/Crontab gesetzt werden.
 Dazu muss der folgende Eintrag adaptiert werden (Es muss jede Minute ausgeführt werden):
 * `* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1`
+
