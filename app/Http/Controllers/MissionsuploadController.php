@@ -71,8 +71,7 @@ class MissionsuploadController extends Controller
             if ($newPath && !str_ends_with($newPath, DIRECTORY_SEPARATOR) && !str_ends_with($newPath, '/')) {
                 $newPath .= DIRECTORY_SEPARATOR;
             }
-            $newPath .= $filenamewithextension;
-            move_uploaded_file($request->file('mission'), $newPath);
+            $request->file('mission')->move($newPath, $filenamewithextension);
 
             MissionuploadLog::log($filenamewithextension);
             return redirect()->route('missionupload.index')->with('success', 'Datei '.$filenamewithextension.' wurde erfolgreich hochgeladen!');

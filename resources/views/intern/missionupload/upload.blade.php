@@ -8,6 +8,13 @@
         <x-button-link link="{{route('missionupload.index')}}" title="Missionsübersicht"/>
         <x-button-link link="{{route('start')}}" title="Intern"/>
         <h4><a href="https://wiki.tacticalteam.de/de/Missionsbau" target="_blank">>>>Missionsbau-Hinweise<<<</a></h4>
+        @if ($errors->any())
+            @foreach ($errors->all() as $error)
+                <div class="alert alert-danger center" role="alert">
+                    {{$error}}
+                </div>
+            @endforeach
+        @endif
         <br>
         <form action="{{route("missionsupload.store")}}" method="post" enctype="multipart/form-data">
             @csrf
