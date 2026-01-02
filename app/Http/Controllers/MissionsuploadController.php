@@ -16,12 +16,15 @@ class MissionsuploadController extends Controller
     {
         $missions = [];
         $path = config('ttt.missions_path');
-        if (is_dir($path)) {
+        if ($path && !str_ends_with($path, DIRECTORY_SEPARATOR) && !str_ends_with($path, '/')) {
+            $path .= DIRECTORY_SEPARATOR;
+        }
+        if ($path && is_dir($path)) {
             $allMissions = array_diff(scandir($path), array('..', '.'));
             foreach ($allMissions as $mission) {
                 $fullPath = $path . $mission;
                 clearstatcache(true, $fullPath);
-                $mtime = filemtime($fullPath);
+                $mtime = @filemtime($fullPath);
 
                 $missions[] = [
                     'name' => $mission,
@@ -64,7 +67,11 @@ class MissionsuploadController extends Controller
                 return redirect()->route('missionupload.index')->withErrors('Die hochgeladene Datei war keine PBO-Datei!');
             }
 
-            $newPath = config('ttt.missions_path').$filenamewithextension;
+            $newPath = config('ttt.missions_path');
+            if ($newPath && !str_ends_with($newPath, DIRECTORY_SEPARATOR) && !str_ends_with($newPath, '/')) {
+                $newPath .= DIRECTORY_SEPARATOR;
+            }
+            $newPath .= $filenamewithextension;
             move_uploaded_file($request->file('mission'), $newPath);
 
             MissionuploadLog::log($filenamewithextension);
@@ -80,9 +87,13 @@ class MissionsuploadController extends Controller
      */
     private function checkIfFileExists($file)
     {
-        $path = config('ttt.missions_path').$file;
+        $path = config('ttt.missions_path');
+        if ($path && !str_ends_with($path, DIRECTORY_SEPARATOR) && !str_ends_with($path, '/')) {
+            $path .= DIRECTORY_SEPARATOR;
+        }
+        $path .= $file;
         clearstatcache(true, $path);
-        if (file_exists($path)) {
+        if (@file_exists($path)) {
             return true;
         } else {
             return false;
