@@ -23,12 +23,12 @@ class MissionsuploadController extends Controller
             $allMissions = array_diff(scandir($path), array('..', '.'));
             foreach ($allMissions as $mission) {
                 $fullPath = $path . $mission;
-                clearstatcache(true, $fullPath);
                 $mtime = @filemtime($fullPath);
 
                 $missions[] = [
                     'name' => $mission,
                     'change' => $mtime ? date("d.m.Y H:i:s", $mtime) : 'N/A',
+                    'mtime' => $mtime ?: 0,
                 ];
             }
         }

@@ -38,7 +38,7 @@
                 <tr>
                     <td>{{$counter}}</td>
                     <td>{{$mission['name']}}</td>
-                    <td>{{$mission['change']}}</td>
+                    <td data-order="{{$mission['mtime']}}">{{$mission['change']}}</td>
                 </tr>
                     <?php
                     $counter = $counter + 1;
