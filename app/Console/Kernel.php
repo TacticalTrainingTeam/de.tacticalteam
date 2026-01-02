@@ -27,8 +27,8 @@ class Kernel extends ConsoleKernel
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($POST));
         $response   = curl_exec($ch);*/
-        $schedule->command(CreateSquadXml::class)->everyFifteenMinutes();
-        $schedule->command(CreateTvTSquadXml::class)->everyFifteenMinutes();
+        $schedule->command(CreateSquadXml::class)->everyMinute();
+        $schedule->command(CreateTvTSquadXml::class)->everyMinute();
         $schedule->command(AddDiscordGuildNick::class)->everyFourHours();
     }
 

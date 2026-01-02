@@ -40,7 +40,7 @@ class CreateSquadXml extends Command
         $dom->preserveWhiteSpace = FALSE;
         $dom->loadXML($header);
         $dom->formatOutput = TRUE;
-        $file = public_path() . '\\squadxml\\squad.xml';
+        $file = public_path() . DIRECTORY_SEPARATOR . 'squadxml' . DIRECTORY_SEPARATOR . 'squad.xml';
         fwrite(fopen($file, 'w'), $dom->saveXML());
     }
 }
