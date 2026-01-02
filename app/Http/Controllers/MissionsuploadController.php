@@ -19,9 +19,13 @@ class MissionsuploadController extends Controller
         if (is_dir($path)) {
             $allMissions = array_diff(scandir($path), array('..', '.'));
             foreach ($allMissions as $mission) {
+                $fullPath = $path . $mission;
+                clearstatcache(true, $fullPath);
+                $mtime = filemtime($fullPath);
+
                 $missions[] = [
                     'name' => $mission,
-                    'change' => date ("d.m.Y H:i:s", filemtime($path . $mission)),
+                    'change' => $mtime ? date("d.m.Y H:i:s", $mtime) : 'N/A',
                 ];
             }
         }
@@ -76,7 +80,9 @@ class MissionsuploadController extends Controller
      */
     private function checkIfFileExists($file)
     {
-        if (file_exists(config('ttt.missions_path').$file)) {
+        $path = config('ttt.missions_path').$file;
+        clearstatcache(true, $path);
+        if (file_exists($path)) {
             return true;
         } else {
             return false;
