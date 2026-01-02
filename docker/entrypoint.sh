@@ -20,7 +20,6 @@ php artisan migrate --force
 # Improves performance by caching config and routes.
 # -----------------------------------------------------------
 php artisan config:cache
-php artisan route:cache
 
 # Start Nginx in foreground
 nginx -g 'daemon off;'
