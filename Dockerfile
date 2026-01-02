@@ -40,9 +40,6 @@ COPY docker/nginx.conf /etc/nginx/sites-available/default
 # Copy Supervisor configuration
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-# Create log directory for supervisor
-RUN mkdir -p /var/log/supervisor
-
 # Make entrypoint and scheduler script executable
 RUN chmod +x /var/www/docker/entrypoint.sh
 RUN chmod +x /var/www/docker/scheduler.sh
