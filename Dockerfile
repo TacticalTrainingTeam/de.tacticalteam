@@ -40,7 +40,6 @@ COPY docker/nginx.conf /etc/nginx/sites-available/default
 # Add cron job
 RUN echo "* * * * * www-data cd /var/www && php artisan schedule:run >> /dev/null 2>&1" >> /etc/cron.d/laravel-scheduler
 RUN chmod 0744 /etc/cron.d/laravel-scheduler
-RUN crontab /etc/cron.d/laravel-scheduler
 
 # Make entrypoint script executable
 RUN chmod +x /var/www/docker/entrypoint.sh
