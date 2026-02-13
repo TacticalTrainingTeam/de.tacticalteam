@@ -18,17 +18,9 @@
         <br>
         <form action="{{route("missionsupload.store")}}" method="post" enctype="multipart/form-data">
             @csrf
-            <label for="missionfinal">Ist dies eine fertige Mission, die bereit zum Spielen ist?</label>
-
-            <select name="missionfinal" id="missionfinal">
-                <option value="0" disabled selected>--- Bitte auswählen</option>
-                <option value="1">Ja</option>
-                <option value="2">Nein</option>
-                <option value="3" disabled>Ich habe keine Ahnung -> In diesem Fall die Missionbau-Hinweise durchlesen!</option>
-            </select>
-            <div id="missiontester" style="display: none">
-                <input type="checkbox" id="tests" name="tests" value="1">
-                <label for="tests">Ich habe sowohl einen Alpha- als auch einen Beta-Test durchgeführt und mich dabei an alle Missionsbau-Hinweise gehalten.</label>
+            <div id="missionuploadcheck">
+                <input type="checkbox" id="uploadcheck" name="uploadcheck" value="1">
+                <label for="uploadcheck">Mir ist bewusst, dass eine auf den Server hochgeladene Mission von jedem gestartet werden kann.</label>
             </div>
             <hr>
             <input type="file" name="mission" accept=".pbo">

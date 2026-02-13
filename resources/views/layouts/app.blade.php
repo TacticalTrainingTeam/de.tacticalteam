@@ -454,16 +454,6 @@
             },
             "order": [[2, 'desc']]
         });
-        $('#missionfinal').on('change', function () {
-            value = this.value;
-            if (value == 1) {
-                $("#missiontester").show();
-                $("#tests").prop('required', true);
-            } else {
-                $("#missiontester").hide();
-                $("#tests").prop('required', false);
-            }
-        });
 
         if (tpj("#rev_slider_24_1").revolution == undefined) {
             revslider_showDoubleJqueryError("#rev_slider_24_1");
