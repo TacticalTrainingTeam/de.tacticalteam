@@ -46,11 +46,8 @@ class MissionsuploadController extends Controller
                 'mission.max' => 'Die Datei darf maximal 20 MB groß sein!',
             ]
         );
-        if ($request->has('missionfinal') === false) {
-            return redirect()->route('missionupload.index')->withErrors('So geht das nicht! Du musst schon sagen, ob das eine spielbereite Mission ist oder nicht!');
-        }
-        if ($request->get('missionfinal') == 1 and $request->get('tests') != "1") {
-            return redirect()->route('missionupload.index')->withErrors('Das ist eine spielbereite Mission und du hast keine Alpha- und Beta-Tests gemacht? Na so geht das aber nicht! Deine Mission kommt in den Papierkorb und machst brav deine Tests. Dann kannst du gerne wieder kommen.');
+        if ($request->get('uploadcheck') != "1") {
+            return redirect()->route('missionupload.index')->withErrors('Bitte bestätige, dass dir bewusst ist das die Mission von jedem auf dem Server gestartet werden kann.');
         }
         if ($request->hasFile('mission')) {
             //get filename with extension
