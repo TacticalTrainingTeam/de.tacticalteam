@@ -197,7 +197,7 @@
                         <img class="img-fluid" src="{{asset('assets/img/logo/logo-2.png')}}" alt="Logo"/>
                     </a>
                     <p>
-                        Gegründet 2013, zählt unser TTT heute zu den führenden Arma 3 Communities im deutschsprachigen Raum.
+                        Gegründet 2013, zählt unser TTT heute zu den führenden Arma Communities im deutschsprachigen Raum.
                         Wir bieten wöchentliche Missionen sowie regelmäßige Ausbildungen, Trainings und TvT-Events an.
                     </p>
                 </div>

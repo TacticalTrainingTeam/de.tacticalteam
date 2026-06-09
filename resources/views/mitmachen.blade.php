@@ -15,7 +15,7 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Bei uns gibt’s regelmäßig Events im Militär-Stil. Du kannst deine Skills trainieren, spannende Missionen erleben oder dich in taktischen Gefechten beweisen. Unsere Treffen sind dienstags und freitags von 19:30 bis 23:30 Uhr. Mitmachen kann jeder - egal ob Rekrut oder Gast. Neugierig? Schau einfach mal rein und entdecke, was Arma 3 zu bieten hat!
+                    Bei uns gibt’s regelmäßig Events im Militär-Stil. Du kannst deine Skills trainieren, spannende Missionen erleben oder dich in taktischen Gefechten beweisen. Unsere Treffen sind dienstags und freitags von 19:30 bis 23:30 Uhr. Mitmachen kann jeder - egal ob Rekrut oder Gast. Neugierig? Schau einfach mal rein und entdecke, was Arma zu bieten hat!
                 </p>
             </div>
             <div class="col-md-5 g-mb-30">
@@ -98,7 +98,7 @@
                         </h3>
                         <p class="lead">
                             Der Rang "Gast" eignet sich für Spieler, die gelegentlich bei uns teilnehmen möchten, ohne Verpflichtungen zu übernehmen.
-                            Dieser Rang ist auch für Spieler aus anderen Arma 3 Communities gedacht, die gerne bei uns mitspielen möchten.
+                            Dieser Rang ist auch für Spieler aus anderen Arma Communities gedacht, die gerne bei uns mitspielen möchten.
                             Kurz gesagt: Mit diesem Rang kann man einfach ohne Rechte und Pflichten mitspielen.
                         </p>
                     </div>
@@ -210,7 +210,7 @@
                     </div>
                     <div class="media-body">
                         <h3 class="h2 g-color-white g-font-weight-600 mb-20">
-                            Arma 3 geeigneter Computer
+                            Arma geeigneter Computer
                         </h3>
                         <p class="lead">
                             PC der auch bei anspruchsvollen Missionen mit bis zu 60+ Spielern flüssig läuft.
@@ -341,7 +341,7 @@
                             Fast Path - Für Veteranen
                         </h3>
                         <p class="lead">
-                            Du hast bereits Erfahrung im taktischen Spielen von Arma 3 und verstehst den Begriff MilSim.
+                            Du hast bereits Erfahrung im taktischen Spielen von Arma und verstehst den Begriff MilSim.
                             Du beherrschst ACE & ACRE2 und kennst dich mit taktischen Bewegungen und Angriffsmanövern aus?
                             Dann vereinbare einen Termin für einen Fast-Path mit unserer Personal-Abteilung (@Personal) im Discord.
                         </p>

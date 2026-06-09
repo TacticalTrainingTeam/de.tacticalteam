@@ -61,7 +61,7 @@
                     color: #ffffff;
                     letter-spacing: 0px;
                   ">
-                            Deutschsprachige Arma 3 Community
+                            Deutschsprachige Arma Community
                         </div>
 
                         <!-- LAYER NR. 17 -->
@@ -205,10 +205,10 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Als eine der größeren Arma 3-Gemeinschaften im deutschsprachigen Raum bieten wir dir das volle Paket: Von Ausbildung und Training bis hin zu Events und Kampagnen ist alles dabei. Klingt nach viel Arbeit? Keine Sorge, bei uns steht der Spaß an erster Stelle. Wir wollen einfach, dass du dich bei uns wohlfühlst und eine gute Zeit hast.
+                    Als eine der größeren Arma-Gemeinschaften im deutschsprachigen Raum bieten wir dir das volle Paket: Von Ausbildung und Training bis hin zu Events und Kampagnen ist alles dabei. Klingt nach viel Arbeit? Keine Sorge, bei uns steht der Spaß an erster Stelle. Wir wollen einfach, dass du dich bei uns wohlfühlst und eine gute Zeit hast.
                 </p>
                 <p class="lead">
-                    Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma 3-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
+                    Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
                 </p>
             </div>
             <!-- Discord -->
@@ -259,7 +259,7 @@
                 </h1>
                 <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                 <p class="lead mb-0">
-                    Als eine der führenden Communities in der deutschsprachigen Arma 3 MilSim-Szene legen wir großen Wert auf Ausbildung,
+                    Als eine der führenden Communities in der deutschsprachigen Arma MilSim-Szene legen wir großen Wert auf Ausbildung,
                     Training, schöne Events und realitätsnahe Kampagnen.
                 </p>
             </div>
@@ -285,7 +285,7 @@
                             mindestens 2 Spieltage. Dazu kommen noch spontane Missionen,
                             die man als Mitspieler selbst veranstalten kann. Wer noch mehr
                             Herausforderungen haben möchte, kann an internen und externen
-                            TvT-Events teilnehmen oder einfach die Immersion von Arma 3 in
+                            TvT-Events teilnehmen oder einfach die Immersion von Arma in
                             der kommenden TTT-Kampagne genießen. Auch für Dich ist etwas
                             dabei!
                         </p>
@@ -413,7 +413,7 @@
                             wir sind sowohl bei anderen Communities zu Gast, aktiv in
                             der ESM CTF Liga und laden auch oft Gäste zu uns ein. Dabei zieht
                             das gesamte TTT an einem Strang - jeder unterstützt im Rahmen
-                            seiner Möglichkeiten. Auch außerhalb von Arma 3 sind wir als TTT
+                            seiner Möglichkeiten. Auch außerhalb von Arma sind wir als TTT
                             aktiv in vielen anderen Spielen unterwegs.
                         </p>
                     </div>
