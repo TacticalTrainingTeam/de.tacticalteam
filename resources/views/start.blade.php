@@ -205,7 +205,7 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Als eine der größeren Arma-Gemeinschaften im deutschsprachigen Raum bieten wir dir das volle Paket: Von Ausbildung und Training bis hin zu Events und Kampagnen ist alles dabei. Klingt nach viel Arbeit? Keine Sorge, bei uns steht der Spaß an erster Stelle. Wir wollen einfach, dass du dich bei uns wohlfühlst und eine gute Zeit hast.
+                    Als eine der größeren Arma-Gemeinschaften im deutschsprachigen Raum bieten wir dir das volle Paket in Arma 3 und Arma Reforger: Von Ausbildung und Training bis hin zu Events und Kampagnen ist alles dabei. Klingt nach viel Arbeit? Keine Sorge, bei uns steht der Spaß an erster Stelle. Wir wollen einfach, dass du dich bei uns wohlfühlst und eine gute Zeit hast.
                 </p>
                 <p class="lead">
                     Bei uns lernst du alles, was du brauchst, um bei unseren Aktivitäten mitzumachen - von Waffenkunde über Funken bis hin zu Taktik und Missionsbau. Klingt nach viel? Keine Sorge, wir fangen ganz entspannt mit den Basics an. Unser Trainingskonzept bringt dich Schritt für Schritt durch die Arma-Welt, sodass du dich auch als Neuling schnell zurechtfindest. Und falls du schon Erfahrung hast? Umso besser - wir haben immer neue Herausforderungen auf Lager, an denen du wachsen kannst.
@@ -238,7 +238,7 @@
                         </h2>
                         <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                         <p class="lead mb-0">
-                            Anmeldung TTT-Discord - Arma3Sync - Einsteiger-Event - los geht's!
+                            Anmeldung TTT-Discord - Mods installieren (Arma3Sync bzw. Reforger-Workshop) - Einsteiger-Event - los geht's!
                         </p>
                     </div>
                     <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
@@ -259,7 +259,7 @@
                 </h1>
                 <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                 <p class="lead mb-0">
-                    Als eine der führenden Communities in der deutschsprachigen Arma MilSim-Szene legen wir großen Wert auf Ausbildung,
+                    Als eine der führenden Communities in der deutschsprachigen Arma MilSim-Szene (Arma 3 &amp; Arma Reforger) legen wir großen Wert auf Ausbildung,
                     Training, schöne Events und realitätsnahe Kampagnen.
                 </p>
             </div>
@@ -432,8 +432,8 @@
                             Ab 18 Jahre
                         </h3>
                         <p class="g-color-gray-dark-v4">
-                            Wir sind der Meinung, dass Arma reife Persönlichkeiten
-                            braucht, die die Geduld aufbringen, taktisch zu spielen.
+                            Wir sind der Meinung, dass Arma 3 und Reforger reife Persönlichkeiten
+                            brauchen, die die Geduld aufbringen, taktisch zu spielen.
                         </p>
                     </div>
                     <div class="d-flex">
@@ -490,8 +490,8 @@
                             Apex- &amp; Contact Expansion
                         </h3>
                         <p class="g-color-gray-dark-v4">
-                            Arma 3 und Expansionen sind Pflicht für das gemeinsame Spiel.
-                            DLCs sind nicht zwingend erforderlich.
+                            Nur relevant für Arma 3: Die Expansionen sind dort Pflicht für das gemeinsame Spiel, DLCs hingegen sind nicht zwingend erforderlich.
+                            Für Arma Reforger brauchst du keine zusätzlichen DLCs oder Expansionen.
                         </p>
                     </div>
                 </div>
