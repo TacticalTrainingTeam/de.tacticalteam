@@ -15,7 +15,7 @@
                     </h2>
                 </div>
                 <p class="lead">
-                    Bei uns gibt’s regelmäßig Events im Militär-Stil. Du kannst deine Skills trainieren, spannende Missionen erleben oder dich in taktischen Gefechten beweisen. Unsere Treffen sind dienstags und freitags von 19:30 bis 23:30 Uhr. Mitmachen kann jeder - egal ob Rekrut oder Gast. Neugierig? Schau einfach mal rein und entdecke, was Arma zu bieten hat!
+                    Bei uns gibt’s regelmäßig Events im Militär-Stil - sowohl in Arma 3 als auch in Arma Reforger. Du kannst deine Skills trainieren, spannende Missionen erleben oder dich in taktischen Gefechten beweisen. Unsere Treffen sind dienstags und freitags von 19:30 bis 23:30 Uhr. Mitmachen kann jeder - egal ob Rekrut oder Gast. Neugierig? Schau einfach mal rein und entdecke, was Arma 3 und Reforger zu bieten haben!
                 </p>
             </div>
             <div class="col-md-5 g-mb-30">
@@ -140,8 +140,8 @@
                             Ab 18 Jahre
                         </h3>
                         <p class="lead">
-                            Wir sind der Meinung, dass Arma reife Persönlichkeiten
-                            braucht, die die Geduld aufbringen, taktisch zu spielen.
+                            Wir sind der Meinung, dass Arma 3 und Reforger reife Persönlichkeiten
+                            brauchen, die die Geduld aufbringen, taktisch zu spielen.
                         </p>
                     </div>
                     <div class="d-flex">
@@ -173,7 +173,7 @@
                             Disziplin während der Events
                         </h3>
                         <p class="lead">
-                            Motivation die das taktische Spielen in Arma erfordert und die Geduld, den Feind auch mal nur zu beobachten, statt ihn anzugreifen.
+                            Motivation die das taktische Spielen in Arma 3 und Reforger erfordert und die Geduld, den Feind auch mal nur zu beobachten, statt ihn anzugreifen.
                         </p>
                     </div>
                     <div class="d-flex">
@@ -196,8 +196,8 @@
                             Apex- &amp; Contact Expansion
                         </h3>
                         <p class="lead">
-                            Arma 3 und Expansionen sind Pflicht für das Spiel.
-                            DLCs sind nicht zwingend erforderlich.
+                            Nur relevant für Arma 3: Die Expansionen sind dort Pflicht für das Spiel, DLCs hingegen sind nicht zwingend erforderlich.
+                            Für Arma Reforger brauchst du keine zusätzlichen DLCs oder Expansionen.
                         </p>
                     </div>
                 </div>
@@ -210,10 +210,10 @@
                     </div>
                     <div class="media-body">
                         <h3 class="h2 g-color-white g-font-weight-600 mb-20">
-                            Arma geeigneter Computer
+                            Geeigneter Computer
                         </h3>
                         <p class="lead">
-                            PC der auch bei anspruchsvollen Missionen mit bis zu 60+ Spielern flüssig läuft.
+                            PC der auch bei anspruchsvollen Missionen mit bis zu 60+ Spielern flüssig läuft - egal ob Arma 3 oder Reforger.
                         </p>
                     </div>
                 </div>
@@ -247,12 +247,17 @@
             <div class="col-md-7 g-mb-30">
                 <div class="g-mb-20">
                     <h2 class="h2 g-color-white g-font-weight-600 text-uppercase mb-2">
-                        Arma3Sync und Tech-Check
+                        Mods &amp; Tech-Check
                     </h2>
                 </div>
                 <p class="lead">
-                    Damit du an unseren Events teilnehmen kannst, musst du die erforderlichen Modifikationen herunterladen und installieren - eine ausführliche Anleitung findest du
+                    Damit du an unseren Events teilnehmen kannst, musst du die erforderlichen Modifikationen herunterladen und installieren.
+                    Für Arma 3 nutzen wir dafür Arma3Sync - eine ausführliche Anleitung findest du
                     <a href="https://wiki.tacticalteam.de/Technik/ArmA3Sync">hier</a>.
+                </p>
+                <p class="lead">
+                    Arma3Sync ist nur für Arma 3 relevant: Bei Arma Reforger lädst du dir die Mods stattdessen bequem über den in-game Workshop herunter, ein zusätzliches Tool brauchst du dafür nicht.
+                </p>
                 <p class="lead">
                     Solltest du Fragen oder Probleme haben, stehen dir unsere Technikchecker zur Verfügung,
                     die du über das Hammer-Symbol im TeamSpeak erreichen kannst (ts3.tacticalteam.de).
@@ -320,6 +325,9 @@
                             Diese Einführung ist wichtig, um sicherzustellen, dass alle Teilnehmer über ein grundlegendes Verständnis des Spiels verfügen und somit den Spielspaß für alle Teilnehmer erhöhen.
                             Sobald du das Einsteiger-Event erfolgreich absolviert hast, wirst du für die Anmeldung zu den normalen TTT-Events berechtigt.
                         </p>
+                        <p class="lead">
+                            Den nächsten Termin findest du in unserem Eventkalender - alternativ kannst du dich auch direkt bei unserer Personal-Abteilung (@Abteilung Personal) im Discord melden.
+                        </p>
                     </div>
                     <div class="d-flex">
               <span class="u-icon-v2 g-color-white g-bg-primary rounded-circle">
@@ -341,12 +349,12 @@
                             Fast Path - Für Veteranen
                         </h3>
                         <p class="lead">
-                            Du hast bereits Erfahrung im taktischen Spielen von Arma und verstehst den Begriff MilSim.
-                            Du beherrschst ACE & ACRE2 und kennst dich mit taktischen Bewegungen und Angriffsmanövern aus?
-                            Dann vereinbare einen Termin für einen Fast-Path mit unserer Personal-Abteilung (@Personal) im Discord.
+                            Du hast bereits Erfahrung im taktischen Spielen von Arma 3 oder Reforger und verstehst den Begriff MilSim.
+                            Bei Arma 3 beherrschst du ACE & ACRE2, bei Reforger kennst du dich mit den dort üblichen taktischen Bewegungen und Funkdisziplin aus?
+                            Dann vereinbare einen Termin für einen Fast-Path mit unserer Personal-Abteilung (@Abteilung Personal) im Discord.
                         </p>
                         <p class="lead">
-                            Bevor du dich anmeldest, stelle bitte sicher, dass du unser Mod-Repository heruntergeladen und auf Funktionalität überprüft hast.
+                            Bevor du dich anmeldest, stelle bitte sicher, dass du die Mods installiert und auf Funktionalität überprüft hast - bei Arma 3 über unser Mod-Repository (Arma3Sync), bei Reforger über den in-game Workshop.
                             Ein Discord-Account ist ebenfalls erforderlich, um dich für Events anzumelden.
                         </p>
                     </div>
@@ -368,7 +376,10 @@
                         </h2>
                         <div class="d-inline-block g-width-30 g-height-2 g-bg-primary mb-2"></div>
                         <p class="lead mb-0">
-                            Anmeldung TTT-Discord - Arma3Sync - Einsteiger-Event - los geht's!
+                            Anmeldung TTT-Discord - Mods installieren (Arma3Sync bzw. Reforger-Workshop) - Einsteiger-Event - los geht's!
+                        </p>
+                        <p class="lead mb-0">
+                            Alternativ kannst du dich auch direkt bei unserer Personal-Abteilung (@Abteilung Personal) im Discord melden.
                         </p>
                     </div>
                     <a class="btn btn-md u-btn-primary g-font-size-default text-uppercase g-py-12 g-px-30 mx-1 g-mb-20"
